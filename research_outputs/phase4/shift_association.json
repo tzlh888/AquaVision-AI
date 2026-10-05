@@ -1,0 +1,71 @@
+{
+  "mean_absolute_band_smd": {
+    "author_grid_component:6_2_X0500_Y1150_S050": 0.3487101861586173,
+    "author_grid_component:6_2_X0650_Y0900_S050": 0.16654985413576165,
+    "author_grid_component:7_5_X1800_Y1700_S050": 0.4100570743903518
+  },
+  "model_associations": {
+    "baseline_NDCI": {
+      "spearman_shift_vs_high_f1": 0.8660254037844387
+    },
+    "baseline_NDVI": {
+      "spearman_shift_vs_high_f1": null
+    },
+    "baseline_FAI": {
+      "spearman_shift_vs_high_f1": 0.5
+    },
+    "baseline_B8AB4": {
+      "spearman_shift_vs_high_f1": 0.8660254037844387
+    },
+    "baseline_B3B2": {
+      "spearman_shift_vs_high_f1": null
+    },
+    "baseline_LogisticRegression": {
+      "spearman_shift_vs_high_f1": 1.0
+    },
+    "baseline_RandomForest": {
+      "spearman_shift_vs_high_f1": 0.8660254037844387
+    },
+    "baseline_SmallSegCNN": {
+      "spearman_shift_vs_high_f1": 1.0
+    },
+    "baseline_DeepLabV3_ResNet18": {
+      "spearman_shift_vs_high_f1": 0.5
+    },
+    "lr_weighted": {
+      "spearman_shift_vs_high_f1": 0.5
+    },
+    "lr_balanced": {
+      "spearman_shift_vs_high_f1": 0.5
+    },
+    "rf_weighted": {
+      "spearman_shift_vs_high_f1": null
+    },
+    "rf_balanced": {
+      "spearman_shift_vs_high_f1": null
+    },
+    "small_weighted": {
+      "spearman_shift_vs_high_f1": 1.0
+    },
+    "small_focal": {
+      "spearman_shift_vs_high_f1": 1.0
+    },
+    "deep_weighted": {
+      "spearman_shift_vs_high_f1": 1.0
+    },
+    "deep_focal": {
+      "spearman_shift_vs_high_f1": 0.5
+    },
+    "ablation_rgb": {
+      "spearman_shift_vs_high_f1": 0.5
+    },
+    "ablation_visible_rededge_nir": {
+      "spearman_shift_vs_high_f1": 0.5
+    },
+    "ablation_compact_hab": {
+      "spearman_shift_vs_high_f1": 0.5
+    }
+  },
+  "n_regions": 3,
+  "inference": "descriptive ranks only; no p-values or causal claim"
+}

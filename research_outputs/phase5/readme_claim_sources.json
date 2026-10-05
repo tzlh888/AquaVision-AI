@@ -1,0 +1,354 @@
+{
+  "scope": "Every quantitative headline and central model-table cell; qualitative conclusions link to canonical report and frozen appendices",
+  "claims": [
+    {
+      "id": "pairs",
+      "readme_snippet": "**288 real pairs**",
+      "source": "data/metadata/phase3_5/geographic_split_v2.json",
+      "locator": "len(samples)",
+      "verified_value": 288
+    },
+    {
+      "id": "patches_train",
+      "readme_snippet": "**96 Train / 48 Validation / 144 Test**",
+      "source": "data/metadata/phase3_5/geographic_split_v2.json",
+      "locator": "support/0/patches",
+      "verified_value": 96
+    },
+    {
+      "id": "patches_validation",
+      "readme_snippet": "**96 Train / 48 Validation / 144 Test**",
+      "source": "data/metadata/phase3_5/geographic_split_v2.json",
+      "locator": "support/1/patches",
+      "verified_value": 48
+    },
+    {
+      "id": "patches_test",
+      "readme_snippet": "**96 Train / 48 Validation / 144 Test**",
+      "source": "data/metadata/phase3_5/geographic_split_v2.json",
+      "locator": "support/2/patches",
+      "verified_value": 144
+    },
+    {
+      "id": "regions",
+      "readme_snippet": "**three geographic Test components**",
+      "source": "data/metadata/phase3_5/geographic_split_v2.json",
+      "locator": "support/2/geographic_groups",
+      "verified_value": 3
+    },
+    {
+      "id": "high_pixels",
+      "readme_snippet": "**37,768 High pixels**",
+      "source": "data/metadata/phase3_5/geographic_split_v2.json",
+      "locator": "support/2/high_pixels",
+      "verified_value": 37768
+    },
+    {
+      "id": "screening",
+      "readme_snippet": "**38,002 reference masks**",
+      "source": "research_outputs/phase3_5/high_support_summary.json",
+      "locator": "all_screened/decoded_pairs",
+      "verified_value": 38002
+    },
+    {
+      "id": "pilot",
+      "readme_snippet": "**272-pair**",
+      "source": "data/metadata/phase3/pilot_manifest.json",
+      "locator": "len(samples)",
+      "verified_value": 272
+    },
+    {
+      "id": "pilot_high_random",
+      "readme_snippet": "**no High test support**",
+      "source": "research_outputs/phase3_pilot/results.json",
+      "locator": "random/models/NDCI/test/per_class/2/support",
+      "verified_value": 0
+    },
+    {
+      "id": "pilot_high_geographic",
+      "readme_snippet": "**no High test support**",
+      "source": "research_outputs/phase3_pilot/results.json",
+      "locator": "geographic/models/NDCI/test/per_class/2/support",
+      "verified_value": 0
+    },
+    {
+      "id": "baseline_NDCI_Validation Macro F1",
+      "readme_snippet": "| NDCI | 0.5751 | 0.0000 | 0.5185 | 0.0006 | Validation-selected; High failure |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_NDCI/validation/macro_f1",
+      "verified_value": 0.5751118579258218
+    },
+    {
+      "id": "baseline_NDCI_Validation High F1",
+      "readme_snippet": "| NDCI | 0.5751 | 0.0000 | 0.5185 | 0.0006 | Validation-selected; High failure |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_NDCI/validation/per_class/2/f1",
+      "verified_value": 0.0
+    },
+    {
+      "id": "baseline_NDCI_Geographic Macro F1",
+      "readme_snippet": "| NDCI | 0.5751 | 0.0000 | 0.5185 | 0.0006 | Validation-selected; High failure |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_NDCI/test/macro_f1",
+      "verified_value": 0.5184960249980755
+    },
+    {
+      "id": "baseline_NDCI_Geographic High F1",
+      "readme_snippet": "| NDCI | 0.5751 | 0.0000 | 0.5185 | 0.0006 | Validation-selected; High failure |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_NDCI/test/per_class/2/f1",
+      "verified_value": 0.0006115896233627236
+    },
+    {
+      "id": "baseline_LogisticRegression_Validation Macro F1",
+      "readme_snippet": "| Logistic Regression | 0.5437 | 0.0000 | 0.6983 | 0.5803 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_LogisticRegression/validation/macro_f1",
+      "verified_value": 0.5437002980174629
+    },
+    {
+      "id": "baseline_LogisticRegression_Validation High F1",
+      "readme_snippet": "| Logistic Regression | 0.5437 | 0.0000 | 0.6983 | 0.5803 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_LogisticRegression/validation/per_class/2/f1",
+      "verified_value": 0.0
+    },
+    {
+      "id": "baseline_LogisticRegression_Geographic Macro F1",
+      "readme_snippet": "| Logistic Regression | 0.5437 | 0.0000 | 0.6983 | 0.5803 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_LogisticRegression/test/macro_f1",
+      "verified_value": 0.6983118192371219
+    },
+    {
+      "id": "baseline_LogisticRegression_Geographic High F1",
+      "readme_snippet": "| Logistic Regression | 0.5437 | 0.0000 | 0.6983 | 0.5803 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_LogisticRegression/test/per_class/2/f1",
+      "verified_value": 0.5802643220526432
+    },
+    {
+      "id": "baseline_RandomForest_Validation Macro F1",
+      "readme_snippet": "| Random Forest | 0.4400 | 0.0000 | 0.4794 | 0.0012 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_RandomForest/validation/macro_f1",
+      "verified_value": 0.44003426536185675
+    },
+    {
+      "id": "baseline_RandomForest_Validation High F1",
+      "readme_snippet": "| Random Forest | 0.4400 | 0.0000 | 0.4794 | 0.0012 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_RandomForest/validation/per_class/2/f1",
+      "verified_value": 0.0
+    },
+    {
+      "id": "baseline_RandomForest_Geographic Macro F1",
+      "readme_snippet": "| Random Forest | 0.4400 | 0.0000 | 0.4794 | 0.0012 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_RandomForest/test/macro_f1",
+      "verified_value": 0.4794160815417758
+    },
+    {
+      "id": "baseline_RandomForest_Geographic High F1",
+      "readme_snippet": "| Random Forest | 0.4400 | 0.0000 | 0.4794 | 0.0012 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_RandomForest/test/per_class/2/f1",
+      "verified_value": 0.0012168990238353482
+    },
+    {
+      "id": "baseline_SmallSegCNN_Validation Macro F1",
+      "readme_snippet": "| SmallSegCNN | 0.0175 | 0.0123 | 0.0632 | 0.1627 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_SmallSegCNN/validation/macro_f1",
+      "verified_value": 0.017484746750360804
+    },
+    {
+      "id": "baseline_SmallSegCNN_Validation High F1",
+      "readme_snippet": "| SmallSegCNN | 0.0175 | 0.0123 | 0.0632 | 0.1627 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_SmallSegCNN/validation/per_class/2/f1",
+      "verified_value": 0.012324408442289256
+    },
+    {
+      "id": "baseline_SmallSegCNN_Geographic Macro F1",
+      "readme_snippet": "| SmallSegCNN | 0.0175 | 0.0123 | 0.0632 | 0.1627 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_SmallSegCNN/test/macro_f1",
+      "verified_value": 0.06324980821921118
+    },
+    {
+      "id": "baseline_SmallSegCNN_Geographic High F1",
+      "readme_snippet": "| SmallSegCNN | 0.0175 | 0.0123 | 0.0632 | 0.1627 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_SmallSegCNN/test/per_class/2/f1",
+      "verified_value": 0.16274138468344582
+    },
+    {
+      "id": "baseline_DeepLabV3_ResNet18_Validation Macro F1",
+      "readme_snippet": "| DeepLabV3 / ResNet18 | 0.3343 | 0.0701 | 0.3627 | 0.2700 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_DeepLabV3_ResNet18/validation/macro_f1",
+      "verified_value": 0.33432017225039096
+    },
+    {
+      "id": "baseline_DeepLabV3_ResNet18_Validation High F1",
+      "readme_snippet": "| DeepLabV3 / ResNet18 | 0.3343 | 0.0701 | 0.3627 | 0.2700 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_DeepLabV3_ResNet18/validation/per_class/2/f1",
+      "verified_value": 0.07010217018420464
+    },
+    {
+      "id": "baseline_DeepLabV3_ResNet18_Geographic Macro F1",
+      "readme_snippet": "| DeepLabV3 / ResNet18 | 0.3343 | 0.0701 | 0.3627 | 0.2700 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_DeepLabV3_ResNet18/test/macro_f1",
+      "verified_value": 0.3627458068112422
+    },
+    {
+      "id": "baseline_DeepLabV3_ResNet18_Geographic High F1",
+      "readme_snippet": "| DeepLabV3 / ResNet18 | 0.3343 | 0.0701 | 0.3627 | 0.2700 | Comparator; not selected |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "baseline_DeepLabV3_ResNet18/test/per_class/2/f1",
+      "verified_value": 0.27001525452837244
+    },
+    {
+      "id": "deep_weighted_Validation Macro F1",
+      "readme_snippet": "| DeepLab + weighted CE | 0.3676 | 0.0625 | 0.4407 | 0.3522 | Diagnostic CNN; failed guard |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "deep_weighted/validation/macro_f1",
+      "verified_value": 0.36758014767329444
+    },
+    {
+      "id": "deep_weighted_Validation High F1",
+      "readme_snippet": "| DeepLab + weighted CE | 0.3676 | 0.0625 | 0.4407 | 0.3522 | Diagnostic CNN; failed guard |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "deep_weighted/validation/per_class/2/f1",
+      "verified_value": 0.0625305324865657
+    },
+    {
+      "id": "deep_weighted_Geographic Macro F1",
+      "readme_snippet": "| DeepLab + weighted CE | 0.3676 | 0.0625 | 0.4407 | 0.3522 | Diagnostic CNN; failed guard |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "deep_weighted/test/macro_f1",
+      "verified_value": 0.4407120809305911
+    },
+    {
+      "id": "deep_weighted_Geographic High F1",
+      "readme_snippet": "| DeepLab + weighted CE | 0.3676 | 0.0625 | 0.4407 | 0.3522 | Diagnostic CNN; failed guard |",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "deep_weighted/test/per_class/2/f1",
+      "verified_value": 0.35217771121926866
+    },
+    {
+      "id": "selected",
+      "readme_snippet": "NDCI was selected by the validation rule",
+      "source": "research_outputs/phase4/selection.json",
+      "locator": "overall",
+      "verified_value": "baseline_NDCI"
+    },
+    {
+      "id": "no_cnn",
+      "readme_snippet": "No CNN passed the predefined class guard.",
+      "source": "research_outputs/phase4/selection.json",
+      "locator": "cnn_eligible",
+      "verified_value": false
+    },
+    {
+      "id": "baseline_LogisticRegression_regional_range",
+      "readme_snippet": "**0.4006\u20130.5964**",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "regional_high_range:baseline_LogisticRegression",
+      "verified_value": [
+        0.40056191049568535,
+        0.5963740631181605
+      ]
+    },
+    {
+      "id": "deep_weighted_regional_range",
+      "readme_snippet": "**0.1616\u20130.4546**",
+      "source": "research_outputs/phase4/results.json",
+      "locator": "regional_high_range:deep_weighted",
+      "verified_value": [
+        0.16158986375075934,
+        0.4545531102627442
+      ]
+    },
+    {
+      "id": "confident_high",
+      "readme_snippet": "**510 High predictions with confidence \u2265 0.8 were all false**",
+      "source": "research_outputs/phase4/calibration.json",
+      "locator": "deep_weighted/raw/overall/high_confidence_predictions",
+      "verified_value": 510
+    },
+    {
+      "id": "confident_high_precision",
+      "readme_snippet": "**510 High predictions with confidence \u2265 0.8 were all false**",
+      "source": "research_outputs/phase4/calibration.json",
+      "locator": "deep_weighted/raw/overall/high_confidence_precision",
+      "verified_value": 0.0
+    },
+    {
+      "id": "matrices",
+      "readme_snippet": "**100 confusion matrices**",
+      "source": "research_outputs/phase4/reproduction_check.json",
+      "locator": "exact_confusion_matrices",
+      "verified_value": 100
+    },
+    {
+      "id": "predictions",
+      "readme_snippet": "**40 class-prediction caches**",
+      "source": "research_outputs/phase4/reproduction_check.json",
+      "locator": "exact_class_prediction_caches",
+      "verified_value": 40
+    },
+    {
+      "id": "tests",
+      "readme_snippet": "**123 tests**",
+      "source": "research_outputs/phase4/report_summary.json",
+      "locator": "tests",
+      "verified_value": 123
+    },
+    {
+      "id": "figures",
+      "readme_snippet": "ten selected PNG/SVG figures",
+      "source": "research_outputs/phase5/figure_manifest.json",
+      "locator": "core_figure_count",
+      "verified_value": 10
+    },
+    {
+      "id": "label_definition",
+      "readme_snippet": "Stored DN values 0\u201399, 100\u2013199, and 200\u2013253",
+      "source": "src/aquavision/data/labels.py",
+      "locator": "segmentation_target; boundary tests in tests/test_segmentation.py",
+      "review": "Verified implementation and existing boundary tests; cells/mL disabled"
+    },
+    {
+      "id": "band_shape",
+      "readme_snippet": "**12 \u00d7 64 \u00d7 64**",
+      "source": "src/aquavision/data/segmentation_dataset.py",
+      "locator": "training_normalization shape check; BANDS in features/spectral.py",
+      "review": "Verified source and frozen data manifests"
+    },
+    {
+      "id": "guard",
+      "readme_snippet": "Low F1 \u2265 0.50 and Moderate F1 \u2265 0.25",
+      "source": "configs/phase4.json",
+      "locator": "selection",
+      "review": "Registered fixed class floors"
+    },
+    {
+      "id": "epochs",
+      "readme_snippet": "three SmallSegCNN epochs or two DeepLab epochs",
+      "source": "configs/phase3_pilot.json",
+      "locator": "epochs_small,epochs_deep",
+      "review": "Also checked in each Phase4 training history"
+    },
+    {
+      "id": "claim",
+      "readme_snippet": "**Final conclusion: LIMITED.**",
+      "source": "research_outputs/phase4/report_summary.json",
+      "locator": "claim",
+      "verified_value": "LIMITED"
+    }
+  ]
+}

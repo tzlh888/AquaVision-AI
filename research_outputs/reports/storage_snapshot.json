@@ -1,0 +1,37 @@
+{
+  "snapshot_utc": "2026-10-03T23:00:00.888504+00:00",
+  "note": "Snapshot taken before writing PHASE_1_STATUS.md and this JSON; file-content and allocated sizes differ. Symlinks excluded from content sums.",
+  "groups": {
+    "data/raw": {
+      "file_content_bytes": 821248,
+      "files": 17,
+      "allocated_KiB": 864
+    },
+    "data/metadata": {
+      "file_content_bytes": 27540526,
+      "files": 25,
+      "allocated_KiB": 26956
+    },
+    "research_outputs": {
+      "file_content_bytes": 665077,
+      "files": 22,
+      "allocated_KiB": 704
+    },
+    ".venv": {
+      "file_content_bytes": 131950060,
+      "files": 5406,
+      "allocated_KiB": 140920
+    },
+    ".git": {
+      "file_content_bytes": 26298,
+      "files": 18,
+      "allocated_KiB": 80
+    },
+    "tmp": {
+      "file_content_bytes": 1101492,
+      "files": 2,
+      "allocated_KiB": 1080
+    }
+  },
+  "repository_allocated_KiB": 171000
+}

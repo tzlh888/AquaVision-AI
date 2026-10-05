@@ -1,0 +1,4 @@
+class,pixel_count,percentage_of_valid_pixels,images_containing_bin_nonexclusive,observed_reference_min,observed_reference_max,units
+Paper DN bin 0-99,24704,98.57154257441545,8,0,99,processed_cyan_digital_number
+Paper DN bin 100-199,358,1.4284574255845504,1,100,153,processed_cyan_digital_number
+Paper DN bin 200-253,0,0.0,0,,,processed_cyan_digital_number

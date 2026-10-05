@@ -1,0 +1,226 @@
+{
+  "index": {
+    "geographic": {
+      "subtile_id": {
+        "test_patches": 3945,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "region": {
+        "test_patches": 3945,
+        "exposed_test_patches": 3945,
+        "fraction": 1.0,
+        "shared_ids": 1
+      },
+      "spatial_group_id": {
+        "test_patches": 3945,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "grid_position_candidate": {
+        "test_patches": 3945,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "neighboring_patch_same_parent_date": {
+        "exposed_test_patches": 0,
+        "test_patches": 3945,
+        "fraction": 0.0
+      },
+      "sentinel_scene_overlap": "UNKNOWN: UUID not preserved; dates are not scene IDs",
+      "identical_physical_footprints": "UNKNOWN: grid offsets are candidates, no final transforms"
+    },
+    "random": {
+      "subtile_id": {
+        "test_patches": 2452,
+        "exposed_test_patches": 2452,
+        "fraction": 1.0,
+        "shared_ids": 17
+      },
+      "region": {
+        "test_patches": 2452,
+        "exposed_test_patches": 2452,
+        "fraction": 1.0,
+        "shared_ids": 2
+      },
+      "spatial_group_id": {
+        "test_patches": 2452,
+        "exposed_test_patches": 2452,
+        "fraction": 1.0,
+        "shared_ids": 4
+      },
+      "grid_position_candidate": {
+        "test_patches": 2452,
+        "exposed_test_patches": 2449,
+        "fraction": 0.9987765089722676,
+        "shared_ids": 1054
+      },
+      "neighboring_patch_same_parent_date": {
+        "exposed_test_patches": 2440,
+        "test_patches": 2452,
+        "fraction": 0.9951060358890701
+      },
+      "sentinel_scene_overlap": "UNKNOWN: UUID not preserved; dates are not scene IDs",
+      "identical_physical_footprints": "UNKNOWN: grid offsets are candidates, no final transforms"
+    }
+  },
+  "pilot": {
+    "geographic": {
+      "subtile_id": {
+        "test_patches": 32,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "region": {
+        "test_patches": 32,
+        "exposed_test_patches": 32,
+        "fraction": 1.0,
+        "shared_ids": 1
+      },
+      "spatial_group_id": {
+        "test_patches": 32,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "grid_position_candidate": {
+        "test_patches": 32,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "neighboring_patch_same_parent_date": {
+        "exposed_test_patches": 0,
+        "test_patches": 32,
+        "fraction": 0.0
+      },
+      "sentinel_scene_overlap": "UNKNOWN: UUID not preserved; dates are not scene IDs",
+      "identical_physical_footprints": "UNKNOWN: grid offsets are candidates, no final transforms",
+      "exact_input_sha256": {
+        "test_patches": 32,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "appearance_similarity": {
+        "definition": "nearest train mean absolute difference of 12-band 8x8 block means after /10000; <=0.001",
+        "exposed_test_patches": 0,
+        "test_patches": 32,
+        "minimum_distances": [
+          0.0031789245605468755,
+          0.005892903645833333,
+          0.0074062255859375,
+          0.005034012858072917,
+          0.005321604410807292,
+          0.0038295247395833333,
+          0.04366922607421875,
+          0.004831160481770833,
+          0.004574058024088542,
+          0.022567767333984374,
+          0.0015341410319010419,
+          0.0013004150390624998,
+          0.0020988972981770835,
+          0.0032073730468750003,
+          0.003101470947265625,
+          0.012020871988932291,
+          0.004905236816406249,
+          0.008480865478515625,
+          0.009545585123697917,
+          0.004335951741536458,
+          0.05313014322916667,
+          0.1385382792154948,
+          0.008927048746744791,
+          0.004026106770833334,
+          0.0030625630696614584,
+          0.006977252197265625,
+          0.003498642985026042,
+          0.05248246663411458,
+          0.002914593505859375,
+          0.0466129130045573,
+          0.009999812825520834,
+          0.004647566731770833
+        ],
+        "caveat": "appearance diagnostic, not verified near-identical geographic footprints"
+      }
+    },
+    "random": {
+      "subtile_id": {
+        "test_patches": 28,
+        "exposed_test_patches": 28,
+        "fraction": 1.0,
+        "shared_ids": 13
+      },
+      "region": {
+        "test_patches": 28,
+        "exposed_test_patches": 28,
+        "fraction": 1.0,
+        "shared_ids": 2
+      },
+      "spatial_group_id": {
+        "test_patches": 28,
+        "exposed_test_patches": 28,
+        "fraction": 1.0,
+        "shared_ids": 4
+      },
+      "grid_position_candidate": {
+        "test_patches": 28,
+        "exposed_test_patches": 5,
+        "fraction": 0.17857142857142858,
+        "shared_ids": 5
+      },
+      "neighboring_patch_same_parent_date": {
+        "exposed_test_patches": 2,
+        "test_patches": 28,
+        "fraction": 0.07142857142857142
+      },
+      "sentinel_scene_overlap": "UNKNOWN: UUID not preserved; dates are not scene IDs",
+      "identical_physical_footprints": "UNKNOWN: grid offsets are candidates, no final transforms",
+      "exact_input_sha256": {
+        "test_patches": 28,
+        "exposed_test_patches": 0,
+        "fraction": 0.0,
+        "shared_ids": 0
+      },
+      "appearance_similarity": {
+        "definition": "nearest train mean absolute difference of 12-band 8x8 block means after /10000; <=0.001",
+        "exposed_test_patches": 1,
+        "test_patches": 28,
+        "minimum_distances": [
+          0.005145096842447916,
+          0.0019267842610677084,
+          0.0007260599772135417,
+          0.011672574869791667,
+          0.004933003743489583,
+          0.001372332763671875,
+          0.005053401692708333,
+          0.0023055318196614585,
+          0.004179689534505209,
+          0.012014402262369791,
+          0.0013127827962239583,
+          0.004680763753255208,
+          0.002084820556640625,
+          0.009394026692708333,
+          0.05650423990885417,
+          0.004023883056640625,
+          0.029135980224609375,
+          0.003413572184244792,
+          0.0018512105305989585,
+          0.0016223897298177083,
+          0.0031293680826822907,
+          0.04462818400065104,
+          0.004603395589192708,
+          0.0034199523925781254,
+          0.003468418375651041,
+          0.04623188476562501,
+          0.0017211669921875002,
+          0.02606718343098958
+        ],
+        "caveat": "appearance diagnostic, not verified near-identical geographic footprints"
+      }
+    }
+  }
+}

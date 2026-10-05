@@ -1,0 +1,13 @@
+{
+  "claim": "LIMITED",
+  "best_validation_model": "baseline_NDCI",
+  "diagnostic_cnn": "deep_weighted",
+  "cnn_eligible": false,
+  "tests": 123,
+  "old_tests": 103,
+  "new_tests": 20,
+  "models": 20,
+  "new_fits": 11,
+  "exact_confusion_matrices": 100,
+  "frozen_files_unchanged": 177
+}

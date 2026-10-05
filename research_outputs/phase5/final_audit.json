@@ -1,0 +1,92 @@
+{
+  "mode": "full",
+  "preservation": {
+    "expected_files": 443,
+    "checked_files": 443,
+    "changed_files": [],
+    "unavailable_files": [],
+    "complete_local_preservation": true,
+    "frozen_v2_sha256": "e96abb63318fdd3a57c87ee4bc9078a476c288156e32d1baf3d126533d884df2"
+  },
+  "metrics": {
+    "confusion_matrices_recomputed": 100,
+    "regional_sums_exact": true,
+    "selection_recomputed_from_validation": {
+      "overall": "baseline_NDCI",
+      "cnn": "deep_weighted",
+      "cnn_eligible": false,
+      "eligible": [
+        "baseline_LogisticRegression",
+        "baseline_NDCI",
+        "baseline_NDVI",
+        "baseline_RandomForest",
+        "lr_balanced",
+        "lr_weighted",
+        "rf_balanced",
+        "rf_weighted"
+      ],
+      "ranking": [
+        "baseline_NDCI",
+        "baseline_LogisticRegression",
+        "baseline_NDVI",
+        "baseline_RandomForest",
+        "lr_balanced",
+        "lr_weighted",
+        "rf_balanced",
+        "rf_weighted",
+        "deep_weighted",
+        "baseline_B8AB4",
+        "baseline_DeepLabV3_ResNet18",
+        "deep_focal",
+        "baseline_B3B2",
+        "baseline_FAI",
+        "small_weighted",
+        "baseline_SmallSegCNN",
+        "small_focal"
+      ]
+    },
+    "registration_order_verified": true,
+    "central_csv_rows_verified": 6
+  },
+  "documents": {
+    "abstract_words": 188,
+    "portfolio_words": 765,
+    "application_words": 197,
+    "cv_one_line_words": 29,
+    "canonical_numbered_sections": 19,
+    "readme_provenance_records": 49,
+    "core_figures": 10,
+    "public_local_links_verified": 128,
+    "public_documents": 10
+  },
+  "claim_scan": {
+    "matched_lines": 80,
+    "matched_term_occurrences": 90,
+    "scope_counts": {
+      "implementation/test/protocol text": 17,
+      "frozen historical/scientific report": 43,
+      "current public document": 10,
+      "release provenance/audit": 1,
+      "saved provenance/experiment metadata": 1,
+      "historical overview": 3,
+      "primary-source snapshot": 5
+    },
+    "manual_review_required": "See FINAL_RELEASE_AUDIT.md; phrase occurrence alone is not a misleading claim."
+  },
+  "tests": {
+    "tests": 123,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "checkpoint_reload": {
+    "exact_confusion_matrices": 100,
+    "exact_class_prediction_caches": 40,
+    "temperature_argmax_checks": 18,
+    "calibration_groups_exact": 96,
+    "maximum_rf_probability_roundoff": 2.220446049250313e-16,
+    "verified_input_pairs": 288,
+    "training_performed": false
+  },
+  "passed": true
+}

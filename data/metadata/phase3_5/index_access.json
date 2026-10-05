@@ -1,0 +1,170 @@
+[
+  {
+    "archive": "dataset_test.zip",
+    "requests": [
+      {
+        "start": 6800887296,
+        "end": 6800887317,
+        "bytes": 22,
+        "status": 206
+      },
+      {
+        "start": 6800887276,
+        "end": 6800887295,
+        "bytes": 20,
+        "status": 206
+      },
+      {
+        "start": 6800887220,
+        "end": 6800887275,
+        "bytes": 56,
+        "status": 206
+      },
+      {
+        "start": 6786032518,
+        "end": 6800887219,
+        "bytes": 14854702,
+        "status": 206
+      }
+    ],
+    "charged_bytes_so_far": 14854800
+  },
+  {
+    "archive": "dataset_train_6_2.zip",
+    "requests": [
+      {
+        "start": 307193614,
+        "end": 307193635,
+        "bytes": 22,
+        "status": 206
+      },
+      {
+        "start": 307193594,
+        "end": 307193613,
+        "bytes": 20,
+        "status": 206
+      },
+      {
+        "start": 305514458,
+        "end": 307193613,
+        "bytes": 1679156,
+        "status": 206
+      }
+    ],
+    "charged_bytes_so_far": 16533998
+  },
+  {
+    "archive": "dataset_train_6_5.zip",
+    "requests": [
+      {
+        "start": 8394962292,
+        "end": 8394962313,
+        "bytes": 22,
+        "status": 206
+      },
+      {
+        "start": 8394962272,
+        "end": 8394962291,
+        "bytes": 20,
+        "status": 206
+      },
+      {
+        "start": 8394962216,
+        "end": 8394962271,
+        "bytes": 56,
+        "status": 206
+      },
+      {
+        "start": 8347288342,
+        "end": 8394962215,
+        "bytes": 47673874,
+        "status": 206
+      }
+    ],
+    "charged_bytes_so_far": 64207970
+  },
+  {
+    "archive": "dataset_train_7_2.zip",
+    "requests": [
+      {
+        "start": 861960753,
+        "end": 861960774,
+        "bytes": 22,
+        "status": 206
+      },
+      {
+        "start": 861960733,
+        "end": 861960752,
+        "bytes": 20,
+        "status": 206
+      },
+      {
+        "start": 857148607,
+        "end": 861960752,
+        "bytes": 4812146,
+        "status": 206
+      }
+    ],
+    "charged_bytes_so_far": 69020158
+  },
+  {
+    "archive": "dataset_train_7_5.zip",
+    "requests": [
+      {
+        "start": 2297938270,
+        "end": 2297938291,
+        "bytes": 22,
+        "status": 206
+      },
+      {
+        "start": 2297938250,
+        "end": 2297938269,
+        "bytes": 20,
+        "status": 206
+      },
+      {
+        "start": 2297938194,
+        "end": 2297938249,
+        "bytes": 56,
+        "status": 206
+      },
+      {
+        "start": 2285704730,
+        "end": 2297938193,
+        "bytes": 12233464,
+        "status": 206
+      }
+    ],
+    "charged_bytes_so_far": 81253720
+  },
+  {
+    "archive": "dataset_train_8_3.zip",
+    "requests": [
+      {
+        "start": 4739267400,
+        "end": 4739267421,
+        "bytes": 22,
+        "status": 206
+      },
+      {
+        "start": 4739267380,
+        "end": 4739267399,
+        "bytes": 20,
+        "status": 206
+      },
+      {
+        "start": 4739267324,
+        "end": 4739267379,
+        "bytes": 56,
+        "status": 206
+      },
+      {
+        "start": 4713811972,
+        "end": 4739267323,
+        "bytes": 25455352,
+        "status": 206
+      }
+    ],
+    "charged_bytes_so_far": 106709170
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "files": [
+    {
+      "path": "research_outputs/phase3_5/geographic_split_v2_grid.png",
+      "bytes": 74274,
+      "sha256": "2b9571471b74dec6435c809de37b2906cbe93d768c16ade9883935e1875e6c52"
+    },
+    {
+      "path": "research_outputs/phase3_5/group_support.json",
+      "bytes": 25072,
+      "sha256": "d326c856f69dc1911fe35591cf0c09cc9e1b7b0232b7e5b627d57593479c061b"
+    },
+    {
+      "path": "research_outputs/phase3_5/high_group_candidates.csv",
+      "bytes": 9293,
+      "sha256": "130a09b410e9757aa1c3b3a94c343f48a88c567c337b84d26b4adb942fe29288"
+    },
+    {
+      "path": "research_outputs/phase3_5/high_group_subtile_date.csv",
+      "bytes": 324630,
+      "sha256": "a15cc03649dfe11a5c68918d9fa3e411ce1410d63a24fd3aaf246ef161ea273d"
+    },
+    {
+      "path": "research_outputs/phase3_5/high_independence.csv",
+      "bytes": 3301,
+      "sha256": "73efcb5955f2698106f428202c07fc06bd350037ab5460aa3d52fe43b37887d3"
+    },
+    {
+      "path": "research_outputs/phase3_5/high_patch_candidates.csv",
+      "bytes": 88518,
+      "sha256": "93d867294f0fe9c82e05647df22fb4e71929319ffedc152be8d3449e57cdeb55"
+    },
+    {
+      "path": "research_outputs/phase3_5/high_support_grid.png",
+      "bytes": 76488,
+      "sha256": "e3fe4c72409462e27e62c2f8ac7b2b100cafe7159833ff5a27f88fef432299a4"
+    },
+    {
+      "path": "research_outputs/phase3_5/high_support_summary.json",
+      "bytes": 1980,
+      "sha256": "02d173113eff8c78fd372b3cf7a3324eda520b0f0ef52267af17bfd8a9fc9e17"
+    },
+    {
+      "path": "research_outputs/phase3_5/model_metrics.csv",
+      "bytes": 4748,
+      "sha256": "129921a853f1a13d1d44a0f00a8ba94d3a3a9140786debbcde4830db46f6e4dc"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/DeepLabV3_ResNet18.pt",
+      "bytes": 63827269,
+      "sha256": "ac76376fd61e738edd38a55b5fbb3e24f2ffcc0697219df90ff56b5e6451851d"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/LogisticRegression.joblib",
+      "bytes": 2197,
+      "sha256": "3168d005e79cc59903a132ea23cb0197239c82b81b1ef40b844947a0608ff55e"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/RandomForest.joblib",
+      "bytes": 5254081,
+      "sha256": "bdb05bbf624c3b5d9d3b8f92783bd925f226ec04b2b845d3a57a2f670a5092ac"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/SmallSegCNN.pt",
+      "bytes": 54533,
+      "sha256": "c38c7da35d317fec2e27a6ac3c3abe63e98caa9c1b21598885f7a0e41287220c"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/artifact_manifest.json",
+      "bytes": 1457,
+      "sha256": "372f5099a246b4ebd7daa6f61d604cbb090cd2a870de50120207dc4b9f8c5234"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/normalization.json",
+      "bytes": 6182,
+      "sha256": "b057ce341d305e7466f65d39549fe595e9a24bd1653ba941b808ca1704d6f73c"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/results.json",
+      "bytes": 76969,
+      "sha256": "230b263794fc12f59a080ebb42dbcae824a3ca9456b1f2045b084fbaba58935a"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/run_contract.json",
+      "bytes": 3482,
+      "sha256": "7bcd6ada7e21db2f351e405c2283152f366d6ea87579364767e2e4b5c101c567"
+    },
+    {
+      "path": "research_outputs/phase3_5/models_v2/sampled_training_pixels.json",
+      "bytes": 2385032,
+      "sha256": "9c447a1bb1d13eb4fcb06c20c4846bbfdc7f4bd2a842267aa231565f8d8f23cf"
+    },
+    {
+      "path": "research_outputs/phase3_5/per_geographic_group_metrics.csv",
+      "bytes": 3902,
+      "sha256": "d8f56adae53a5105cbaf34dbc13ab59106705d12e68e9086a4d5268009aa165a"
+    },
+    {
+      "path": "research_outputs/phase3_5/pilot_preservation_check.json",
+      "bytes": 7903,
+      "sha256": "7e655a450454bb5a48123b98146083ab4cec069ba8b422972be5cbc783d965f7"
+    },
+    {
+      "path": "research_outputs/phase3_5/pilot_vs_expanded.csv",
+      "bytes": 690,
+      "sha256": "45f8ab2fab279c2dd5ea255583a7986814657ce2bc244f6f9d3673d6a457a863"
+    },
+    {
+      "path": "research_outputs/phase3_5/planned_split_support.csv",
+      "bytes": 437,
+      "sha256": "d80833acdcb3e6da6685a6ba48c2148f191c40af2dd086791707650cc7dd0729"
+    },
+    {
+      "path": "research_outputs/phase3_5/pytest_results.xml",
+      "bytes": 11681,
+      "sha256": "0da7c0e7915beb9c7522c0e7b27d672478a166c3841f5ad351234f43cac1b296"
+    },
+    {
+      "path": "research_outputs/phase3_5/reproduction_check.json",
+      "bytes": 332,
+      "sha256": "5d31b627dfc848f473efad5221836c8bbb5d4034c59abbe9f72e11469a9bfb41"
+    },
+    {
+      "path": "research_outputs/phase3_5/round1_audit/HIGH_RISK_INDEPENDENCE_AUDIT.md",
+      "bytes": 1828,
+      "sha256": "336ef1aa4c63bff630e3017088ae557d3af6174f5c90207e19860a28afbd6b88"
+    },
+    {
+      "path": "research_outputs/phase3_5/round1_audit/HIGH_RISK_SUPPORT_AUDIT.md",
+      "bytes": 3585,
+      "sha256": "d2491f46cb5069a3720694e25eeb281e67c967fe6e79e7c113fdae38da604312"
+    },
+    {
+      "path": "research_outputs/phase3_5/round1_audit/group_support.json",
+      "bytes": 24983,
+      "sha256": "a94c2fb61e95b8310dfe2ff5449c7344124ce92c7f2219153a8277492952b561"
+    },
+    {
+      "path": "research_outputs/phase3_5/round1_audit/high_group_candidates.csv",
+      "bytes": 9216,
+      "sha256": "b74587b54d1e13e4f5ac22e778407cef0e6ec71ed37849e9cd3918473b515d94"
+    },
+    {
+      "path": "research_outputs/phase3_5/round1_audit/high_independence.csv",
+      "bytes": 3298,
+      "sha256": "665cfbfb09882e77ef0cee4deb9670d6c1cf4837a46b51d1b2382a52955f3bb6"
+    },
+    {
+      "path": "research_outputs/phase3_5/round1_audit/high_support_summary.json",
+      "bytes": 1345,
+      "sha256": "289d8c861320a27465e601e7f48129608a3853261d2e80eee74ba5ef104c9d7b"
+    },
+    {
+      "path": "research_outputs/phase3_5/split_support.csv",
+      "bytes": 437,
+      "sha256": "d80833acdcb3e6da6685a6ba48c2148f191c40af2dd086791707650cc7dd0729"
+    },
+    {
+      "path": "research_outputs/phase3_5/training.log",
+      "bytes": 819,
+      "sha256": "0e9e97989b8d43485a308bd11bc93ea36c70224a88e588401c54f94a51d32134"
+    },
+    {
+      "path": "research_outputs/phase3_5/validation_and_storage.json",
+      "bytes": 755,
+      "sha256": "10a57c277d41ff073e0f0b984990737e574289ae09105d74a199bd02b495a282"
+    },
+    {
+      "path": "research_outputs/reports/EVALUATION_SUPPORT_CRITERIA.md",
+      "bytes": 4715,
+      "sha256": "7fa8824a4f0b39789496c312ca4ea87d5fc137e04d54e97e27bcd9dbcb70cd0d"
+    },
+    {
+      "path": "research_outputs/reports/HIGH_RISK_INDEPENDENCE_AUDIT.md",
+      "bytes": 1828,
+      "sha256": "79b01c3fe95bdd82505816156a74c024ee9a6c828544cb45715433b18fb8ea7a"
+    },
+    {
+      "path": "research_outputs/reports/HIGH_RISK_SUPPORT_AUDIT.md",
+      "bytes": 4228,
+      "sha256": "1e9d7102d062c80db84ea9740e43699688623a350d09fc4ea90e66ee318209ec"
+    },
+    {
+      "path": "research_outputs/reports/PHASE_3_5_REPRODUCTION.md",
+      "bytes": 4733,
+      "sha256": "233b0c74b7d93f8b4a58692129b15fae632a08753a63c50308edb0143c08a1c0"
+    },
+    {
+      "path": "research_outputs/reports/PHASE_3_5_STATUS.md",
+      "bytes": 15209,
+      "sha256": "c40dc5172a14d253f0d014d817812bb3e41984ac5768ba3f7795310d7dc5d837"
+    },
+    {
+      "path": "research_outputs/reports/PILOT_VS_EXPANDED_EVALUATION.md",
+      "bytes": 3555,
+      "sha256": "100d19310c57589b4ff47a1a43962f95e0740d9efb2b0c4da8dfd88aeb02e3f2"
+    },
+    {
+      "path": "research_outputs/reports/REFERENCE_AUDIT_ACQUISITION_AMENDMENT.md",
+      "bytes": 1268,
+      "sha256": "b5772b340ab8c7bf0528dca22d66db18bba81f30a726d6f08bdc7549658b91a6"
+    }
+  ],
+  "outcome": "B \u2014 Partial evidence",
+  "tests_passed": 103,
+  "reproduced_confusion_matrices": 36,
+  "preserved_pilot_artifacts": 42
+}

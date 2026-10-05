@@ -1,0 +1,28 @@
+{
+  "version": "phase3_5_v2",
+  "seed": 35042,
+  "task": "pixel_level_CyAN_reference_segmentation",
+  "ignore_index": -100,
+  "criteria": {
+    "test_high_components": 3,
+    "validation_high_components": 1,
+    "train_high_components": 2,
+    "test_source_tiles": 2,
+    "high_dates_per_component": 2,
+    "minimum_date_span_days": 30,
+    "high_patch_positions_per_component": 2,
+    "minimum_high_pixels_per_component": 100,
+    "all_three_classes_each_split": true
+  },
+  "budgets": {
+    "index_bytes": 201326592,
+    "reference_bytes": 67108864,
+    "max_reference_requests": 1200,
+    "max_new_reference_masks": 1024,
+    "paired_image_bytes": 67108864,
+    "max_new_pairs": 384,
+    "max_http_retries": 3
+  },
+  "no_model_score_selection": true,
+  "train_only_after_integrity_and_support_pass": true
+}

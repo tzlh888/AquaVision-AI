@@ -1,0 +1,12 @@
+{
+  "deterministic_algorithms": true,
+  "device": "cpu",
+  "preregistration_sha256": "45128c36b7a3d12d4897a9075d3ca56de0b44a419d98c323d32ed62f75f6f114",
+  "source_sha256": {
+    "scripts/run_phase4.py": "4f07750ad621d966a590b3e8b3c1abeb34beec9551c4301441278694948da3a2",
+    "scripts/run_phase3_pilot.py": "a0b0567fa09878bf26d8f4693aa307296420caf5a6903697d6aebe66cd808fd8",
+    "src/aquavision/evaluation/reliability.py": "55e899a6285b873c01d62ef925f31b001c982a689cd15436107ef81d8d541656"
+  },
+  "split_sha256": "e96abb63318fdd3a57c87ee4bc9078a476c288156e32d1baf3d126533d884df2",
+  "started_utc": "2026-10-04T20:07:50.507361+00:00"
+}

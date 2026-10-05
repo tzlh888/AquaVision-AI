@@ -1,0 +1,16 @@
+phase: 1
+record_id: 14230064
+record_url: https://zenodo.org/api/records/14230064
+archives:
+  - dataset_train_6_2.zip
+  - dataset_train_7_2.zip
+pairs_per_archive: 4
+max_transfer_bytes: 16777216
+max_member_bytes: 2000000
+selection: evenly_spaced_sorted_sample_ids_access_probe_only
+reference:
+  units: processed_cyan_digital_number
+  diagnostic_bin_edges: [100, 200]
+  cells_per_ml_conversion: blocked_pending_verification
+  image_level_aggregation: not_defined
+  # Requested clinical-style thresholds are deliberately NOT applied to DN.

@@ -1,0 +1,202 @@
+{
+  "ablation_compact_hab": {
+    "bands": [
+      "B04",
+      "B05",
+      "B8A",
+      "B11"
+    ],
+    "family": "DeepLabV3_ResNet18",
+    "id": "ablation_compact_hab",
+    "loss": "weighted",
+    "parent": "deep_weighted",
+    "path": "research_outputs/phase4/models/ablation_compact_hab.pt",
+    "variant": "band_ablation"
+  },
+  "ablation_rgb": {
+    "bands": [
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "family": "DeepLabV3_ResNet18",
+    "id": "ablation_rgb",
+    "loss": "weighted",
+    "parent": "deep_weighted",
+    "path": "research_outputs/phase4/models/ablation_rgb.pt",
+    "variant": "band_ablation"
+  },
+  "ablation_visible_rededge_nir": {
+    "bands": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A"
+    ],
+    "family": "DeepLabV3_ResNet18",
+    "id": "ablation_visible_rededge_nir",
+    "loss": "weighted",
+    "parent": "deep_weighted",
+    "path": "research_outputs/phase4/models/ablation_visible_rededge_nir.pt",
+    "variant": "band_ablation"
+  },
+  "baseline_B3B2": {
+    "family": "B3B2",
+    "id": "baseline_B3B2",
+    "loss": "unweighted",
+    "threshold_fit": {
+      "direction": 1,
+      "invalid_imputation": 0.1406250149011612,
+      "thresholds": [
+        0.23414184749126435,
+        1.0
+      ],
+      "training_macro_f1": 0.41266096283566256
+    },
+    "variant": "baseline"
+  },
+  "baseline_B8AB4": {
+    "family": "B8AB4",
+    "id": "baseline_B8AB4",
+    "loss": "unweighted",
+    "threshold_fit": {
+      "direction": 1,
+      "invalid_imputation": -0.3567839562892914,
+      "thresholds": [
+        -0.11523126661777493,
+        0.8957470655441284
+      ],
+      "training_macro_f1": 0.3561199847923015
+    },
+    "variant": "baseline"
+  },
+  "baseline_DeepLabV3_ResNet18": {
+    "family": "DeepLabV3_ResNet18",
+    "id": "baseline_DeepLabV3_ResNet18",
+    "loss": "unweighted",
+    "path": "research_outputs/phase3_5/models_v2/DeepLabV3_ResNet18.pt",
+    "variant": "baseline"
+  },
+  "baseline_FAI": {
+    "family": "FAI",
+    "id": "baseline_FAI",
+    "loss": "unweighted",
+    "threshold_fit": {
+      "direction": 1,
+      "invalid_imputation": -0.008898677304387093,
+      "thresholds": [
+        -0.02121582180261612,
+        -0.0040185180027037855
+      ],
+      "training_macro_f1": 0.3717011634214982
+    },
+    "variant": "baseline"
+  },
+  "baseline_LogisticRegression": {
+    "family": "LogisticRegression",
+    "id": "baseline_LogisticRegression",
+    "loss": "unweighted",
+    "path": "research_outputs/phase3_5/models_v2/LogisticRegression.joblib",
+    "variant": "baseline"
+  },
+  "baseline_NDCI": {
+    "family": "NDCI",
+    "id": "baseline_NDCI",
+    "loss": "unweighted",
+    "threshold_fit": {
+      "direction": 1,
+      "invalid_imputation": 0.05165765434503555,
+      "thresholds": [
+        0.15662649720907212,
+        0.6800000071525574
+      ],
+      "training_macro_f1": 0.47859729052145167
+    },
+    "variant": "baseline"
+  },
+  "baseline_NDVI": {
+    "family": "NDVI",
+    "id": "baseline_NDVI",
+    "loss": "unweighted",
+    "threshold_fit": {
+      "direction": 1,
+      "invalid_imputation": -0.26320868730545044,
+      "thresholds": [
+        -0.10144926607608795,
+        1.0
+      ],
+      "training_macro_f1": 0.36307515825138464
+    },
+    "variant": "baseline"
+  },
+  "baseline_RandomForest": {
+    "family": "RandomForest",
+    "id": "baseline_RandomForest",
+    "loss": "unweighted",
+    "path": "research_outputs/phase3_5/models_v2/RandomForest.joblib",
+    "variant": "baseline"
+  },
+  "baseline_SmallSegCNN": {
+    "family": "SmallSegCNN",
+    "id": "baseline_SmallSegCNN",
+    "loss": "unweighted",
+    "path": "research_outputs/phase3_5/models_v2/SmallSegCNN.pt",
+    "variant": "baseline"
+  },
+  "deep_focal": {
+    "family": "DeepLabV3_ResNet18",
+    "id": "deep_focal",
+    "loss": "focal",
+    "path": "research_outputs/phase4/models/deep_focal.pt",
+    "variant": "focal"
+  },
+  "deep_weighted": {
+    "family": "DeepLabV3_ResNet18",
+    "id": "deep_weighted",
+    "loss": "weighted",
+    "path": "research_outputs/phase4/models/deep_weighted.pt",
+    "variant": "weighted"
+  },
+  "lr_balanced": {
+    "family": "LogisticRegression",
+    "id": "lr_balanced",
+    "path": "research_outputs/phase4/models/lr_balanced.joblib",
+    "variant": "balanced"
+  },
+  "lr_weighted": {
+    "family": "LogisticRegression",
+    "id": "lr_weighted",
+    "path": "research_outputs/phase4/models/lr_weighted.joblib",
+    "variant": "weighted"
+  },
+  "rf_balanced": {
+    "family": "RandomForest",
+    "id": "rf_balanced",
+    "path": "research_outputs/phase4/models/rf_balanced.joblib",
+    "variant": "balanced"
+  },
+  "rf_weighted": {
+    "family": "RandomForest",
+    "id": "rf_weighted",
+    "path": "research_outputs/phase4/models/rf_weighted.joblib",
+    "variant": "weighted"
+  },
+  "small_focal": {
+    "family": "SmallSegCNN",
+    "id": "small_focal",
+    "loss": "focal",
+    "path": "research_outputs/phase4/models/small_focal.pt",
+    "variant": "focal"
+  },
+  "small_weighted": {
+    "family": "SmallSegCNN",
+    "id": "small_weighted",
+    "loss": "weighted",
+    "path": "research_outputs/phase4/models/small_weighted.pt",
+    "variant": "weighted"
+  }
+}

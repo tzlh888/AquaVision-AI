@@ -1,0 +1,22 @@
+{
+  "task": "pixel_level_CyAN_reference_segmentation",
+  "seed": 42,
+  "pairs_per_subtile": 16,
+  "max_transfer_bytes_per_archive": 50331648,
+  "ignore_index": -100,
+  "geography": "author_selected_subtile_adjacency_components",
+  "subset_scope": "bounded_pilot_not_full_24518_pair_experiment",
+  "max_training_pixels": 32768,
+  "pixels_per_training_patch": 256,
+  "epochs_small": 3,
+  "epochs_deep": 2,
+  "batch_size": 8,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "torch_threads": 4,
+  "initialization": "random",
+  "loss": "unweighted_cross_entropy",
+  "focal_gamma_candidate": 2.0,
+  "no_test_tuning": true,
+  "max_runtime_seconds_per_model": 240
+}

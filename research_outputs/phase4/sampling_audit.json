@@ -1,0 +1,23 @@
+{
+  "original_counts": [
+    18260,
+    6224,
+    56
+  ],
+  "balanced_counts": [
+    8180,
+    8180,
+    8180
+  ],
+  "balanced_unique_counts": [
+    8180,
+    4576,
+    56
+  ],
+  "pool_sha256": "9c447a1bb1d13eb4fcb06c20c4846bbfdc7f4bd2a842267aa231565f8d8f23cf",
+  "weight_vector": [
+    0.447973713033954,
+    1.31426735218509,
+    146.07142857142858
+  ]
+}

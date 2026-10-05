@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reloaded_confusion_matrices": 36,
+  "models": 9,
+  "pilot_artifacts_unchanged": 42,
+  "support_and_split_integrity": "PASS",
+  "criteria_hashes_unchanged": "PASS",
+  "training_only_normalization_and_pixels": "PASS",
+  "reference_counts_and_pair_hashes": "PASS",
+  "deterministic_group_allocation": "PASS"
+}

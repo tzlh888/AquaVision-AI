@@ -1,0 +1,13 @@
+{
+  "snapshot_utc": "2026-10-04T09:46:40.445342+00:00",
+  "note": "Before final Phase 2 status/inventory writes; includes ignored local environment and source documents. Baseline is saved Phase 1 snapshot, not an exact start-of-Phase2 measurement.",
+  "phase1_snapshot_allocated_KiB": 171000,
+  "current_allocated_KiB": 176068,
+  "change_from_phase1_snapshot_KiB": 5068,
+  "raw_pair_content_bytes": 821248,
+  "raw_npy_file_count": 16,
+  "phase2_sources_allocated_KiB": 3936,
+  "research_outputs_allocated_KiB": 1056,
+  "new_imagery_bytes": 0,
+  "historical_code_zip_range_bytes": 26682
+}

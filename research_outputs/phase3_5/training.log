@@ -1,0 +1,8 @@
+LogisticRegression fit; High metrics {'class': 'High', 'support': 37768, 'predicted': 34568, 'precision': 0.6071221939365887, 'recall': 0.5556820588858292, 'f1': 0.5802643220526432}
+RandomForest fit; High metrics {'class': 'High', 'support': 37768, 'predicted': 33, 'precision': 0.696969696969697, 'recall': 0.0006089811480618513, 'f1': 0.0012168990238353482}
+models_v2 SmallSegCNN epoch 1: train CE=1.22634; val CE=1.2264143363917686
+models_v2 SmallSegCNN epoch 2: train CE=1.21377; val CE=1.2134442568083086
+models_v2 SmallSegCNN epoch 3: train CE=1.20210; val CE=1.2006272133575713
+models_v2 DeepLabV3_ResNet18 epoch 1: train CE=0.96540; val CE=0.8896339085513042
+models_v2 DeepLabV3_ResNet18 epoch 2: train CE=0.78234; val CE=1.0954637920436197
+v2 evaluated using unchanged model families/configuration; no tuning.

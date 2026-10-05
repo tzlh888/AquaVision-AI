@@ -1,0 +1,1042 @@
+[
+  {
+    "geographic_group_id": "author_grid_component:6_2_X0500_Y0850_S050",
+    "source_tiles": [
+      "6_2"
+    ],
+    "subtiles": [
+      "6_2_X0500_Y0850_S050"
+    ],
+    "patches": 60,
+    "valid_pixels": 99418,
+    "low_pixels": 86546,
+    "moderate_pixels": 12872,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_2_X0500_Y1150_S050",
+    "source_tiles": [
+      "6_2"
+    ],
+    "subtiles": [
+      "6_2_X0500_Y1150_S050",
+      "6_2_X0550_Y1100_S050",
+      "6_2_X0550_Y1150_S050",
+      "6_2_X0550_Y1200_S050"
+    ],
+    "patches": 232,
+    "valid_pixels": 721735,
+    "low_pixels": 498473,
+    "moderate_pixels": 209976,
+    "high_pixels": 13286,
+    "high_percent": 1.8408418602395615,
+    "high_patches": 12,
+    "high_subtiles": 3,
+    "high_dates": [
+      "2019-07-10",
+      "2019-07-25",
+      "2019-08-19",
+      "2020-09-05"
+    ],
+    "high_date_count": 4,
+    "high_date_span_days": 423,
+    "high_patch_positions": 12,
+    "sentinel_scene_ids": null,
+    "qualifies": true
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_2_X0650_Y0900_S050",
+    "source_tiles": [
+      "6_2"
+    ],
+    "subtiles": [
+      "6_2_X0650_Y0900_S050",
+      "6_2_X0650_Y0950_S050"
+    ],
+    "patches": 3945,
+    "valid_pixels": 13374911,
+    "low_pixels": 11852137,
+    "moderate_pixels": 1504101,
+    "high_pixels": 18673,
+    "high_percent": 0.13961214396118224,
+    "high_patches": 50,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2019-08-04",
+      "2019-08-09",
+      "2019-08-19",
+      "2020-07-17"
+    ],
+    "high_date_count": 4,
+    "high_date_span_days": 348,
+    "high_patch_positions": 38,
+    "sentinel_scene_ids": null,
+    "qualifies": true
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_2_X1800_Y1050_S050",
+    "source_tiles": [
+      "6_2"
+    ],
+    "subtiles": [
+      "6_2_X1800_Y1050_S050",
+      "6_2_X1800_Y1150_S050",
+      "6_2_X1850_Y1100_S050",
+      "6_2_X1850_Y1150_S050"
+    ],
+    "patches": 2398,
+    "valid_pixels": 8394789,
+    "low_pixels": 7760561,
+    "moderate_pixels": 634228,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_5_X0050_Y0700_S050",
+    "source_tiles": [
+      "6_5"
+    ],
+    "subtiles": [
+      "6_5_X0050_Y0700_S050",
+      "6_5_X0050_Y0750_S050",
+      "6_5_X0100_Y0700_S050",
+      "6_5_X0150_Y0700_S050",
+      "6_5_X0150_Y0750_S050",
+      "6_5_X0200_Y0700_S050",
+      "6_5_X0200_Y0750_S050",
+      "6_5_X0250_Y0700_S050",
+      "6_5_X0250_Y0750_S050",
+      "6_5_X0300_Y0700_S050",
+      "6_5_X0300_Y0750_S050",
+      "6_5_X0350_Y0700_S050",
+      "6_5_X0350_Y0750_S050",
+      "6_5_X0400_Y0700_S050",
+      "6_5_X0450_Y0600_S050",
+      "6_5_X0450_Y0650_S050",
+      "6_5_X0450_Y0700_S050",
+      "6_5_X0500_Y0600_S050",
+      "6_5_X0500_Y0650_S050",
+      "6_5_X0550_Y0400_S050",
+      "6_5_X0550_Y0500_S050",
+      "6_5_X0550_Y0600_S050",
+      "6_5_X0550_Y0650_S050",
+      "6_5_X0550_Y0700_S050",
+      "6_5_X0600_Y0350_S050",
+      "6_5_X0600_Y0400_S050",
+      "6_5_X0600_Y0500_S050",
+      "6_5_X0600_Y0550_S050",
+      "6_5_X0600_Y0650_S050",
+      "6_5_X0600_Y0700_S050",
+      "6_5_X0650_Y0350_S050",
+      "6_5_X0650_Y0400_S050",
+      "6_5_X0650_Y0450_S050",
+      "6_5_X0650_Y0500_S050",
+      "6_5_X0650_Y0650_S050",
+      "6_5_X0700_Y0350_S050",
+      "6_5_X0700_Y0400_S050",
+      "6_5_X0700_Y0450_S050"
+    ],
+    "patches": 2339,
+    "valid_pixels": 6561449,
+    "low_pixels": 6347068,
+    "moderate_pixels": 214381,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_5_X0100_Y0450_S050",
+    "source_tiles": [
+      "6_5"
+    ],
+    "subtiles": [
+      "6_5_X0100_Y0450_S050"
+    ],
+    "patches": 61,
+    "valid_pixels": 233613,
+    "low_pixels": 85814,
+    "moderate_pixels": 147799,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_5_X0100_Y0550_S050",
+    "source_tiles": [
+      "6_5"
+    ],
+    "subtiles": [
+      "6_5_X0100_Y0550_S050"
+    ],
+    "patches": 64,
+    "valid_pixels": 243464,
+    "low_pixels": 74087,
+    "moderate_pixels": 169377,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_5_X0250_Y0300_S050",
+    "source_tiles": [
+      "6_5"
+    ],
+    "subtiles": [
+      "6_5_X0250_Y0300_S050",
+      "6_5_X0300_Y0300_S050",
+      "6_5_X0300_Y0350_S050"
+    ],
+    "patches": 1207,
+    "valid_pixels": 4009854,
+    "low_pixels": 3795864,
+    "moderate_pixels": 213542,
+    "high_pixels": 448,
+    "high_percent": 0.011172476603886325,
+    "high_patches": 4,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2019-09-23",
+      "2020-01-06"
+    ],
+    "high_date_count": 2,
+    "high_date_span_days": 105,
+    "high_patch_positions": 4,
+    "sentinel_scene_ids": null,
+    "qualifies": true
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_5_X0250_Y0450_S050",
+    "source_tiles": [
+      "6_5"
+    ],
+    "subtiles": [
+      "6_5_X0250_Y0450_S050",
+      "6_5_X0300_Y0450_S050"
+    ],
+    "patches": 1146,
+    "valid_pixels": 3257381,
+    "low_pixels": 2534492,
+    "moderate_pixels": 721327,
+    "high_pixels": 1562,
+    "high_percent": 0.04795263434028749,
+    "high_patches": 12,
+    "high_subtiles": 2,
+    "high_dates": [
+      "2019-04-01",
+      "2020-04-05"
+    ],
+    "high_date_count": 2,
+    "high_date_span_days": 370,
+    "high_patch_positions": 11,
+    "sentinel_scene_ids": null,
+    "qualifies": true
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_5_X0400_Y0250_S050",
+    "source_tiles": [
+      "6_5"
+    ],
+    "subtiles": [
+      "6_5_X0400_Y0250_S050",
+      "6_5_X0400_Y0300_S050",
+      "6_5_X0400_Y0350_S050",
+      "6_5_X0450_Y0300_S050",
+      "6_5_X0450_Y0350_S050",
+      "6_5_X0500_Y0300_S050"
+    ],
+    "patches": 357,
+    "valid_pixels": 1072466,
+    "low_pixels": 1006271,
+    "moderate_pixels": 66195,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:6_5_X1150_Y0200_S050",
+    "source_tiles": [
+      "6_5"
+    ],
+    "subtiles": [
+      "6_5_X1150_Y0200_S050"
+    ],
+    "patches": 61,
+    "valid_pixels": 142083,
+    "low_pixels": 107253,
+    "moderate_pixels": 34830,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_2_X0000_Y1750_S050",
+    "source_tiles": [
+      "7_2"
+    ],
+    "subtiles": [
+      "7_2_X0000_Y1750_S050",
+      "7_2_X0000_Y1800_S050",
+      "7_2_X0050_Y1800_S050",
+      "7_2_X0050_Y1850_S050",
+      "7_2_X0050_Y1900_S050",
+      "7_2_X0100_Y1850_S050",
+      "7_2_X0100_Y1900_S050",
+      "7_2_X0150_Y1900_S050",
+      "7_2_X0150_Y1950_S050",
+      "7_2_X0200_Y1950_S050"
+    ],
+    "patches": 17893,
+    "valid_pixels": 63212204,
+    "low_pixels": 60334037,
+    "moderate_pixels": 2797452,
+    "high_pixels": 80715,
+    "high_percent": 0.12768895069692554,
+    "high_patches": 69,
+    "high_subtiles": 5,
+    "high_dates": [
+      "2019-07-14",
+      "2019-07-24"
+    ],
+    "high_date_count": 2,
+    "high_date_span_days": 10,
+    "high_patch_positions": 66,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_2_X0800_Y1800_S050",
+    "source_tiles": [
+      "7_2"
+    ],
+    "subtiles": [
+      "7_2_X0800_Y1800_S050"
+    ],
+    "patches": 61,
+    "valid_pixels": 135305,
+    "low_pixels": 98785,
+    "moderate_pixels": 36520,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_2_X1050_Y1550_S050",
+    "source_tiles": [
+      "7_2"
+    ],
+    "subtiles": [
+      "7_2_X1050_Y1550_S050"
+    ],
+    "patches": 282,
+    "valid_pixels": 621453,
+    "low_pixels": 455594,
+    "moderate_pixels": 165627,
+    "high_pixels": 232,
+    "high_percent": 0.03733186580481549,
+    "high_patches": 4,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2019-10-09"
+    ],
+    "high_date_count": 1,
+    "high_date_span_days": 0,
+    "high_patch_positions": 4,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_2_X1900_Y0950_S050",
+    "source_tiles": [
+      "7_2"
+    ],
+    "subtiles": [
+      "7_2_X1900_Y0950_S050",
+      "7_2_X1950_Y0950_S050"
+    ],
+    "patches": 113,
+    "valid_pixels": 317672,
+    "low_pixels": 300942,
+    "moderate_pixels": 16730,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X0600_Y0350_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X0600_Y0350_S050"
+    ],
+    "patches": 55,
+    "valid_pixels": 154121,
+    "low_pixels": 138040,
+    "moderate_pixels": 16081,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1000_Y0300_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1000_Y0300_S050"
+    ],
+    "patches": 52,
+    "valid_pixels": 184221,
+    "low_pixels": 35768,
+    "moderate_pixels": 148453,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1100_Y0000_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1100_Y0000_S050",
+      "7_5_X1100_Y0050_S050"
+    ],
+    "patches": 98,
+    "valid_pixels": 219850,
+    "low_pixels": 218698,
+    "moderate_pixels": 1152,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1100_Y0500_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1100_Y0500_S050",
+      "7_5_X1100_Y0550_S050",
+      "7_5_X1150_Y0500_S050",
+      "7_5_X1150_Y0550_S050",
+      "7_5_X1200_Y0600_S050",
+      "7_5_X1200_Y0650_S050"
+    ],
+    "patches": 336,
+    "valid_pixels": 1208015,
+    "low_pixels": 445027,
+    "moderate_pixels": 762988,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1150_Y0150_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1150_Y0150_S050"
+    ],
+    "patches": 55,
+    "valid_pixels": 201435,
+    "low_pixels": 179520,
+    "moderate_pixels": 21915,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1150_Y0350_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1150_Y0350_S050",
+      "7_5_X1200_Y0300_S050",
+      "7_5_X1200_Y0350_S050",
+      "7_5_X1200_Y0400_S050"
+    ],
+    "patches": 1256,
+    "valid_pixels": 3884704,
+    "low_pixels": 2804830,
+    "moderate_pixels": 1079645,
+    "high_pixels": 229,
+    "high_percent": 0.005894915030849197,
+    "high_patches": 1,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2020-06-22"
+    ],
+    "high_date_count": 1,
+    "high_date_span_days": 0,
+    "high_patch_positions": 1,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1200_Y0800_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1200_Y0800_S050"
+    ],
+    "patches": 58,
+    "valid_pixels": 62248,
+    "low_pixels": 39340,
+    "moderate_pixels": 22908,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1300_Y0750_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1300_Y0750_S050"
+    ],
+    "patches": 58,
+    "valid_pixels": 215552,
+    "low_pixels": 181695,
+    "moderate_pixels": 33857,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1300_Y0900_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1300_Y0900_S050",
+      "7_5_X1300_Y0950_S050",
+      "7_5_X1350_Y0850_S050",
+      "7_5_X1400_Y0850_S050"
+    ],
+    "patches": 220,
+    "valid_pixels": 465730,
+    "low_pixels": 250061,
+    "moderate_pixels": 215386,
+    "high_pixels": 283,
+    "high_percent": 0.06076482081892942,
+    "high_patches": 3,
+    "high_subtiles": 2,
+    "high_dates": [
+      "2019-04-24",
+      "2019-11-30"
+    ],
+    "high_date_count": 2,
+    "high_date_span_days": 220,
+    "high_patch_positions": 3,
+    "sentinel_scene_ids": null,
+    "qualifies": true
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1350_Y0550_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1350_Y0550_S050"
+    ],
+    "patches": 58,
+    "valid_pixels": 119951,
+    "low_pixels": 6881,
+    "moderate_pixels": 113070,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1350_Y1100_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1350_Y1100_S050",
+      "7_5_X1400_Y1050_S050"
+    ],
+    "patches": 110,
+    "valid_pixels": 403329,
+    "low_pixels": 207052,
+    "moderate_pixels": 196277,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1450_Y0500_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1450_Y0500_S050",
+      "7_5_X1500_Y0550_S050"
+    ],
+    "patches": 1140,
+    "valid_pixels": 3100282,
+    "low_pixels": 2720049,
+    "moderate_pixels": 380145,
+    "high_pixels": 88,
+    "high_percent": 0.0028384514698985446,
+    "high_patches": 2,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2020-10-15",
+      "2020-12-09"
+    ],
+    "high_date_count": 2,
+    "high_date_span_days": 55,
+    "high_patch_positions": 2,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1500_Y1200_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1500_Y1200_S050",
+      "7_5_X1550_Y1100_S050",
+      "7_5_X1550_Y1150_S050",
+      "7_5_X1550_Y1200_S050",
+      "7_5_X1550_Y1250_S050",
+      "7_5_X1600_Y1100_S050",
+      "7_5_X1600_Y1150_S050",
+      "7_5_X1600_Y1200_S050",
+      "7_5_X1600_Y1250_S050",
+      "7_5_X1650_Y1150_S050"
+    ],
+    "patches": 601,
+    "valid_pixels": 1932838,
+    "low_pixels": 1842242,
+    "moderate_pixels": 90596,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1700_Y1800_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1700_Y1800_S050"
+    ],
+    "patches": 55,
+    "valid_pixels": 123483,
+    "low_pixels": 45552,
+    "moderate_pixels": 77931,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:7_5_X1800_Y1700_S050",
+    "source_tiles": [
+      "7_5"
+    ],
+    "subtiles": [
+      "7_5_X1800_Y1700_S050"
+    ],
+    "patches": 61,
+    "valid_pixels": 127407,
+    "low_pixels": 72499,
+    "moderate_pixels": 21384,
+    "high_pixels": 33524,
+    "high_percent": 26.312525999356392,
+    "high_patches": 25,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2019-01-06",
+      "2019-01-11",
+      "2019-01-21",
+      "2019-02-05",
+      "2019-03-02",
+      "2019-03-22",
+      "2019-03-27",
+      "2019-04-16",
+      "2019-12-07",
+      "2020-01-01",
+      "2020-03-26",
+      "2020-11-26",
+      "2020-12-01"
+    ],
+    "high_date_count": 13,
+    "high_date_span_days": 695,
+    "high_patch_positions": 13,
+    "sentinel_scene_ids": null,
+    "qualifies": true
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0000_Y0800_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0000_Y0800_S050"
+    ],
+    "patches": 64,
+    "valid_pixels": 158101,
+    "low_pixels": 124249,
+    "moderate_pixels": 33852,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0050_Y0950_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0050_Y0950_S050"
+    ],
+    "patches": 64,
+    "valid_pixels": 140262,
+    "low_pixels": 128809,
+    "moderate_pixels": 11453,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0150_Y0300_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0150_Y0300_S050",
+      "8_3_X0200_Y0350_S050"
+    ],
+    "patches": 128,
+    "valid_pixels": 289359,
+    "low_pixels": 193365,
+    "moderate_pixels": 95994,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0150_Y0550_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0150_Y0550_S050"
+    ],
+    "patches": 64,
+    "valid_pixels": 187941,
+    "low_pixels": 186666,
+    "moderate_pixels": 1275,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0150_Y0650_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0150_Y0650_S050",
+      "8_3_X0150_Y0700_S050",
+      "8_3_X0200_Y0700_S050",
+      "8_3_X0200_Y0750_S050",
+      "8_3_X0200_Y0800_S050",
+      "8_3_X0250_Y0750_S050",
+      "8_3_X0250_Y0800_S050",
+      "8_3_X0250_Y0850_S050",
+      "8_3_X0300_Y0750_S050",
+      "8_3_X0300_Y0800_S050",
+      "8_3_X0350_Y0850_S050",
+      "8_3_X0400_Y0900_S050"
+    ],
+    "patches": 760,
+    "valid_pixels": 2072205,
+    "low_pixels": 2016680,
+    "moderate_pixels": 55525,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0200_Y1550_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0200_Y1550_S050",
+      "8_3_X0200_Y1600_S050"
+    ],
+    "patches": 1146,
+    "valid_pixels": 3171007,
+    "low_pixels": 3009935,
+    "moderate_pixels": 160599,
+    "high_pixels": 473,
+    "high_percent": 0.014916397220189044,
+    "high_patches": 2,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2020-07-04"
+    ],
+    "high_date_count": 1,
+    "high_date_span_days": 0,
+    "high_patch_positions": 2,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0300_Y1800_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0300_Y1800_S050"
+    ],
+    "patches": 60,
+    "valid_pixels": 163276,
+    "low_pixels": 158601,
+    "moderate_pixels": 4675,
+    "high_pixels": 0,
+    "high_percent": 0.0,
+    "high_patches": 0,
+    "high_subtiles": 0,
+    "high_dates": [],
+    "high_date_count": 0,
+    "high_date_span_days": 0,
+    "high_patch_positions": 0,
+    "sentinel_scene_ids": null,
+    "qualifies": false
+  },
+  {
+    "geographic_group_id": "author_grid_component:8_3_X0350_Y1550_S050",
+    "source_tiles": [
+      "8_3"
+    ],
+    "subtiles": [
+      "8_3_X0350_Y1550_S050",
+      "8_3_X0350_Y1600_S050",
+      "8_3_X0350_Y1650_S050",
+      "8_3_X0400_Y1350_S050",
+      "8_3_X0400_Y1400_S050",
+      "8_3_X0400_Y1450_S050",
+      "8_3_X0400_Y1550_S050",
+      "8_3_X0400_Y1600_S050",
+      "8_3_X0400_Y1800_S050",
+      "8_3_X0450_Y1450_S050",
+      "8_3_X0450_Y1500_S050",
+      "8_3_X0450_Y1550_S050",
+      "8_3_X0450_Y1600_S050",
+      "8_3_X0450_Y1650_S050",
+      "8_3_X0450_Y1700_S050",
+      "8_3_X0450_Y1750_S050",
+      "8_3_X0450_Y1800_S050",
+      "8_3_X0500_Y1600_S050",
+      "8_3_X0550_Y1600_S050",
+      "8_3_X0550_Y1650_S050",
+      "8_3_X0550_Y1700_S050"
+    ],
+    "patches": 1284,
+    "valid_pixels": 4499892,
+    "low_pixels": 3147293,
+    "moderate_pixels": 1352392,
+    "high_pixels": 207,
+    "high_percent": 0.004600110402649664,
+    "high_patches": 3,
+    "high_subtiles": 1,
+    "high_dates": [
+      "2020-07-19",
+      "2020-08-30"
+    ],
+    "high_date_count": 2,
+    "high_date_span_days": 42,
+    "high_patch_positions": 3,
+    "sentinel_scene_ids": null,
+    "qualifies": true
+  }
+]

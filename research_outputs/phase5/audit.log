@@ -1,0 +1,64 @@
+Reloaded ablation_compact_hab
+Reloaded ablation_rgb
+Reloaded ablation_visible_rededge_nir
+Reloaded baseline_B3B2
+Reloaded baseline_B8AB4
+Reloaded baseline_DeepLabV3_ResNet18
+Reloaded baseline_FAI
+Reloaded baseline_LogisticRegression
+Reloaded baseline_NDCI
+Reloaded baseline_NDVI
+Reloaded baseline_RandomForest
+Reloaded baseline_SmallSegCNN
+Reloaded deep_focal
+Reloaded deep_weighted
+Reloaded lr_balanced
+Reloaded lr_weighted
+Reloaded rf_balanced
+Reloaded rf_weighted
+Reloaded small_focal
+Reloaded small_weighted
+{
+  "mode": "full",
+  "documents": {
+    "abstract_words": 188,
+    "portfolio_words": 765,
+    "application_words": 197,
+    "cv_one_line_words": 29,
+    "canonical_numbered_sections": 19,
+    "readme_provenance_records": 49,
+    "core_figures": 10,
+    "public_local_links_verified": 128,
+    "public_documents": 10
+  },
+  "claim_scan": {
+    "matched_lines": 80,
+    "matched_term_occurrences": 90,
+    "scope_counts": {
+      "implementation/test/protocol text": 17,
+      "frozen historical/scientific report": 43,
+      "current public document": 10,
+      "release provenance/audit": 1,
+      "saved provenance/experiment metadata": 1,
+      "historical overview": 3,
+      "primary-source snapshot": 5
+    },
+    "manual_review_required": "See FINAL_RELEASE_AUDIT.md; phrase occurrence alone is not a misleading claim."
+  },
+  "tests": {
+    "tests": 123,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "checkpoint_reload": {
+    "exact_confusion_matrices": 100,
+    "exact_class_prediction_caches": 40,
+    "temperature_argmax_checks": 18,
+    "calibration_groups_exact": 96,
+    "maximum_rf_probability_roundoff": 2.220446049250313e-16,
+    "verified_input_pairs": 288,
+    "training_performed": false
+  },
+  "passed": true
+}

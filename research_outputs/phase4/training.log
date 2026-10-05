@@ -1,0 +1,42 @@
+lr_weighted fit
+lr_balanced fit
+rf_weighted fit
+rf_balanced fit
+small_weighted epoch 1 validation CE 1.232607
+small_weighted epoch 2 validation CE 1.226741
+small_weighted epoch 3 validation CE 1.220249
+small_focal epoch 1 validation CE 1.226147
+small_focal epoch 2 validation CE 1.212861
+small_focal epoch 3 validation CE 1.199965
+deep_weighted epoch 1 validation CE 0.968982
+deep_weighted epoch 2 validation CE 0.956041
+deep_focal epoch 1 validation CE 0.961652
+deep_focal epoch 2 validation CE 1.040077
+SEALED VALIDATION SELECTION: baseline_NDCI deep_weighted eligibleCNN False
+ablation_rgb epoch 1 validation CE 0.980566
+ablation_rgb epoch 2 validation CE 0.950104
+ablation_visible_rededge_nir epoch 1 validation CE 0.944332
+ablation_visible_rededge_nir epoch 2 validation CE 0.839849
+ablation_compact_hab epoch 1 validation CE 0.940666
+ablation_compact_hab epoch 2 validation CE 0.868028
+baseline_NDCI TEST macro 0.5185 HighF1 0.0006
+baseline_NDVI TEST macro 0.4141 HighF1 0.0
+baseline_FAI TEST macro 0.3089 HighF1 0.3425
+baseline_B8AB4 TEST macro 0.3653 HighF1 0.0025
+baseline_B3B2 TEST macro 0.4212 HighF1 0.0
+baseline_LogisticRegression TEST macro 0.6983 HighF1 0.5803
+baseline_RandomForest TEST macro 0.4794 HighF1 0.0012
+baseline_SmallSegCNN TEST macro 0.0632 HighF1 0.1627
+baseline_DeepLabV3_ResNet18 TEST macro 0.3627 HighF1 0.27
+lr_weighted TEST macro 0.6214 HighF1 0.4886
+lr_balanced TEST macro 0.6216 HighF1 0.5003
+rf_weighted TEST macro 0.484 HighF1 0.0
+rf_balanced TEST macro 0.4842 HighF1 0.0
+small_weighted TEST macro 0.0665 HighF1 0.1589
+small_focal TEST macro 0.0642 HighF1 0.1626
+deep_weighted TEST macro 0.4407 HighF1 0.3522
+deep_focal TEST macro 0.3583 HighF1 0.26
+ablation_rgb TEST macro 0.3896 HighF1 0.2938
+ablation_visible_rededge_nir TEST macro 0.4706 HighF1 0.3279
+ablation_compact_hab TEST macro 0.4095 HighF1 0.2741
+All registered test evaluations complete.

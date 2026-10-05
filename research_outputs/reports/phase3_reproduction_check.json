@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "reloaded_test_evaluations": 18,
+  "models": [
+    "geographic/NDCI",
+    "geographic/NDVI",
+    "geographic/FAI",
+    "geographic/B8AB4",
+    "geographic/B3B2",
+    "geographic/LogisticRegression",
+    "geographic/RandomForest",
+    "geographic/SmallSegCNN",
+    "geographic/DeepLabV3_ResNet18",
+    "random/NDCI",
+    "random/NDVI",
+    "random/FAI",
+    "random/B8AB4",
+    "random/B3B2",
+    "random/LogisticRegression",
+    "random/RandomForest",
+    "random/SmallSegCNN",
+    "random/DeepLabV3_ResNet18"
+  ],
+  "plan_source_artifact_hashes": "PASS",
+  "original_and_pilot_array_hashes": "PASS",
+  "training_only_normalization_and_pixel_ids": "PASS",
+  "geographic_adjacency_isolation": "PASS"
+}

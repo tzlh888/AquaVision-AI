@@ -1,0 +1,9 @@
+{
+  "amendment": "A",
+  "max_new_reference_masks": 50000,
+  "max_masks_per_request": 64,
+  "unchanged_reference_byte_budget": 67108864,
+  "unchanged_reference_request_cap": 1200,
+  "support_criteria_unchanged": true,
+  "document_sha256": "b5772b340ab8c7bf0528dca22d66db18bba81f30a726d6f08bdc7549658b91a6"
+}

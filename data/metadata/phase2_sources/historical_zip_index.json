@@ -1,0 +1,182 @@
+[
+  {
+    "name": "constants.py",
+    "size": 7819,
+    "compressed_size": 1482
+  },
+  {
+    "name": "dataset/",
+    "size": 0,
+    "compressed_size": 0
+  },
+  {
+    "name": "dataset/README.md",
+    "size": 550,
+    "compressed_size": 338
+  },
+  {
+    "name": "dataset/archive.py",
+    "size": 2025,
+    "compressed_size": 801
+  },
+  {
+    "name": "dataset/generate_tiles.py",
+    "size": 8556,
+    "compressed_size": 2559
+  },
+  {
+    "name": "dataset/__init__.py",
+    "size": 0,
+    "compressed_size": 0
+  },
+  {
+    "name": "dataset/create_dataset.py",
+    "size": 9352,
+    "compressed_size": 2232
+  },
+  {
+    "name": "dataset/download_and_process.py",
+    "size": 21669,
+    "compressed_size": 5851
+  },
+  {
+    "name": "dataset/images/",
+    "size": 0,
+    "compressed_size": 0
+  },
+  {
+    "name": "dataset/images/6_2.png",
+    "size": 252209,
+    "compressed_size": 247936
+  },
+  {
+    "name": "dataset/images/8_3.png",
+    "size": 135963,
+    "compressed_size": 131598
+  },
+  {
+    "name": "dataset/images/6_5.png",
+    "size": 119670,
+    "compressed_size": 114318
+  },
+  {
+    "name": "dataset/images/7_5.png",
+    "size": 176289,
+    "compressed_size": 170982
+  },
+  {
+    "name": "dataset/images/7_2.png",
+    "size": 274244,
+    "compressed_size": 268889
+  },
+  {
+    "name": "dataset/gdal_merge.py",
+    "size": 19481,
+    "compressed_size": 5410
+  },
+  {
+    "name": "dataset/helpers.py",
+    "size": 8202,
+    "compressed_size": 1722
+  },
+  {
+    "name": "functions.py",
+    "size": 3291,
+    "compressed_size": 1352
+  },
+  {
+    "name": "images/",
+    "size": 0,
+    "compressed_size": 0
+  },
+  {
+    "name": "images/greenbay_tile.png",
+    "size": 281698,
+    "compressed_size": 267078
+  },
+  {
+    "name": "images/greenbay_no_tile.png",
+    "size": 257109,
+    "compressed_size": 242688
+  },
+  {
+    "name": "images/winnebago_tile.png",
+    "size": 509099,
+    "compressed_size": 493454
+  },
+  {
+    "name": "images/winnebago_no_tile.png",
+    "size": 499754,
+    "compressed_size": 483701
+  },
+  {
+    "name": "images/loss.png",
+    "size": 43534,
+    "compressed_size": 40083
+  },
+  {
+    "name": "images/erie_tile.png",
+    "size": 388941,
+    "compressed_size": 374731
+  },
+  {
+    "name": "images/confusion_matrix.png",
+    "size": 21069,
+    "compressed_size": 18196
+  },
+  {
+    "name": "images/class_preds.png",
+    "size": 77877,
+    "compressed_size": 72592
+  },
+  {
+    "name": "images/erie_no_tile.png",
+    "size": 431218,
+    "compressed_size": 417679
+  },
+  {
+    "name": "model.pt",
+    "size": 63819935,
+    "compressed_size": 60013660
+  },
+  {
+    "name": "pred.png",
+    "size": 200978,
+    "compressed_size": 194897
+  },
+  {
+    "name": "__pycache__/",
+    "size": 0,
+    "compressed_size": 0
+  },
+  {
+    "name": "__pycache__/constants.cpython-38.pyc",
+    "size": 4900,
+    "compressed_size": 2044
+  },
+  {
+    "name": "__pycache__/functions.cpython-38.pyc",
+    "size": 3232,
+    "compressed_size": 1845
+  },
+  {
+    "name": "README.md",
+    "size": 882,
+    "compressed_size": 478
+  },
+  {
+    "name": "requirements.txt",
+    "size": 174,
+    "compressed_size": 137
+  },
+  {
+    "name": "run_model.py",
+    "size": 1353,
+    "compressed_size": 612
+  },
+  {
+    "name": "winnebago_sen2.npy",
+    "size": 62353568,
+    "compressed_size": 39956486
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "exact_confusion_matrices": 100,
+  "exact_class_prediction_caches": 40,
+  "rf_probability_roundoff": [
+    {
+      "experiment_id": "baseline_RandomForest",
+      "partition": "validation",
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "experiment_id": "baseline_RandomForest",
+      "partition": "test",
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "experiment_id": "rf_balanced",
+      "partition": "validation",
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "experiment_id": "rf_balanced",
+      "partition": "test",
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "experiment_id": "rf_weighted",
+      "partition": "validation",
+      "max_absolute_difference": 2.220446049250313e-16
+    },
+    {
+      "experiment_id": "rf_weighted",
+      "partition": "test",
+      "max_absolute_difference": 2.220446049250313e-16
+    }
+  ],
+  "rf_probability_absolute_tolerance": 1e-12,
+  "unchanged_temperature_argmax_checks": 18,
+  "models": 20,
+  "validation_only_selection_reproduced": true,
+  "validation_only_temperature_fits_reproduced": true,
+  "registration_order_verified": true,
+  "frozen_files_checked": 177
+}

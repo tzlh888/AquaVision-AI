@@ -1,0 +1,93 @@
+[
+  {
+    "id": "original_cyan_2019004",
+    "url": "https://oceandata.sci.gsfc.nasa.gov/ob/getfile/L2019004.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m_6_2.tif",
+    "retrieved_utc": "2026-10-04T09:30:54.303074+00:00",
+    "status": 200,
+    "final_url": "https://urs.earthdata.nasa.gov//oauth/authorize?client_id=pDPu0awH156XLrK6VV0Y0w&response_type=code&redirect_uri=https://oceandata.sci.gsfc.nasa.gov/getfile/urs/",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "10778",
+      "etag": "W/\"02794359203c9c762f4b8d67da65341c\""
+    },
+    "over_limit": false,
+    "bytes": 10778,
+    "sha256": "d6af3e434d45664d057bb2115a4d88f0d9b3c13b71427c9bbe0319cc6635b695"
+  },
+  {
+    "id": "original_cyan_2020297",
+    "url": "https://oceandata.sci.gsfc.nasa.gov/ob/getfile/L2020297.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m_7_2.tif",
+    "retrieved_utc": "2026-10-04T09:30:55.935051+00:00",
+    "status": 200,
+    "final_url": "https://urs.earthdata.nasa.gov//oauth/authorize?client_id=pDPu0awH156XLrK6VV0Y0w&response_type=code&redirect_uri=https://oceandata.sci.gsfc.nasa.gov/getfile/urs/",
+    "headers": {
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "9219",
+      "etag": "W/\"d6c744d9c8a7f184d40f409be2edba9f\""
+    },
+    "over_limit": false,
+    "bytes": 9219,
+    "sha256": "d6c744d9c8a7f184d40f409be2edba9f9d9b76296c6d7676eadd20882737101a"
+  },
+  {
+    "id": "author_commits",
+    "url": "https://api.github.com/repos/cschloer/hab_detection_s2/commits?per_page=100",
+    "retrieved_utc": "2026-10-04T09:30:57.259018+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/cschloer/hab_detection_s2/commits?per_page=100",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "W/\"2e634eab4131878b13888ce418770153584fc656ff73a87aa3fd5315d7801c87\"",
+      "Last-Modified": "Mon, 25 Nov 2024 12:58:52 GMT",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "2093"
+    },
+    "over_limit": false,
+    "bytes": 10630,
+    "sha256": "2beb8c675fd0545350247b56249888994f408552745f0b87f50d404e4c944e38"
+  },
+  {
+    "id": "author_root_history",
+    "url": "https://api.github.com/repos/cschloer/hab_detection_s2/commits?path=code/dataset/data.json&per_page=100",
+    "retrieved_utc": "2026-10-04T09:30:57.679039+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/cschloer/hab_detection_s2/commits?path=code/dataset/data.json&per_page=100",
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "2",
+      "ETag": "\"992aaf92b487506974e4305db4a64326866f3ed48b2ba424cef8fbe4e28f72b0\"",
+      "Accept-Ranges": "bytes"
+    },
+    "over_limit": false,
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "id": "crossref_paper",
+    "url": "https://api.crossref.org/works/10.1109/JSTARS.2025.3629586",
+    "retrieved_utc": "2026-10-04T09:30:57.995023+00:00",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works/10.1109/JSTARS.2025.3629586",
+    "headers": {
+      "Content-Type": "application/json",
+      "Content-Length": "2026"
+    },
+    "over_limit": false,
+    "bytes": 5732,
+    "sha256": "28f5e8f49302ef7ea32abb19a949b05ac70a0aa29f4ee238dad86836de6bf732"
+  },
+  {
+    "id": "cyan_tile_index",
+    "url": "https://oceancolor.gsfc.nasa.gov/s3fs-public/2026-01/CONUS_tiles_shapefile.zip",
+    "retrieved_utc": "2026-10-04T09:30:58.423797+00:00",
+    "status": 403,
+    "final_url": "https://www.earthdata.nasa.gov/centers/ob-daac",
+    "headers": {
+      "Content-Type": "text/html",
+      "Content-Length": "919"
+    },
+    "over_limit": false,
+    "bytes": 919,
+    "sha256": "5c9e79639f2f38bd43dcb97b10999a438f27972351d92daf6da6ac23c13bc473"
+  }
+]

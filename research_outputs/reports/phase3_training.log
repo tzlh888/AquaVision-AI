@@ -1,0 +1,15 @@
+geographic LogisticRegression fitted using 32768 training pixels
+geographic RandomForest fitted using 32768 training pixels
+geographic SmallSegCNN epoch 1: train CE=1.24989; val CE=1.204571201707676
+geographic SmallSegCNN epoch 2: train CE=1.20619; val CE=1.178848091711862
+geographic SmallSegCNN epoch 3: train CE=1.10978; val CE=1.1316335766745826
+geographic DeepLabV3_ResNet18 epoch 1: train CE=0.92663; val CE=1.087135403738676
+geographic DeepLabV3_ResNet18 epoch 2: train CE=0.63013; val CE=1.302222516028811
+random LogisticRegression fitted using 32768 training pixels
+random RandomForest fitted using 32768 training pixels
+random SmallSegCNN epoch 1: train CE=1.24789; val CE=1.2305726742074552
+random SmallSegCNN epoch 2: train CE=1.21280; val CE=1.176298940918616
+random SmallSegCNN epoch 3: train CE=1.13610; val CE=1.027271234552778
+random DeepLabV3_ResNet18 epoch 1: train CE=0.95034; val CE=0.5854471511913552
+random DeepLabV3_ResNet18 epoch 2: train CE=0.61779; val CE=0.4137906792995156
+Bounded pilot finished; metrics saved. No full-corpus result is claimed.

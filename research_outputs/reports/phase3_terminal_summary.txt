@@ -1,0 +1,14 @@
+| Model | Random macro F1* | Geographic macro F1* | Δ random−geo | Geo Low F1 | Geo Moderate F1 | Geo High F1 |
+|---|---:|---:|---:|---:|---:|---:|
+| NDCI | 0.3762 | 0.4185 | -0.0423 | 0.8995 | 0.3560 | N/A |
+| NDVI | 0.3141 | 0.2599 | 0.0542 | 0.7718 | 0.0078 | N/A |
+| FAI | 0.3211 | 0.2781 | 0.0430 | 0.8302 | 0.0041 | N/A |
+| B8AB4 | 0.3207 | 0.2891 | 0.0316 | 0.8628 | 0.0046 | N/A |
+| B3B2 | 0.3302 | 0.4503 | -0.1201 | 0.8773 | 0.4736 | N/A |
+| LogisticRegression | 0.3279 | 0.3266 | 0.0013 | 0.9700 | 0.0097 | N/A |
+| RandomForest | 0.5166 | 0.3768 | 0.1398 | 0.9733 | 0.1571 | N/A |
+| SmallSegCNN | 0.1979 | 0.2676 | -0.0697 | 0.8029 | 0.0000 | N/A |
+| DeepLabV3_ResNet18 | 0.3261 | 0.3222 | 0.0039 | 0.9462 | 0.0203 | N/A |
+
+*Fixed three-class macro F1, undefined divisions scored zero. **Neither test set contains High reference pixels.** High recall/F1 is N/A, not measured zero. These scalars are pipeline diagnostics; they cannot establish three-class geographic generalization. Supported-class macro F1 and raw confusion matrices are in results JSON.
+

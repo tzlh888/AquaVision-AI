@@ -1,0 +1,26 @@
+{
+  "pilot_preservation": "PASS",
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "103",
+    "time": "1.988",
+    "timestamp": "2026-10-04T17:10:03.973772+02:00",
+    "hostname": "tangzedeMacBook-Pro.local"
+  },
+  "storage_allocated_KiB": {
+    ".": 1978100,
+    "data/metadata/phase3_5": 300760,
+    "data/raw/phase3_5_references": 301776,
+    "research_outputs/phase3_5": 70828,
+    "data/raw/phase3_5_pairs": 28800
+  },
+  "reference_transfer_charged_bytes": 48696346,
+  "reference_http_requests": 593,
+  "index_transfer_charged_bytes": 106709170,
+  "paired_transfer_charged_bytes": 21763564,
+  "category": "B \u2014 Partial evidence",
+  "status": "THREE-CLASS EVIDENCE STILL INSUFFICIENT"
+}

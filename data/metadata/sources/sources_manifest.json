@@ -1,0 +1,125 @@
+{
+  "upstream_commit": "e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37",
+  "sources": [
+    {
+      "filename": "zenodo_record.json",
+      "url": "https://zenodo.org/api/records/14230064",
+      "bytes": 5586,
+      "sha256": "0af19e8d9ee68c8e5e2ca9ba1f9e9be6b298502c775bfa08e0ee916c44c9afb6",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.697043+00:00"
+    },
+    {
+      "filename": "github_tree.json",
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/trees/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37?recursive=1",
+      "bytes": 11150,
+      "sha256": "f959da071b005d17c3039e479a25e1f88477ebea40f8b8eba18b2edcbf59965b",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.697484+00:00"
+    },
+    {
+      "filename": "paper.pdf",
+      "url": "https://elib.dlr.de/219745/1/Harmful_Cyanobacterial_Bloom_Detection_using_Deep_Learning_and_Sentinel-2_Imagery.pdf",
+      "bytes": 16014721,
+      "sha256": "71ec12cc3c7a01ba63703b9dbaacdd63f3273673ebda38d03aca14ef539289aa",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.710034+00:00"
+    },
+    {
+      "filename": "nasa_cyan.html",
+      "url": "https://oceancolor.gsfc.nasa.gov/about/projects/cyan/",
+      "bytes": 168526,
+      "sha256": "e1fd9d9b8d4367f70332f9f052cf1b3c6a2803597e405e99b70e153b59043efb",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.710546+00:00"
+    },
+    {
+      "filename": "upstream_code_README.md",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/README.md",
+      "bytes": 882,
+      "sha256": "1d5e5e5a90e48eaeb266709095f393dd6162a5b60cd92deeeef69b797738da79",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.710709+00:00"
+    },
+    {
+      "filename": "upstream_code_dataset_README.md",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/dataset/README.md",
+      "bytes": 550,
+      "sha256": "58b776bbed6f1880b9571fc29b50d5177b1b5c2f9f0b783344ca59e216b1937e",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.710843+00:00"
+    },
+    {
+      "filename": "upstream_code_constants.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/constants.py",
+      "bytes": 7819,
+      "sha256": "d940073f7a90795a0fa903e4f865bcd83757dc81c524c7c9f94fc977d30c9e26",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.710981+00:00"
+    },
+    {
+      "filename": "upstream_code_dataset_create_dataset.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/dataset/create_dataset.py",
+      "bytes": 9416,
+      "sha256": "2ad71d7be31f8dfd26dcc0f271d119b61bcf237d0def78151cca189a3c2b8350",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.711129+00:00"
+    },
+    {
+      "filename": "upstream_code_dataset_download_and_process.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/dataset/download_and_process.py",
+      "bytes": 21669,
+      "sha256": "d0ba0b7b4a026af95f50b3818fc9e2d1b5ce6c5d80f3d51f49ff30a143ae3909",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.711277+00:00"
+    },
+    {
+      "filename": "upstream_code_dataset_archive.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/dataset/archive.py",
+      "bytes": 2025,
+      "sha256": "ed3110d513ac69be04e9e4a5a58ea61bf14502825da97f6e084669c8908cef1f",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.711383+00:00"
+    },
+    {
+      "filename": "upstream_code_dataset_generate_tiles.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/dataset/generate_tiles.py",
+      "bytes": 8556,
+      "sha256": "b00da1fdcb3754e16cbb88d1504ef244ced53b4c2ffdd9eb9150c70ada5b455c",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.711514+00:00"
+    },
+    {
+      "filename": "upstream_code_dataset_helpers.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/dataset/helpers.py",
+      "bytes": 8202,
+      "sha256": "873f85b412f4a57b4ff15767067a3579936f88ee804f8dab6cb508bc331eae8c",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.711642+00:00"
+    },
+    {
+      "filename": "upstream_code_functions.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/functions.py",
+      "bytes": 3291,
+      "sha256": "d6afb74e54f67330587ac1db26508b99b701ab670572cfb6f934e10c2212bdc8",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.711764+00:00"
+    },
+    {
+      "filename": "upstream_code_run_model.py",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/code/run_model.py",
+      "bytes": 1353,
+      "sha256": "d9ba59e2a09759dcf9745107a71badf6efa1f6864dedae9f2acd7c53bc693eb7",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.711888+00:00"
+    },
+    {
+      "filename": "upstream_LICENSE",
+      "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "mode": "existing_snapshot_hashed",
+      "verified_at_utc": "2026-10-03T22:58:20.712015+00:00"
+    }
+  ]
+}

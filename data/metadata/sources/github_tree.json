@@ -1,0 +1,299 @@
+{
+  "sha": "e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37",
+  "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/trees/e24e311bdbcdb06c07e7bbe6e21433e69ff7cd37",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f927558a3dff0ea8c20858856e70779fd02c93",
+      "size": 3139,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/82f927558a3dff0ea8c20858856e70779fd02c93"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5639658cbcaf8ab83788dff8fc76ff51d690398",
+      "size": 123,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/e5639658cbcaf8ab83788dff8fc76ff51d690398"
+    },
+    {
+      "path": "code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e094cd99a4b4da7c601638b3440ac74750ae42b",
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/trees/6e094cd99a4b4da7c601638b3440ac74750ae42b"
+    },
+    {
+      "path": "code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caf6a569eca1cc7288ced481e41d95c00075409a",
+      "size": 882,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/caf6a569eca1cc7288ced481e41d95c00075409a"
+    },
+    {
+      "path": "code/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62abe0047d0dce0d2baedd34b1695331aa756d3",
+      "size": 7819,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/d62abe0047d0dce0d2baedd34b1695331aa756d3"
+    },
+    {
+      "path": "code/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7c5b6de9b6c5a49bd686f2586b5132e24b035b5",
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/trees/b7c5b6de9b6c5a49bd686f2586b5132e24b035b5"
+    },
+    {
+      "path": "code/dataset/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e866328d6fc9553053dad5b5c5c44fd4be551a20",
+      "size": 550,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/e866328d6fc9553053dad5b5c5c44fd4be551a20"
+    },
+    {
+      "path": "code/dataset/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "code/dataset/archive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68688844b9318b65d237301fefa8af08c1c67ee3",
+      "size": 2025,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/68688844b9318b65d237301fefa8af08c1c67ee3"
+    },
+    {
+      "path": "code/dataset/create_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "552444977f7dbbed0f0baac1fb4db8db4a874ecd",
+      "size": 9416,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/552444977f7dbbed0f0baac1fb4db8db4a874ecd"
+    },
+    {
+      "path": "code/dataset/download_and_process.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8eb1e26e1f6c0b4ba0f7295c45f9874ddc13491",
+      "size": 21669,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/d8eb1e26e1f6c0b4ba0f7295c45f9874ddc13491"
+    },
+    {
+      "path": "code/dataset/gdal_merge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaf07da9004862ddef911264ebd4e299c313e793",
+      "size": 19481,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/eaf07da9004862ddef911264ebd4e299c313e793"
+    },
+    {
+      "path": "code/dataset/generate_tiles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb088808bee1de6827a5507c29c4d31cac0922fb",
+      "size": 8556,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/bb088808bee1de6827a5507c29c4d31cac0922fb"
+    },
+    {
+      "path": "code/dataset/helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43ced3c3c140d3a5edd1325924596ee49abe01e9",
+      "size": 8202,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/43ced3c3c140d3a5edd1325924596ee49abe01e9"
+    },
+    {
+      "path": "code/dataset/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2dc731370e83285aa524a66bfe1097a847ddd827",
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/trees/2dc731370e83285aa524a66bfe1097a847ddd827"
+    },
+    {
+      "path": "code/dataset/images/6_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca54cb0181c9ee0b89f50c417d5b39b1637892a",
+      "size": 252209,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/3ca54cb0181c9ee0b89f50c417d5b39b1637892a"
+    },
+    {
+      "path": "code/dataset/images/6_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "263ae53bb08dd8c7f750fb9058ac4792c79521c8",
+      "size": 119670,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/263ae53bb08dd8c7f750fb9058ac4792c79521c8"
+    },
+    {
+      "path": "code/dataset/images/7_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "701786364a76e55c34aeb67700923be62d0b7532",
+      "size": 274244,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/701786364a76e55c34aeb67700923be62d0b7532"
+    },
+    {
+      "path": "code/dataset/images/7_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad07fcca65ef803b60bce6ddea6ea3ee70645e3d",
+      "size": 176289,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/ad07fcca65ef803b60bce6ddea6ea3ee70645e3d"
+    },
+    {
+      "path": "code/dataset/images/8_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14e19539fd8af6c34bcbc3d0ce9f26656fb54a5c",
+      "size": 135963,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/14e19539fd8af6c34bcbc3d0ce9f26656fb54a5c"
+    },
+    {
+      "path": "code/functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f895bfd3270db0eaaa9188b10f9c97470b594e8",
+      "size": 3291,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/8f895bfd3270db0eaaa9188b10f9c97470b594e8"
+    },
+    {
+      "path": "code/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b422723ad1d05c5b45e3445646e54e1b2d771e7f",
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/trees/b422723ad1d05c5b45e3445646e54e1b2d771e7f"
+    },
+    {
+      "path": "code/images/class_preds.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae9ab921280f3a777393e84a0ec72035f9644e5c",
+      "size": 77877,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/ae9ab921280f3a777393e84a0ec72035f9644e5c"
+    },
+    {
+      "path": "code/images/confusion_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "537ba12bab7a6bfbd39c42317c43e7cc4a59ccb8",
+      "size": 21069,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/537ba12bab7a6bfbd39c42317c43e7cc4a59ccb8"
+    },
+    {
+      "path": "code/images/erie_no_tile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a52da5fd50234cdafd98fead0bd71bbf13f21b",
+      "size": 431218,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/d2a52da5fd50234cdafd98fead0bd71bbf13f21b"
+    },
+    {
+      "path": "code/images/erie_tile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3caa19d7d3483ff1efe8195ee8b844b0a54bf780",
+      "size": 388941,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/3caa19d7d3483ff1efe8195ee8b844b0a54bf780"
+    },
+    {
+      "path": "code/images/greenbay_no_tile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f84a43586cf8c51e1a8d6f9c64eecc3c3003bbdf",
+      "size": 257109,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/f84a43586cf8c51e1a8d6f9c64eecc3c3003bbdf"
+    },
+    {
+      "path": "code/images/greenbay_tile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1508669732cd4737a781216e0275a8f1cae96adc",
+      "size": 281698,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/1508669732cd4737a781216e0275a8f1cae96adc"
+    },
+    {
+      "path": "code/images/loss.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b7aa6b2935c2c796f9600979bc39ad43a04218",
+      "size": 43534,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/15b7aa6b2935c2c796f9600979bc39ad43a04218"
+    },
+    {
+      "path": "code/images/winnebago_no_tile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ae08412a27e0c9f97318ca44dc049bf3f58874",
+      "size": 499754,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/92ae08412a27e0c9f97318ca44dc049bf3f58874"
+    },
+    {
+      "path": "code/images/winnebago_tile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b33ed58d629f1cebc6ab7d2c740da861ecbc8e80",
+      "size": 509099,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/b33ed58d629f1cebc6ab7d2c740da861ecbc8e80"
+    },
+    {
+      "path": "code/model.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f432862d46e60039f6dc4f63c84a2cc1a85cd685",
+      "size": 63819935,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/f432862d46e60039f6dc4f63c84a2cc1a85cd685"
+    },
+    {
+      "path": "code/pred.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4977b155356b47905a8ba538edf6b6d03a0fed6f",
+      "size": 200978,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/4977b155356b47905a8ba538edf6b6d03a0fed6f"
+    },
+    {
+      "path": "code/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "070874d59026cd8ab90ad74a2a673bc50129b168",
+      "size": 174,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/070874d59026cd8ab90ad74a2a673bc50129b168"
+    },
+    {
+      "path": "code/run_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "161e5f2107ffc9cbeff287fefcce43321a923158",
+      "size": 1353,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/161e5f2107ffc9cbeff287fefcce43321a923158"
+    },
+    {
+      "path": "code/winnebago_sen2.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d923610a84c7f44f33c7c941c482b09cdc7e7d5",
+      "size": 62353568,
+      "url": "https://api.github.com/repos/cschloer/hab_detection_s2/git/blobs/5d923610a84c7f44f33c7c941c482b09cdc7e7d5"
+    }
+  ],
+  "truncated": false
+}

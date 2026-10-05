@@ -1,0 +1,42 @@
+[
+  {
+    "path": "research_outputs/phase3_5/models_v2/DeepLabV3_ResNet18.pt",
+    "bytes": 63827269,
+    "sha256": "ac76376fd61e738edd38a55b5fbb3e24f2ffcc0697219df90ff56b5e6451851d"
+  },
+  {
+    "path": "research_outputs/phase3_5/models_v2/LogisticRegression.joblib",
+    "bytes": 2197,
+    "sha256": "3168d005e79cc59903a132ea23cb0197239c82b81b1ef40b844947a0608ff55e"
+  },
+  {
+    "path": "research_outputs/phase3_5/models_v2/RandomForest.joblib",
+    "bytes": 5254081,
+    "sha256": "bdb05bbf624c3b5d9d3b8f92783bd925f226ec04b2b845d3a57a2f670a5092ac"
+  },
+  {
+    "path": "research_outputs/phase3_5/models_v2/SmallSegCNN.pt",
+    "bytes": 54533,
+    "sha256": "c38c7da35d317fec2e27a6ac3c3abe63e98caa9c1b21598885f7a0e41287220c"
+  },
+  {
+    "path": "research_outputs/phase3_5/models_v2/normalization.json",
+    "bytes": 6182,
+    "sha256": "b057ce341d305e7466f65d39549fe595e9a24bd1653ba941b808ca1704d6f73c"
+  },
+  {
+    "path": "research_outputs/phase3_5/models_v2/results.json",
+    "bytes": 76969,
+    "sha256": "230b263794fc12f59a080ebb42dbcae824a3ca9456b1f2045b084fbaba58935a"
+  },
+  {
+    "path": "research_outputs/phase3_5/models_v2/run_contract.json",
+    "bytes": 3482,
+    "sha256": "7bcd6ada7e21db2f351e405c2283152f366d6ea87579364767e2e4b5c101c567"
+  },
+  {
+    "path": "research_outputs/phase3_5/models_v2/sampled_training_pixels.json",
+    "bytes": 2385032,
+    "sha256": "9c447a1bb1d13eb4fcb06c20c4846bbfdc7f4bd2a842267aa231565f8d8f23cf"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "DRAFT_NOT_EXECUTABLE_ON_CURRENT_METADATA",
+  "seed": 42,
+  "random_benchmark": {
+    "fractions": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "stratified": true,
+    "requires": "approved three-class labels and >=10 samples/class"
+  },
+  "geographic_experiment": {
+    "preference": "verified basin units with complete intersecting waterbody constraints",
+    "train_groups": null,
+    "validation_groups": null,
+    "test_groups": null,
+    "requires": [
+      "verified footprints",
+      "all intersecting waterbody IDs",
+      "cross-unit lake checks",
+      "sufficient class support",
+      "spatial buffers"
+    ]
+  },
+  "do_not_optimize_on_test_scores": true,
+  "same_eligibility_pool_for_comparisons": true,
+  "final_split_creation_allowed": false,
+  "current_sample_manifest_sha256": "30e2e4efb38ffb9b358c9c055e9f040616b98bd5cbb71a502ee01732254708ea"
+}

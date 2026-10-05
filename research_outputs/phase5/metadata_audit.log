@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "scripts/audit_final_release.py", line 164, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "scripts/audit_final_release.py", line 156, in main
+    audit={'mode':'full' if args.full else 'metadata-only','preservation':preservation(args.full),'metrics':metric_tables(),'documents':documents(),'claim_scan':claim_scan()}
+                                                                                                                                        ^^^^^^^^^^^
+  File "scripts/audit_final_release.py", line 95, in documents
+    assert (p.parent/target).exists(),(str(p),link);links+=1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('research_outputs/reports/FINAL_RELEASE_AUDIT.md', '../phase5/metadata_audit.json')

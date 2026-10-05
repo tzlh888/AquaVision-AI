@@ -1,0 +1,147 @@
+{
+  "core_figure_count": 10,
+  "figures": [
+    {
+      "name": "project_overview",
+      "title": "Research overview",
+      "source": [
+        "research_outputs/phase4/results.json",
+        "research_outputs/phase4/selection.json",
+        "data/metadata/phase3_5/split_support.csv"
+      ],
+      "caption": "Paired observations feed segmentation; CyAN is a separate reference source, not a laboratory target. The matched pilot and v2 are distinct experiments, not comparable Test pools.",
+      "png": "research_outputs/figures/project_overview.png",
+      "svg": "research_outputs/figures/project_overview.svg"
+    },
+    {
+      "name": "final_geographic_split",
+      "title": "Geographic split",
+      "source": [
+        "data/metadata/phase3_5/geographic_split_v2.json",
+        "data/metadata/phase3_5/reference_screening_plan.json"
+      ],
+      "caption": "Native CyAN author-grid positions. Gray parents are not selected into v2. Exact lake boundaries and cross-tile nonoverlap remain unverified.",
+      "png": "research_outputs/figures/final_geographic_split.png",
+      "svg": "research_outputs/figures/final_geographic_split.svg"
+    },
+    {
+      "name": "final_class_distribution",
+      "title": "Class distribution",
+      "source": [
+        "data/metadata/phase3_5/split_support.csv"
+      ],
+      "caption": "All valid pixels, not independent observations. Deliberate Test enrichment prevents natural-population precision or calibration claims.",
+      "png": "research_outputs/figures/final_class_distribution.png",
+      "svg": "research_outputs/figures/final_class_distribution.svg"
+    },
+    {
+      "name": "final_model_comparison",
+      "title": "Central model comparison",
+      "source": [
+        "research_outputs/phase4/results.json",
+        "research_outputs/phase4/selection.json"
+      ],
+      "caption": "Fixed model order, not ranked by Test. NDCI is selected despite zero validation High F1; the weighted CNN fails the class guard.",
+      "png": "research_outputs/figures/final_model_comparison.png",
+      "svg": "research_outputs/figures/final_model_comparison.svg"
+    },
+    {
+      "name": "final_regional_high_f1",
+      "title": "Per-region High F1",
+      "source": [
+        "research_outputs/phase4/results.json"
+      ],
+      "caption": "Three observed component scores; no pixel bootstrap and no population confidence intervals.",
+      "png": "research_outputs/figures/final_regional_high_f1.png",
+      "svg": "research_outputs/figures/final_regional_high_f1.svg"
+    },
+    {
+      "name": "final_segmentation_attribution",
+      "title": "Segmentation and attribution",
+      "source": [
+        "research_outputs/phase4/integrated_gradients.json",
+        "research_outputs/phase4/deep_weighted_test.npz",
+        "data/raw/phase3_5_pairs/6_2_X0650_Y0950_S050_2020_07_17_x320_y384_64x64_58_sen2.npy"
+      ],
+      "caption": "Phase4 maximum-High-support attribution case in the LR/CNN worst-High-F1 region: 6_2_X0650_Y0950_S050_2020_07_17_x320_y384_64x64_58. It was not selected for visual success. Target is fixed true-High-region mean High logit.",
+      "png": "research_outputs/figures/final_segmentation_attribution.png",
+      "svg": "research_outputs/figures/final_segmentation_attribution.svg"
+    },
+    {
+      "name": "final_calibration",
+      "title": "High-class calibration",
+      "source": [
+        "research_outputs/phase4/calibration.json",
+        "research_outputs/phase4/temperatures.json"
+      ],
+      "caption": "Fifteen equal-width bins; bottom panels show uncalibrated bin populations. Temperature uses Validation only and does not alter argmax. Pixel counts are correlated.",
+      "png": "research_outputs/figures/final_calibration.png",
+      "svg": "research_outputs/figures/final_calibration.svg"
+    },
+    {
+      "name": "final_robustness",
+      "title": "Robustness",
+      "source": [
+        "research_outputs/phase4/robustness_metrics.csv"
+      ],
+      "caption": "Twelve registered perturbations. Partial masking is artifact stress, not a cloud-physics model. Small deltas do not repair weak baseline performance.",
+      "png": "research_outputs/figures/final_robustness.png",
+      "svg": "research_outputs/figures/final_robustness.svg"
+    },
+    {
+      "name": "final_band_ablation",
+      "title": "Band ablation",
+      "source": [
+        "research_outputs/phase4/results.json",
+        "research_outputs/phase4/specifications.json"
+      ],
+      "caption": "All12 exceeds RGB in this run, but the 8-band variant has higher Macro F1. Single-seed two-epoch results do not establish a stable spectral advantage.",
+      "png": "research_outputs/figures/final_band_ablation.png",
+      "svg": "research_outputs/figures/final_band_ablation.svg"
+    },
+    {
+      "name": "final_failure_examples",
+      "title": "Failure examples",
+      "source": [
+        "research_outputs/phase4/error_examples.json",
+        "research_outputs/phase4/deep_weighted_test.npz"
+      ],
+      "caption": "Three existing Phase4 extreme diagnostic cases in the worst High-F1 region. The whole patch need not belong to the named category.",
+      "png": "research_outputs/figures/final_failure_examples.png",
+      "svg": "research_outputs/figures/final_failure_examples.svg"
+    }
+  ],
+  "attribution_sample_id": "6_2_X0650_Y0950_S050_2020_07_17_x320_y384_64x64_58",
+  "failure_examples": [
+    {
+      "region": "author_grid_component:6_2_X0650_Y0900_S050",
+      "category": "High_to_Moderate",
+      "selected": {
+        "sample_id": "6_2_X0650_Y0950_S050_2019_08_04_x576_y0_64x64_66",
+        "index": 80,
+        "count": 148,
+        "confidence": 0.7349068933106974
+      }
+    },
+    {
+      "region": "author_grid_component:6_2_X0650_Y0900_S050",
+      "category": "High_to_Low",
+      "selected": {
+        "sample_id": "6_2_X0650_Y0950_S050_2020_07_17_x320_y384_64x64_58",
+        "index": 90,
+        "count": 1708,
+        "confidence": 0.4843297214141788
+      }
+    },
+    {
+      "region": "author_grid_component:6_2_X0650_Y0900_S050",
+      "category": "false_High",
+      "selected": {
+        "sample_id": "6_2_X0650_Y0900_S050_2019_08_09_x448_y192_64x64_70",
+        "index": 63,
+        "count": 104,
+        "confidence": 0.7759978989391961
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "author_grid_component:6_2_X0500_Y1150_S050": {
+    "patch_month_total_variation": 0.4791666666666666,
+    "unique_dates": 14,
+    "years": {
+      "2019": 25,
+      "2020": 23
+    },
+    "months_observed": 7
+  },
+  "author_grid_component:6_2_X0650_Y0900_S050": {
+    "patch_month_total_variation": 0.6145833333333333,
+    "unique_dates": 27,
+    "years": {
+      "2019": 32,
+      "2020": 16
+    },
+    "months_observed": 10
+  },
+  "author_grid_component:7_5_X1800_Y1700_S050": {
+    "patch_month_total_variation": 0.33333333333333337,
+    "unique_dates": 14,
+    "years": {
+      "2019": 33,
+      "2020": 15
+    },
+    "months_observed": 6
+  }
+}

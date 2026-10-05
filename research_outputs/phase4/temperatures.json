@@ -1,0 +1,65 @@
+{
+  "ablation_compact_hab": {
+    "at_bound": false,
+    "fit_partition": "validation",
+    "temperature": 0.7578467959714035,
+    "validation_nll_after": 0.8563785922799708,
+    "validation_nll_before": 0.8680280984314909
+  },
+  "ablation_rgb": {
+    "at_bound": false,
+    "fit_partition": "validation",
+    "temperature": 0.9337106195251591,
+    "validation_nll_after": 0.9495655552457558,
+    "validation_nll_before": 0.950103763629851
+  },
+  "ablation_visible_rededge_nir": {
+    "at_bound": false,
+    "fit_partition": "validation",
+    "temperature": 0.8839871270115378,
+    "validation_nll_after": 0.8370922679630481,
+    "validation_nll_before": 0.8398489072780716
+  },
+  "baseline_DeepLabV3_ResNet18": {
+    "at_bound": false,
+    "fit_partition": "validation",
+    "temperature": 0.5465530902838911,
+    "validation_nll_after": 0.8419891125630996,
+    "validation_nll_before": 0.8896339034812835
+  },
+  "baseline_SmallSegCNN": {
+    "at_bound": true,
+    "fit_partition": "validation",
+    "temperature": 20.0,
+    "validation_nll_after": 1.10350488372038,
+    "validation_nll_before": 1.2006272171829524
+  },
+  "deep_focal": {
+    "at_bound": false,
+    "fit_partition": "validation",
+    "temperature": 0.30218295455018085,
+    "validation_nll_after": 0.8445280100801547,
+    "validation_nll_before": 0.9616519091248741
+  },
+  "deep_weighted": {
+    "at_bound": false,
+    "fit_partition": "validation",
+    "temperature": 1.0637976997743113,
+    "validation_nll_after": 0.9555888384759441,
+    "validation_nll_before": 0.9560412623891017
+  },
+  "small_focal": {
+    "at_bound": true,
+    "fit_partition": "validation",
+    "temperature": 20.0,
+    "validation_nll_after": 1.103474050383409,
+    "validation_nll_before": 1.1999652521903406
+  },
+  "small_weighted": {
+    "at_bound": true,
+    "fit_partition": "validation",
+    "temperature": 20.0,
+    "validation_nll_after": 1.1044061219338637,
+    "validation_nll_before": 1.2202488863248726
+  }
+}

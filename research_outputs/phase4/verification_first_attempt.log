@@ -1,0 +1,18 @@
+Reproduced ablation_compact_hab
+Reproduced ablation_rgb
+Reproduced ablation_visible_rededge_nir
+Reproduced baseline_B3B2
+Reproduced baseline_B8AB4
+Reproduced baseline_DeepLabV3_ResNet18
+Reproduced baseline_FAI
+Reproduced baseline_LogisticRegression
+Reproduced baseline_NDCI
+Reproduced baseline_NDVI
+Traceback (most recent call last):
+  File "scripts/verify_phase4.py", line 38, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "scripts/verify_phase4.py", line 28, in main
+    for k,v in cache.items():assert np.array_equal(v,saved[k]),(i,partition,k)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('baseline_RandomForest', 'validation', 'prob')

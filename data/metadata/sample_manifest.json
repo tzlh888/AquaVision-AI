@@ -1,0 +1,641 @@
+{
+  "created_utc": "2026-10-03T22:51:55.200360+00:00",
+  "python": "3.12.14",
+  "record_id": 14230064,
+  "doi": "10.5281/zenodo.14230064",
+  "config": {
+    "phase": 1,
+    "record_id": 14230064,
+    "record_url": "https://zenodo.org/api/records/14230064",
+    "archives": [
+      "dataset_train_6_2.zip",
+      "dataset_train_7_2.zip"
+    ],
+    "pairs_per_archive": 4,
+    "max_transfer_bytes": 16777216,
+    "max_member_bytes": 2000000,
+    "selection": "evenly_spaced_sorted_sample_ids_access_probe_only",
+    "reference": {
+      "units": "processed_cyan_digital_number",
+      "diagnostic_bin_edges": [
+        100,
+        200
+      ],
+      "cells_per_ml_conversion": "blocked_pending_verification",
+      "image_level_aggregation": "not_defined"
+    }
+  },
+  "selection_bias": "Deterministic access probe, not representative of regions or classes",
+  "archives": [
+    {
+      "name": "dataset_train_6_2.zip",
+      "url": "https://zenodo.org/api/records/14230064/files/dataset_train_6_2.zip/content",
+      "archive_size_bytes": 307193636,
+      "published_checksum": "md5:d6a0b3c3f31006378fcff1ccb572f290",
+      "full_archive_checksum_verified": false,
+      "index_summary": {
+        "file_members": 12686,
+        "paired_samples": 6343,
+        "unpaired_sample_ids": [],
+        "unrecognized_members": [],
+        "regions": [
+          "6_2"
+        ],
+        "candidate_spatial_groups": 6,
+        "date_min": "2019-01-04",
+        "date_max": "2020-11-09"
+      },
+      "requests": [
+        {
+          "start": 307193614,
+          "end": 307193635,
+          "bytes": 22,
+          "status": 206
+        },
+        {
+          "start": 307193594,
+          "end": 307193613,
+          "bytes": 20,
+          "status": 206
+        },
+        {
+          "start": 305514458,
+          "end": 307193613,
+          "bytes": 1679156,
+          "status": 206
+        },
+        {
+          "start": 61773923,
+          "end": 61773952,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 61773953,
+          "end": 61774012,
+          "bytes": 60,
+          "status": 206
+        },
+        {
+          "start": 61774041,
+          "end": 61812521,
+          "bytes": 38481,
+          "status": 206
+        },
+        {
+          "start": 107165847,
+          "end": 107165876,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 107165877,
+          "end": 107165936,
+          "bytes": 60,
+          "status": 206
+        },
+        {
+          "start": 107165965,
+          "end": 107166337,
+          "bytes": 373,
+          "status": 206
+        },
+        {
+          "start": 121285639,
+          "end": 121285668,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 121285669,
+          "end": 121285731,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 121285760,
+          "end": 121327302,
+          "bytes": 41543,
+          "status": 206
+        },
+        {
+          "start": 108419381,
+          "end": 108419410,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 108419411,
+          "end": 108419473,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 108419502,
+          "end": 108419601,
+          "bytes": 100,
+          "status": 206
+        },
+        {
+          "start": 195246565,
+          "end": 195246594,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 195246595,
+          "end": 195246657,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 195246686,
+          "end": 195283558,
+          "bytes": 36873,
+          "status": 206
+        },
+        {
+          "start": 166217637,
+          "end": 166217666,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 166217667,
+          "end": 166217729,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 166217758,
+          "end": 166217857,
+          "bytes": 100,
+          "status": 206
+        },
+        {
+          "start": 233347088,
+          "end": 233347117,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 233347118,
+          "end": 233347178,
+          "bytes": 61,
+          "status": 206
+        },
+        {
+          "start": 233347207,
+          "end": 233375436,
+          "bytes": 28230,
+          "status": 206
+        },
+        {
+          "start": 76524508,
+          "end": 76524537,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 76524538,
+          "end": 76524598,
+          "bytes": 61,
+          "status": 206
+        },
+        {
+          "start": 76524627,
+          "end": 76524726,
+          "bytes": 100,
+          "status": 206
+        }
+      ]
+    },
+    {
+      "name": "dataset_train_7_2.zip",
+      "url": "https://zenodo.org/api/records/14230064/files/dataset_train_7_2.zip/content",
+      "archive_size_bytes": 861960775,
+      "published_checksum": "md5:b4665e3a938993c65af2fc2c1279fa97",
+      "full_archive_checksum_verified": false,
+      "index_summary": {
+        "file_members": 36350,
+        "paired_samples": 18175,
+        "unpaired_sample_ids": [],
+        "unrecognized_members": [],
+        "regions": [
+          "7_2"
+        ],
+        "candidate_spatial_groups": 11,
+        "date_min": "2019-01-05",
+        "date_max": "2020-12-10"
+      },
+      "requests": [
+        {
+          "start": 861960753,
+          "end": 861960774,
+          "bytes": 22,
+          "status": 206
+        },
+        {
+          "start": 861960733,
+          "end": 861960752,
+          "bytes": 20,
+          "status": 206
+        },
+        {
+          "start": 857148607,
+          "end": 861960752,
+          "bytes": 4812146,
+          "status": 206
+        },
+        {
+          "start": 373414830,
+          "end": 373414859,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 373414860,
+          "end": 373414921,
+          "bytes": 62,
+          "status": 206
+        },
+        {
+          "start": 373414950,
+          "end": 373484307,
+          "bytes": 69358,
+          "status": 206
+        },
+        {
+          "start": 688913921,
+          "end": 688913950,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 688913951,
+          "end": 688914012,
+          "bytes": 62,
+          "status": 206
+        },
+        {
+          "start": 688914041,
+          "end": 688914191,
+          "bytes": 151,
+          "status": 206
+        },
+        {
+          "start": 290872878,
+          "end": 290872907,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 290872908,
+          "end": 290872970,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 290872999,
+          "end": 290899965,
+          "bytes": 26967,
+          "status": 206
+        },
+        {
+          "start": 675154417,
+          "end": 675154446,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 675154447,
+          "end": 675154509,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 675154538,
+          "end": 675154637,
+          "bytes": 100,
+          "status": 206
+        },
+        {
+          "start": 524778696,
+          "end": 524778725,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 524778726,
+          "end": 524778788,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 524778817,
+          "end": 524824893,
+          "bytes": 46077,
+          "status": 206
+        },
+        {
+          "start": 761306505,
+          "end": 761306534,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 761306535,
+          "end": 761306597,
+          "bytes": 63,
+          "status": 206
+        },
+        {
+          "start": 761306626,
+          "end": 761306725,
+          "bytes": 100,
+          "status": 206
+        },
+        {
+          "start": 36605226,
+          "end": 36605255,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 36605256,
+          "end": 36605316,
+          "bytes": 61,
+          "status": 206
+        },
+        {
+          "start": 36605345,
+          "end": 36664387,
+          "bytes": 59043,
+          "status": 206
+        },
+        {
+          "start": 559887883,
+          "end": 559887912,
+          "bytes": 30,
+          "status": 206
+        },
+        {
+          "start": 559887913,
+          "end": 559887973,
+          "bytes": 61,
+          "status": 206
+        },
+        {
+          "start": 559888002,
+          "end": 559889007,
+          "bytes": 1006,
+          "status": 206
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "region": "6_2",
+      "subtile_x": 650,
+      "subtile_y": 900,
+      "subtile_size": 50,
+      "year": 2019,
+      "month": 1,
+      "day": 4,
+      "patch_row": 0,
+      "patch_col": 320,
+      "height": 64,
+      "width": 64,
+      "sequence": 1,
+      "acquisition_date": "2019-01-04",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_01_04_x0_y320_64x64_1",
+      "spatial_group_candidate": "6_2_X0650_Y0900_S050",
+      "grid_position_candidate": "6_2_X0650_Y0900_S050_x0_y320",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "6_2/6_2_X0650_Y0900_S050_2019_01_04_x0_y320_64x64_1_sen2.npy",
+      "cyan_member": "6_2/6_2_X0650_Y0900_S050_2019_01_04_x0_y320_64x64_1_cyan.npy",
+      "archive": "dataset_train_6_2.zip",
+      "sen2_sha256": "8fcb7f6a591b712549e56181eb381ae8f967863ae290efc9e8ab9d7932a0b3c2",
+      "sen2_path": "data/raw/inspection/dataset_train_6_2/6_2_X0650_Y0900_S050_2019_01_04_x0_y320_64x64_1_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "4c636e09bbaeab2820ef4b3e62c09a5f63db39d23bc680e704304cfeadcf6535",
+      "cyan_path": "data/raw/inspection/dataset_train_6_2/6_2_X0650_Y0900_S050_2019_01_04_x0_y320_64x64_1_cyan.npy",
+      "cyan_bytes": 4224
+    },
+    {
+      "region": "6_2",
+      "subtile_x": 650,
+      "subtile_y": 900,
+      "subtile_size": 50,
+      "year": 2020,
+      "month": 6,
+      "day": 17,
+      "patch_row": 320,
+      "patch_col": 704,
+      "height": 64,
+      "width": 64,
+      "sequence": 57,
+      "acquisition_date": "2020-06-17",
+      "sample_id": "6_2_X0650_Y0900_S050_2020_06_17_x320_y704_64x64_57",
+      "spatial_group_candidate": "6_2_X0650_Y0900_S050",
+      "grid_position_candidate": "6_2_X0650_Y0900_S050_x320_y704",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "6_2/6_2_X0650_Y0900_S050_2020_06_17_x320_y704_64x64_57_sen2.npy",
+      "cyan_member": "6_2/6_2_X0650_Y0900_S050_2020_06_17_x320_y704_64x64_57_cyan.npy",
+      "archive": "dataset_train_6_2.zip",
+      "sen2_sha256": "f175ea4679b0f1e3ce50e2c110dd1a99885f6ac2dbd99db0f5e8a3f04b7d4f34",
+      "sen2_path": "data/raw/inspection/dataset_train_6_2/6_2_X0650_Y0900_S050_2020_06_17_x320_y704_64x64_57_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "cyan_path": "data/raw/inspection/dataset_train_6_2/6_2_X0650_Y0900_S050_2020_06_17_x320_y704_64x64_57_cyan.npy",
+      "cyan_bytes": 4224
+    },
+    {
+      "region": "6_2",
+      "subtile_x": 1800,
+      "subtile_y": 1050,
+      "subtile_size": 50,
+      "year": 2020,
+      "month": 7,
+      "day": 8,
+      "patch_row": 448,
+      "patch_col": 128,
+      "height": 64,
+      "width": 64,
+      "sequence": 70,
+      "acquisition_date": "2020-07-08",
+      "sample_id": "6_2_X1800_Y1050_S050_2020_07_08_x448_y128_64x64_70",
+      "spatial_group_candidate": "6_2_X1800_Y1050_S050",
+      "grid_position_candidate": "6_2_X1800_Y1050_S050_x448_y128",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "6_2/6_2_X1800_Y1050_S050_2020_07_08_x448_y128_64x64_70_sen2.npy",
+      "cyan_member": "6_2/6_2_X1800_Y1050_S050_2020_07_08_x448_y128_64x64_70_cyan.npy",
+      "archive": "dataset_train_6_2.zip",
+      "sen2_sha256": "216120066be6e69025ce7efb0fe6f97fb9b32bcf2adfb49b4b3a2e86aeb54fe5",
+      "sen2_path": "data/raw/inspection/dataset_train_6_2/6_2_X1800_Y1050_S050_2020_07_08_x448_y128_64x64_70_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "cyan_path": "data/raw/inspection/dataset_train_6_2/6_2_X1800_Y1050_S050_2020_07_08_x448_y128_64x64_70_cyan.npy",
+      "cyan_bytes": 4224
+    },
+    {
+      "region": "6_2",
+      "subtile_x": 1850,
+      "subtile_y": 1150,
+      "subtile_size": 50,
+      "year": 2020,
+      "month": 11,
+      "day": 8,
+      "patch_row": 64,
+      "patch_col": 64,
+      "height": 64,
+      "width": 64,
+      "sequence": 13,
+      "acquisition_date": "2020-11-08",
+      "sample_id": "6_2_X1850_Y1150_S050_2020_11_08_x64_y64_64x64_13",
+      "spatial_group_candidate": "6_2_X1850_Y1150_S050",
+      "grid_position_candidate": "6_2_X1850_Y1150_S050_x64_y64",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "6_2/6_2_X1850_Y1150_S050_2020_11_08_x64_y64_64x64_13_sen2.npy",
+      "cyan_member": "6_2/6_2_X1850_Y1150_S050_2020_11_08_x64_y64_64x64_13_cyan.npy",
+      "archive": "dataset_train_6_2.zip",
+      "sen2_sha256": "15cd4576ae86c2e559ef7d1bdae85f432d2ba19c49521055ee7ebd151a0a582f",
+      "sen2_path": "data/raw/inspection/dataset_train_6_2/6_2_X1850_Y1150_S050_2020_11_08_x64_y64_64x64_13_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "cyan_path": "data/raw/inspection/dataset_train_6_2/6_2_X1850_Y1150_S050_2020_11_08_x64_y64_64x64_13_cyan.npy",
+      "cyan_bytes": 4224
+    },
+    {
+      "region": "7_2",
+      "subtile_x": 0,
+      "subtile_y": 1750,
+      "subtile_size": 50,
+      "year": 2019,
+      "month": 2,
+      "day": 9,
+      "patch_row": 384,
+      "patch_col": 640,
+      "height": 64,
+      "width": 64,
+      "sequence": 1,
+      "acquisition_date": "2019-02-09",
+      "sample_id": "7_2_X0000_Y1750_S050_2019_02_09_x384_y640_64x64_1",
+      "spatial_group_candidate": "7_2_X0000_Y1750_S050",
+      "grid_position_candidate": "7_2_X0000_Y1750_S050_x384_y640",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "7_2/7_2_X0000_Y1750_S050_2019_02_09_x384_y640_64x64_1_sen2.npy",
+      "cyan_member": "7_2/7_2_X0000_Y1750_S050_2019_02_09_x384_y640_64x64_1_cyan.npy",
+      "archive": "dataset_train_7_2.zip",
+      "sen2_sha256": "8e13f2f74fe6880a95408e8c481a75f314a6150c0c4a842b582611878c4a3822",
+      "sen2_path": "data/raw/inspection/dataset_train_7_2/7_2_X0000_Y1750_S050_2019_02_09_x384_y640_64x64_1_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "4176d6c1154ee1a3261ee3e263c06b5be457d17877b8ec73ccd7932e87a85f31",
+      "cyan_path": "data/raw/inspection/dataset_train_7_2/7_2_X0000_Y1750_S050_2019_02_09_x384_y640_64x64_1_cyan.npy",
+      "cyan_bytes": 4224
+    },
+    {
+      "region": "7_2",
+      "subtile_x": 50,
+      "subtile_y": 1850,
+      "subtile_size": 50,
+      "year": 2020,
+      "month": 2,
+      "day": 19,
+      "patch_row": 192,
+      "patch_col": 640,
+      "height": 64,
+      "width": 64,
+      "sequence": 44,
+      "acquisition_date": "2020-02-19",
+      "sample_id": "7_2_X0050_Y1850_S050_2020_02_19_x192_y640_64x64_44",
+      "spatial_group_candidate": "7_2_X0050_Y1850_S050",
+      "grid_position_candidate": "7_2_X0050_Y1850_S050_x192_y640",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "7_2/7_2_X0050_Y1850_S050_2020_02_19_x192_y640_64x64_44_sen2.npy",
+      "cyan_member": "7_2/7_2_X0050_Y1850_S050_2020_02_19_x192_y640_64x64_44_cyan.npy",
+      "archive": "dataset_train_7_2.zip",
+      "sen2_sha256": "c2811ae58a6fe5580762aadd2a1fc31b9d016488333c601c2e8f7c3b3ab3f83e",
+      "sen2_path": "data/raw/inspection/dataset_train_7_2/7_2_X0050_Y1850_S050_2020_02_19_x192_y640_64x64_44_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "cyan_path": "data/raw/inspection/dataset_train_7_2/7_2_X0050_Y1850_S050_2020_02_19_x192_y640_64x64_44_cyan.npy",
+      "cyan_bytes": 4224
+    },
+    {
+      "region": "7_2",
+      "subtile_x": 100,
+      "subtile_y": 1900,
+      "subtile_size": 50,
+      "year": 2019,
+      "month": 8,
+      "day": 28,
+      "patch_row": 128,
+      "patch_col": 640,
+      "height": 64,
+      "width": 64,
+      "sequence": 33,
+      "acquisition_date": "2019-08-28",
+      "sample_id": "7_2_X0100_Y1900_S050_2019_08_28_x128_y640_64x64_33",
+      "spatial_group_candidate": "7_2_X0100_Y1900_S050",
+      "grid_position_candidate": "7_2_X0100_Y1900_S050_x128_y640",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "7_2/7_2_X0100_Y1900_S050_2019_08_28_x128_y640_64x64_33_sen2.npy",
+      "cyan_member": "7_2/7_2_X0100_Y1900_S050_2019_08_28_x128_y640_64x64_33_cyan.npy",
+      "archive": "dataset_train_7_2.zip",
+      "sen2_sha256": "c71797b6f7dfc471f013f80f1039183970540c10a400aeb696769af39246abd4",
+      "sen2_path": "data/raw/inspection/dataset_train_7_2/7_2_X0100_Y1900_S050_2019_08_28_x128_y640_64x64_33_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "cyan_path": "data/raw/inspection/dataset_train_7_2/7_2_X0100_Y1900_S050_2019_08_28_x128_y640_64x64_33_cyan.npy",
+      "cyan_bytes": 4224
+    },
+    {
+      "region": "7_2",
+      "subtile_x": 1050,
+      "subtile_y": 1550,
+      "subtile_size": 50,
+      "year": 2020,
+      "month": 10,
+      "day": 23,
+      "patch_row": 64,
+      "patch_col": 320,
+      "height": 64,
+      "width": 64,
+      "sequence": 7,
+      "acquisition_date": "2020-10-23",
+      "sample_id": "7_2_X1050_Y1550_S050_2020_10_23_x64_y320_64x64_7",
+      "spatial_group_candidate": "7_2_X1050_Y1550_S050",
+      "grid_position_candidate": "7_2_X1050_Y1550_S050_x64_y320",
+      "latitude": null,
+      "longitude": null,
+      "water_body_id": null,
+      "sen2_member": "7_2/7_2_X1050_Y1550_S050_2020_10_23_x64_y320_64x64_7_sen2.npy",
+      "cyan_member": "7_2/7_2_X1050_Y1550_S050_2020_10_23_x64_y320_64x64_7_cyan.npy",
+      "archive": "dataset_train_7_2.zip",
+      "sen2_sha256": "ee1c180255b0993f95b939be15bf9d5b0cc84c0b2d4492c4e68c9a8bc9911f47",
+      "sen2_path": "data/raw/inspection/dataset_train_7_2/7_2_X1050_Y1550_S050_2020_10_23_x64_y320_64x64_7_sen2.npy",
+      "sen2_bytes": 98432,
+      "cyan_sha256": "920c31d746e733302bf2125e61e2db7396e616b5276081cf4f5d2bfd0905fb43",
+      "cyan_path": "data/raw/inspection/dataset_train_7_2/7_2_X1050_Y1550_S050_2020_10_23_x64_y320_64x64_7_cyan.npy",
+      "cyan_bytes": 4224
+    }
+  ],
+  "range_transfer_bytes": 6841460,
+  "catalog_size_bytes": 5586
+}

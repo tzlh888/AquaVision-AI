@@ -1,0 +1,173 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6146319147298052,
+      "validation_unweighted_ce": 1.2261470938617196,
+      "validation": {
+        "confusion_matrix": [
+          [
+            0,
+            41,
+            117477
+          ],
+          [
+            0,
+            12,
+            25828
+          ],
+          [
+            0,
+            0,
+            931
+          ]
+        ],
+        "valid_pixels": 144289,
+        "accuracy": 0.0065354947362584815,
+        "macro_f1_fixed_three_zero_division": 0.004584499345252868,
+        "macro_f1_supported": 0.004584499345252868,
+        "all_three_classes_present": true,
+        "per_class": [
+          {
+            "class": "Low",
+            "support": 117518,
+            "predicted": 0,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "class": "Moderate",
+            "support": 25840,
+            "predicted": 53,
+            "precision": 0.22641509433962265,
+            "recall": 0.00046439628482972134,
+            "f1": 0.000926891437840343
+          },
+          {
+            "class": "High",
+            "support": 931,
+            "predicted": 144236,
+            "precision": 0.0064546992429074575,
+            "recall": 1.0,
+            "f1": 0.012826606597918259
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6016179245585895,
+      "validation_unweighted_ce": 1.2128605613125938,
+      "validation": {
+        "confusion_matrix": [
+          [
+            0,
+            201,
+            117317
+          ],
+          [
+            0,
+            151,
+            25689
+          ],
+          [
+            0,
+            5,
+            926
+          ]
+        ],
+        "valid_pixels": 144289,
+        "accuracy": 0.007464186459120238,
+        "macro_f1_fixed_three_zero_division": 0.008104176832085558,
+        "macro_f1_supported": 0.008104176832085558,
+        "all_three_classes_present": true,
+        "per_class": [
+          {
+            "class": "Low",
+            "support": 117518,
+            "predicted": 0,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "class": "Moderate",
+            "support": 25840,
+            "predicted": 357,
+            "precision": 0.42296918767507,
+            "recall": 0.0058436532507739935,
+            "f1": 0.011528037561552849
+          },
+          {
+            "class": "High",
+            "support": 931,
+            "predicted": 143932,
+            "precision": 0.006433593641441792,
+            "recall": 0.9946294307196563,
+            "f1": 0.012784492934703823
+          }
+        ]
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.589648403179543,
+      "validation_unweighted_ce": 1.1999652891385961,
+      "validation": {
+        "confusion_matrix": [
+          [
+            0,
+            622,
+            116896
+          ],
+          [
+            7,
+            503,
+            25330
+          ],
+          [
+            0,
+            27,
+            904
+          ]
+        ],
+        "valid_pixels": 144289,
+        "accuracy": 0.009751263090048444,
+        "macro_f1_fixed_three_zero_division": 0.016606847148869012,
+        "macro_f1_supported": 0.016606847148869012,
+        "all_three_classes_present": true,
+        "per_class": [
+          {
+            "class": "Low",
+            "support": 117518,
+            "predicted": 7,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "class": "Moderate",
+            "support": 25840,
+            "predicted": 1152,
+            "precision": 0.4366319444444444,
+            "recall": 0.019465944272445822,
+            "f1": 0.03727030231179609
+          },
+          {
+            "class": "High",
+            "support": 931,
+            "predicted": 143130,
+            "precision": 0.006315936561168169,
+            "recall": 0.9709989258861439,
+            "f1": 0.012550239134810948
+          }
+        ]
+      }
+    }
+  ],
+  "selected_epoch": 3,
+  "seconds": 0.8031148330046562,
+  "class_weights": null,
+  "completed_epochs": 3
+}

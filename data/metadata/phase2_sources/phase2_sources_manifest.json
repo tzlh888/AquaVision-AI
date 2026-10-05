@@ -1,0 +1,174 @@
+{
+  "snapshot_utc": "2026-10-04T09:46:40.238657+00:00",
+  "source_url_location": "access_manifest.json; literature_access_manifest.json; historical_zip_access.json; previous_tree.json and cited reports",
+  "files": [
+    {
+      "path": "data/metadata/phase2_sources/access_manifest.json",
+      "bytes": 3809,
+      "sha256": "1c4dfdf18293021245c9c734292750cfa8f418d88523c245d1eb45d0f497752d",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/author_commits",
+      "bytes": 10630,
+      "sha256": "2beb8c675fd0545350247b56249888994f408552745f0b87f50d404e4c944e38",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/author_root_history",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/crossref_paper",
+      "bytes": 5732,
+      "sha256": "28f5e8f49302ef7ea32abb19a949b05ac70a0aa29f4ee238dad86836de6bf732",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/cyan_tile_index",
+      "bytes": 919,
+      "sha256": "5c9e79639f2f38bd43dcb97b10999a438f27972351d92daf6da6ac23c13bc473",
+      "detected_format": "HTML"
+    },
+    {
+      "path": "data/metadata/phase2_sources/cyan_tile_index_canonical_error.html",
+      "bytes": 919,
+      "sha256": "061cd3ac858fb2b83a433baf267341aa68aa233a59156e29b20acaf776ca9499",
+      "detected_format": "HTML"
+    },
+    {
+      "path": "data/metadata/phase2_sources/frontiers_2023.html",
+      "bytes": 1576518,
+      "sha256": "1f17989f9c406adb2ede2286f0bbfe8a357088a3339468808fefe6be4bedf4cd",
+      "detected_format": "HTML"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_README.md",
+      "bytes": 882,
+      "sha256": "1d5e5e5a90e48eaeb266709095f393dd6162a5b60cd92deeeef69b797738da79",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_constants.py",
+      "bytes": 7819,
+      "sha256": "d940073f7a90795a0fa903e4f865bcd83757dc81c524c7c9f94fc977d30c9e26",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset__README.md",
+      "bytes": 550,
+      "sha256": "58b776bbed6f1880b9571fc29b50d5177b1b5c2f9f0b783344ca59e216b1937e",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset____init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset__archive.py",
+      "bytes": 2025,
+      "sha256": "ed3110d513ac69be04e9e4a5a58ea61bf14502825da97f6e084669c8908cef1f",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset__create_dataset.py",
+      "bytes": 9352,
+      "sha256": "26d8e2a463bd6bb776f9c38a84151736039f70cff77ff8d432dafa9d6a10bb6b",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset__download_and_process.py",
+      "bytes": 21669,
+      "sha256": "d0ba0b7b4a026af95f50b3818fc9e2d1b5ce6c5d80f3d51f49ff30a143ae3909",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset__gdal_merge.py",
+      "bytes": 19481,
+      "sha256": "2418037ccc4a97b349593620e929afd3368c0f11bce1c2cb5fbee06344d0dffe",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset__generate_tiles.py",
+      "bytes": 8556,
+      "sha256": "b00da1fdcb3754e16cbb88d1504ef244ced53b4c2ffdd9eb9150c70ada5b455c",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_dataset__helpers.py",
+      "bytes": 8202,
+      "sha256": "873f85b412f4a57b4ff15767067a3579936f88ee804f8dab6cb508bc331eae8c",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_functions.py",
+      "bytes": 3291,
+      "sha256": "d6afb74e54f67330587ac1db26508b99b701ab670572cfb6f934e10c2212bdc8",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_run_model.py",
+      "bytes": 1353,
+      "sha256": "d9ba59e2a09759dcf9745107a71badf6efa1f6864dedae9f2acd7c53bc693eb7",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_zip_access.json",
+      "bytes": 6378,
+      "sha256": "fcf1fae557844e9c5e16edae6c2bc2c06ec27db4c0506ff33b327f148671978b",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/historical_zip_index.json",
+      "bytes": 3296,
+      "sha256": "336541d3c648479ad59b00db58fc41a3eb3a762ed4fe71ba45b5a9e6d2cf304c",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/literature_access_manifest.json",
+      "bytes": 2559,
+      "sha256": "f4c68c5824d4d92d4b80722e736de83e9ce4939768433ab57c5ac559a66cc801",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/nasa_qa_redirect.html",
+      "bytes": 402779,
+      "sha256": "fac55807f18674ffca445db44d09a942a8228112dd689667edbcb88595e3872a",
+      "detected_format": "HTML"
+    },
+    {
+      "path": "data/metadata/phase2_sources/noaa_validation.pdf",
+      "bytes": 1765632,
+      "sha256": "f6bdb619d0d1feba1f642f6b5ee02e22c42336c1b5906c00db4390dfb935e214",
+      "detected_format": "PDF"
+    },
+    {
+      "path": "data/metadata/phase2_sources/noaa_validation.txt",
+      "bytes": 67649,
+      "sha256": "df3cb4d2d2b496ed20a635341be3334cabe098dd6721e261b4c728fef54ab112",
+      "detected_format": "text_or_json"
+    },
+    {
+      "path": "data/metadata/phase2_sources/original_cyan_2019004",
+      "bytes": 10778,
+      "sha256": "d6af3e434d45664d057bb2115a4d88f0d9b3c13b71427c9bbe0319cc6635b695",
+      "detected_format": "HTML"
+    },
+    {
+      "path": "data/metadata/phase2_sources/original_cyan_2020297",
+      "bytes": 9219,
+      "sha256": "d6c744d9c8a7f184d40f409be2edba9f9d9b76296c6d7676eadd20882737101a",
+      "detected_format": "HTML"
+    },
+    {
+      "path": "data/metadata/phase2_sources/previous_tree.json",
+      "bytes": 9259,
+      "sha256": "ba206bdd51846418869730571084712bbab2ff26fedd6058601f8108a4d25e48",
+      "detected_format": "text_or_json"
+    }
+  ]
+}

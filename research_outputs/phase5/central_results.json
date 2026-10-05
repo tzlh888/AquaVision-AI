@@ -1,0 +1,68 @@
+[
+  {
+    "experiment_id": "baseline_NDCI",
+    "Model": "NDCI",
+    "Validation Macro F1": 0.5751118579258218,
+    "Validation High F1": 0.0,
+    "Geographic Macro F1": 0.5184960249980755,
+    "Geographic High F1": 0.0006115896233627236,
+    "ECE": null,
+    "Robustness delta Macro F1": null,
+    "Selection Status": "Validation-selected; High failure"
+  },
+  {
+    "experiment_id": "baseline_LogisticRegression",
+    "Model": "Logistic Regression",
+    "Validation Macro F1": 0.5437002980174629,
+    "Validation High F1": 0.0,
+    "Geographic Macro F1": 0.6983118192371219,
+    "Geographic High F1": 0.5802643220526432,
+    "ECE": 0.07865499865036558,
+    "Robustness delta Macro F1": null,
+    "Selection Status": "Comparator; not selected"
+  },
+  {
+    "experiment_id": "baseline_RandomForest",
+    "Model": "Random Forest",
+    "Validation Macro F1": 0.44003426536185675,
+    "Validation High F1": 0.0,
+    "Geographic Macro F1": 0.4794160815417758,
+    "Geographic High F1": 0.0012168990238353482,
+    "ECE": 0.044151376265703306,
+    "Robustness delta Macro F1": null,
+    "Selection Status": "Comparator; not selected"
+  },
+  {
+    "experiment_id": "baseline_SmallSegCNN",
+    "Model": "SmallSegCNN",
+    "Validation Macro F1": 0.017484746750360804,
+    "Validation High F1": 0.012324408442289256,
+    "Geographic Macro F1": 0.06324980821921118,
+    "Geographic High F1": 0.16274138468344582,
+    "ECE": 0.26896244536310826,
+    "Robustness delta Macro F1": null,
+    "Selection Status": "Comparator; not selected"
+  },
+  {
+    "experiment_id": "baseline_DeepLabV3_ResNet18",
+    "Model": "DeepLabV3 / ResNet18",
+    "Validation Macro F1": 0.33432017225039096,
+    "Validation High F1": 0.07010217018420464,
+    "Geographic Macro F1": 0.3627458068112422,
+    "Geographic High F1": 0.27001525452837244,
+    "ECE": 0.15787447447262698,
+    "Robustness delta Macro F1": null,
+    "Selection Status": "Comparator; not selected"
+  },
+  {
+    "experiment_id": "deep_weighted",
+    "Model": "DeepLab + weighted CE",
+    "Validation Macro F1": 0.36758014767329444,
+    "Validation High F1": 0.0625305324865657,
+    "Geographic Macro F1": 0.4407120809305911,
+    "Geographic High F1": 0.35217771121926866,
+    "ECE": 0.113081790475455,
+    "Robustness delta Macro F1": -0.006445813635001907,
+    "Selection Status": "Diagnostic CNN; failed guard"
+  }
+]

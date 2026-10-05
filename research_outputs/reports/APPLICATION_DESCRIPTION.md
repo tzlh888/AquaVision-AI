@@ -1,0 +1,7 @@
+# AquaVision AI — Application Description
+
+I initially approached AquaVision as an image-classification project: use satellite imagery to assign cyanobacterial bloom-risk categories. Reading the source paper, author code, and reference-data documentation changed the design. The dataset supported pixel-level semantic segmentation with twelve Sentinel-2 bands and CyAN-derived discrete reference classes. An exact conversion of the processed references into cell concentrations was not justified, so I changed the target rather than preserving an unsupported assumption.
+
+The project then became an investigation of geographic generalization. An initial pilot lacked High-class test examples, which led me to audit reference support and freeze a new geographic benchmark. I compared spectral indices, classical models, and CNNs, then examined regional errors, class imbalance, confidence calibration, perturbations, and band subsets.
+
+The outcome was deliberately conservative. The validation protocol selected NDCI despite zero validation High F1, and no CNN met the predefined class-performance criterion. Logistic Regression achieved test High F1 of 0.5803, but choosing it afterward would compromise the evaluation. The main lesson was that an attractive predictive metric does not establish reliability at unseen locations. AquaVision's final contribution is a reproducible account of that distinction, including the negative results and the limits of satellite-derived references.

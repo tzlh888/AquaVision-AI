@@ -1,0 +1,3 @@
+# Phase 4 implementation notes
+
+The first reproduction pass detected last-bit differences when reloading RandomForest.predict_proba with its frozen n_jobs=2 setting. Tree probability addition order is parallel and can vary. The verifier now requires probability agreement at absolute tolerance 1e-12, rtol=0, for RF only, and records the actual maximum discrepancies. All class predictions and confusion matrices must still reproduce exactly; logits and other cached arrays remain exact comparisons. No trained model, prediction cache, selection rule, threshold, or frozen Phase 3.5 artifact was changed. This is a verification precision correction, not an experimental amendment. The original failed check is preserved as verification_first_attempt.log.

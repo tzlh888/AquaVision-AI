@@ -1,0 +1,297 @@
+{
+  "url": "https://raw.githubusercontent.com/cschloer/hab_detection_s2/66ea8048f94b5af9589f92e92e9e81194628b16b/code/hab_detection.zip",
+  "size": 103541869,
+  "requests": [
+    {
+      "start": 103541847,
+      "end": 103541868,
+      "bytes": 22,
+      "status": 206
+    },
+    {
+      "start": 103541827,
+      "end": 103541846,
+      "bytes": 20,
+      "status": 206
+    },
+    {
+      "start": 103538623,
+      "end": 103541846,
+      "bytes": 3224,
+      "status": 206
+    },
+    {
+      "start": 0,
+      "end": 29,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 30,
+      "end": 41,
+      "bytes": 12,
+      "status": 206
+    },
+    {
+      "start": 70,
+      "end": 1551,
+      "bytes": 1482,
+      "status": 206
+    },
+    {
+      "start": 1618,
+      "end": 1647,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 1648,
+      "end": 1664,
+      "bytes": 17,
+      "status": 206
+    },
+    {
+      "start": 1693,
+      "end": 2030,
+      "bytes": 338,
+      "status": 206
+    },
+    {
+      "start": 2031,
+      "end": 2060,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 2061,
+      "end": 2078,
+      "bytes": 18,
+      "status": 206
+    },
+    {
+      "start": 2107,
+      "end": 2907,
+      "bytes": 801,
+      "status": 206
+    },
+    {
+      "start": 2908,
+      "end": 2937,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 2938,
+      "end": 2962,
+      "bytes": 25,
+      "status": 206
+    },
+    {
+      "start": 2991,
+      "end": 5549,
+      "bytes": 2559,
+      "status": 206
+    },
+    {
+      "start": 5550,
+      "end": 5579,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 5580,
+      "end": 5598,
+      "bytes": 19,
+      "status": 206
+    },
+    {
+      "start": 5627,
+      "end": 5656,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 5657,
+      "end": 5681,
+      "bytes": 25,
+      "status": 206
+    },
+    {
+      "start": 5710,
+      "end": 7941,
+      "bytes": 2232,
+      "status": 206
+    },
+    {
+      "start": 7942,
+      "end": 7971,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 7972,
+      "end": 8002,
+      "bytes": 31,
+      "status": 206
+    },
+    {
+      "start": 8031,
+      "end": 13881,
+      "bytes": 5851,
+      "status": 206
+    },
+    {
+      "start": 948078,
+      "end": 948107,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 948108,
+      "end": 948128,
+      "bytes": 21,
+      "status": 206
+    },
+    {
+      "start": 948157,
+      "end": 953566,
+      "bytes": 5410,
+      "status": 206
+    },
+    {
+      "start": 953567,
+      "end": 953596,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 953597,
+      "end": 953614,
+      "bytes": 18,
+      "status": 206
+    },
+    {
+      "start": 953643,
+      "end": 955364,
+      "bytes": 1722,
+      "status": 206
+    },
+    {
+      "start": 955365,
+      "end": 955394,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 955395,
+      "end": 955406,
+      "bytes": 12,
+      "status": 206
+    },
+    {
+      "start": 955435,
+      "end": 956786,
+      "bytes": 1352,
+      "status": 206
+    },
+    {
+      "start": 63580623,
+      "end": 63580652,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 63580653,
+      "end": 63580661,
+      "bytes": 9,
+      "status": 206
+    },
+    {
+      "start": 63580690,
+      "end": 63581167,
+      "bytes": 478,
+      "status": 206
+    },
+    {
+      "start": 63581379,
+      "end": 63581408,
+      "bytes": 30,
+      "status": 206
+    },
+    {
+      "start": 63581409,
+      "end": 63581420,
+      "bytes": 12,
+      "status": 206
+    },
+    {
+      "start": 63581449,
+      "end": 63582060,
+      "bytes": 612,
+      "status": 206
+    }
+  ],
+  "transfer_bytes": 26682,
+  "members": [
+    {
+      "member": "constants.py",
+      "path": "data/metadata/phase2_sources/historical_constants.py",
+      "sha256": "d940073f7a90795a0fa903e4f865bcd83757dc81c524c7c9f94fc977d30c9e26"
+    },
+    {
+      "member": "dataset/README.md",
+      "path": "data/metadata/phase2_sources/historical_dataset__README.md",
+      "sha256": "58b776bbed6f1880b9571fc29b50d5177b1b5c2f9f0b783344ca59e216b1937e"
+    },
+    {
+      "member": "dataset/archive.py",
+      "path": "data/metadata/phase2_sources/historical_dataset__archive.py",
+      "sha256": "ed3110d513ac69be04e9e4a5a58ea61bf14502825da97f6e084669c8908cef1f"
+    },
+    {
+      "member": "dataset/generate_tiles.py",
+      "path": "data/metadata/phase2_sources/historical_dataset__generate_tiles.py",
+      "sha256": "b00da1fdcb3754e16cbb88d1504ef244ced53b4c2ffdd9eb9150c70ada5b455c"
+    },
+    {
+      "member": "dataset/__init__.py",
+      "path": "data/metadata/phase2_sources/historical_dataset____init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "member": "dataset/create_dataset.py",
+      "path": "data/metadata/phase2_sources/historical_dataset__create_dataset.py",
+      "sha256": "26d8e2a463bd6bb776f9c38a84151736039f70cff77ff8d432dafa9d6a10bb6b"
+    },
+    {
+      "member": "dataset/download_and_process.py",
+      "path": "data/metadata/phase2_sources/historical_dataset__download_and_process.py",
+      "sha256": "d0ba0b7b4a026af95f50b3818fc9e2d1b5ce6c5d80f3d51f49ff30a143ae3909"
+    },
+    {
+      "member": "dataset/gdal_merge.py",
+      "path": "data/metadata/phase2_sources/historical_dataset__gdal_merge.py",
+      "sha256": "2418037ccc4a97b349593620e929afd3368c0f11bce1c2cb5fbee06344d0dffe"
+    },
+    {
+      "member": "dataset/helpers.py",
+      "path": "data/metadata/phase2_sources/historical_dataset__helpers.py",
+      "sha256": "873f85b412f4a57b4ff15767067a3579936f88ee804f8dab6cb508bc331eae8c"
+    },
+    {
+      "member": "functions.py",
+      "path": "data/metadata/phase2_sources/historical_functions.py",
+      "sha256": "d6afb74e54f67330587ac1db26508b99b701ab670572cfb6f934e10c2212bdc8"
+    },
+    {
+      "member": "README.md",
+      "path": "data/metadata/phase2_sources/historical_README.md",
+      "sha256": "1d5e5e5a90e48eaeb266709095f393dd6162a5b60cd92deeeef69b797738da79"
+    },
+    {
+      "member": "run_model.py",
+      "path": "data/metadata/phase2_sources/historical_run_model.py",
+      "sha256": "d9ba59e2a09759dcf9745107a71badf6efa1f6864dedae9f2acd7c53bc693eb7"
+    }
+  ]
+}

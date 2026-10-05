@@ -1,0 +1,33 @@
+{
+  "config": {
+    "version": "phase3_5_v2",
+    "seed": 35042,
+    "task": "pixel_level_CyAN_reference_segmentation",
+    "ignore_index": -100,
+    "criteria": {
+      "test_high_components": 3,
+      "validation_high_components": 1,
+      "train_high_components": 2,
+      "test_source_tiles": 2,
+      "high_dates_per_component": 2,
+      "minimum_date_span_days": 30,
+      "high_patch_positions_per_component": 2,
+      "minimum_high_pixels_per_component": 100,
+      "all_three_classes_each_split": true
+    },
+    "budgets": {
+      "index_bytes": 201326592,
+      "reference_bytes": 67108864,
+      "max_reference_requests": 1200,
+      "max_new_reference_masks": 1024,
+      "paired_image_bytes": 67108864,
+      "max_new_pairs": 384,
+      "max_http_retries": 3
+    },
+    "no_model_score_selection": true,
+    "train_only_after_integrity_and_support_pass": true
+  },
+  "criteria_sha256": "7fa8824a4f0b39789496c312ca4ea87d5fc137e04d54e97e27bcd9dbcb70cd0d",
+  "config_sha256": "964da535abe9280168e0c1372e410db0574a9f02639b26d736d3588aab3d5491",
+  "pilot_preservation_manifest_sha256": "5bbb6ae2ae5733b50e21b6cf8cd38dd8fa69c87aa947d88c54ae6366d9015b5f"
+}

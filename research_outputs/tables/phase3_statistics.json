@@ -1,0 +1,138 @@
+{
+  "index_pairs": 24518,
+  "subtiles": 17,
+  "components": 4,
+  "dates": 106,
+  "sentinel_scenes": null,
+  "full_index_pixel_counts": null,
+  "pilot": {
+    "geographic": {
+      "train": {
+        "patches": 224,
+        "counts": [
+          723755,
+          47243,
+          928
+        ],
+        "valid_pixels": 771926,
+        "percent_valid_by_class": [
+          93.75963499091881,
+          6.120146231633602,
+          0.12021877744757917
+        ],
+        "ignored_pixels": 145578
+      },
+      "validation": {
+        "patches": 16,
+        "counts": [
+          27907,
+          9723,
+          8
+        ],
+        "valid_pixels": 37638,
+        "percent_valid_by_class": [
+          74.14581008555183,
+          25.832934799936236,
+          0.02125511451192943
+        ],
+        "ignored_pixels": 27898
+      },
+      "test": {
+        "patches": 32,
+        "counts": [
+          106496,
+          6339,
+          0
+        ],
+        "valid_pixels": 112835,
+        "percent_valid_by_class": [
+          94.38206230336331,
+          5.617937696636682,
+          0.0
+        ],
+        "ignored_pixels": 18237
+      },
+      "all": {
+        "patches": 272,
+        "counts": [
+          858158,
+          63305,
+          936
+        ],
+        "valid_pixels": 922399,
+        "percent_valid_by_class": [
+          93.03544344692482,
+          6.863082028493093,
+          0.10147452458209516
+        ],
+        "ignored_pixels": 191713
+      }
+    },
+    "random": {
+      "train": {
+        "patches": 217,
+        "counts": [
+          678778,
+          54968,
+          936
+        ],
+        "valid_pixels": 734682,
+        "percent_valid_by_class": [
+          92.3907214277742,
+          7.481876512559175,
+          0.1274020596666313
+        ],
+        "ignored_pixels": 154150
+      },
+      "validation": {
+        "patches": 27,
+        "counts": [
+          87501,
+          5924,
+          0
+        ],
+        "valid_pixels": 93425,
+        "percent_valid_by_class": [
+          93.65908482740166,
+          6.340915172598341,
+          0.0
+        ],
+        "ignored_pixels": 17167
+      },
+      "test": {
+        "patches": 28,
+        "counts": [
+          91879,
+          2413,
+          0
+        ],
+        "valid_pixels": 94292,
+        "percent_valid_by_class": [
+          97.44092818054554,
+          2.5590718194544606,
+          0.0
+        ],
+        "ignored_pixels": 20396
+      },
+      "all": {
+        "patches": 272,
+        "counts": [
+          858158,
+          63305,
+          936
+        ],
+        "valid_pixels": 922399,
+        "percent_valid_by_class": [
+          93.03544344692482,
+          6.863082028493093,
+          0.10147452458209516
+        ],
+        "ignored_pixels": 191713
+      }
+    }
+  },
+  "pilot_pairs": 272,
+  "author_reproduction_counts": {
+    "train": 24518
+  }
+}

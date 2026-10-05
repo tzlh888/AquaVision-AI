@@ -1,0 +1,5 @@
+group,sample_count,unique_dates,first_date,last_date,span_days,same_group_date_extra_samples,min_gap_days,median_gap_days,observed_dates_per_30_days
+candidate_component:6_2_X0650_Y0900_S050,3945,42,2019-01-04,2020-11-09,675,3903,2,10.0,1.863905325443787
+candidate_component:6_2_X1800_Y1050_S050,2398,21,2019-02-22,2020-11-08,625,2377,2,25.0,1.0063897763578276
+candidate_component:7_2_X0000_Y1750_S050,17893,35,2019-01-05,2020-12-10,705,17858,5,12.5,1.4872521246458923
+candidate_component:7_2_X1050_Y1550_S050,282,14,2019-04-22,2020-10-23,550,268,5,30.0,0.7622504537205081

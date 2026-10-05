@@ -1,0 +1,31 @@
+{
+  "same_training_pixels": true,
+  "training_counts": [
+    18260,
+    6224,
+    56
+  ],
+  "tree_depth_range": [
+    12,
+    12
+  ],
+  "total_leaves": 29728,
+  "total_high_majority_leaves": 377,
+  "bootstrap_high_count_range": [
+    41,
+    77
+  ],
+  "rf_parameters": {
+    "class_weight": null,
+    "max_depth": 12,
+    "min_samples_leaf": 2,
+    "n_estimators": 64,
+    "max_features": "sqrt"
+  },
+  "lr_parameters": {
+    "class_weight": null,
+    "C": 1.0,
+    "max_iter": 400,
+    "solver": "lbfgs"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "readiness": "NOT READY",
+  "real_pairs": 8,
+  "cached_index_pairs": 24518,
+  "unique_dates_in_cached_indices": 106,
+  "date_min": "2019-01-04",
+  "date_max": "2020-12-10",
+  "region_counts": {
+    "6_2": 6343,
+    "7_2": 18175
+  },
+  "temporal_summaries": {
+    "spatial_group_candidate": {
+      "groups": 17,
+      "groups_on_multiple_dates": 17,
+      "group_date_extra_samples": 24171
+    },
+    "grid_position_candidate": {
+      "groups": 1391,
+      "groups_on_multiple_dates": 1386,
+      "group_date_extra_samples": 0
+    },
+    "candidate_component_id": {
+      "groups": 4,
+      "groups_on_multiple_dates": 4,
+      "group_date_extra_samples": 24406
+    }
+  },
+  "candidate_component_sample_counts": {
+    "candidate_component:6_2_X0650_Y0900_S050": 3945,
+    "candidate_component:6_2_X1800_Y1050_S050": 2398,
+    "candidate_component:7_2_X0000_Y1750_S050": 17893,
+    "candidate_component:7_2_X1050_Y1550_S050": 282
+  },
+  "aggregation_disagreement_sample_ids": [
+    "7_2_X1050_Y1550_S050_2020_10_23_x64_y320_64x64_7"
+  ],
+  "coverage_scenario_pass_counts": {
+    "0.05": 8,
+    "0.5": 6,
+    "0.8": 5,
+    "0.95": 5
+  },
+  "verified_coordinate_samples": 0,
+  "verified_waterbody_samples": 0,
+  "cells_per_ml_estimates_produced": 0,
+  "final_risk_labels_produced": 0,
+  "final_split_files_produced": 0,
+  "models_trained": 0,
+  "full_dataset_distribution": "UNKNOWN; expansion gated on labels/geography",
+  "sample_manifest_sha256": "30e2e4efb38ffb9b358c9c055e9f040616b98bd5cbb71a502ee01732254708ea"
+}

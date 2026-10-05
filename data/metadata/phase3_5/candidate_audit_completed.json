@@ -1,0 +1,17 @@
+{
+  "candidate_gate": "PASS",
+  "reference_census_path": "data/metadata/phase3_5/reference_census_round2.csv",
+  "reference_census_sha256": "e12c7d4e9d307decd6164add4016c798d53b352eafc216e4e334ab4cc84e7e16",
+  "report_sha256": "1e9d7102d062c80db84ea9740e43699688623a350d09fc4ea90e66ee318209ec",
+  "criteria": {
+    "test_high_components": 3,
+    "validation_high_components": 1,
+    "train_high_components": 2,
+    "test_source_tiles": 2,
+    "high_dates_per_component": 2,
+    "minimum_date_span_days": 30,
+    "high_patch_positions_per_component": 2,
+    "minimum_high_pixels_per_component": 100,
+    "all_three_classes_each_split": true
+  }
+}

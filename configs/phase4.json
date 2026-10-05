@@ -1,0 +1,107 @@
+{
+  "experiment": "phase4_reliability_v1",
+  "seed": 42,
+  "baseline_config": "configs/phase3_pilot.json",
+  "split": "data/metadata/phase3_5/geographic_split_v2.json",
+  "selection": {
+    "primary": "validation_macro_f1",
+    "secondary": "validation_high_f1",
+    "low_f1_floor": 0.5,
+    "moderate_f1_floor": 0.25,
+    "no_eligible_cnn": "highest validation macro F1 diagnostic CNN; fails eligibility guard"
+  },
+  "class_weights": "N / (3 * class_count), exact existing uniform sample for classical; all valid train pixels for CNN",
+  "balanced_sampling": "24540 draws from SAME frozen sampled pool: 8180/class, replacement only where needed, seed42; effective unique support reported",
+  "focal_gamma": 2.0,
+  "checkpoint_selection": "minimum unweighted validation cross entropy, unchanged from Phase3.5",
+  "classical_variants": [
+    "lr_weighted",
+    "lr_balanced",
+    "rf_weighted",
+    "rf_balanced"
+  ],
+  "neural_variants": [
+    "small_weighted",
+    "small_focal",
+    "deep_weighted",
+    "deep_focal"
+  ],
+  "bands": {
+    "all12": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B09",
+      "B11",
+      "B12"
+    ],
+    "rgb": [
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "visible_rededge_nir": [
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A"
+    ],
+    "compact_hab": [
+      "B04",
+      "B05",
+      "B8A",
+      "B11"
+    ]
+  },
+  "ablation": "best validation-selected CNN same loss/architecture/epochs, inactive normalized channels zero during train/validation/test; not eligible for post-hoc winner selection",
+  "temperature": {
+    "fit": "validation only, all valid pixels",
+    "bounds": [
+      0.05,
+      20.0
+    ],
+    "objective": "multiclass NLL"
+  },
+  "ece_bins": 15,
+  "high_confidence_threshold": 0.8,
+  "perturbations": {
+    "brightness": [
+      1.05,
+      1.15
+    ],
+    "contrast": [
+      1.05,
+      1.15
+    ],
+    "noise": [
+      0.002,
+      0.005
+    ],
+    "blur": [
+      0.5,
+      1.0
+    ],
+    "resolution": [
+      48,
+      32
+    ],
+    "mask": [
+      0.05,
+      0.15
+    ]
+  },
+  "perturbation_notes": "input reflectance; common brightness/contrast gain, common noise field across bands; channelwise same spatial kernel; clamp [0,1.5] and log clipping; center square mask replaced by training mean (artifact stress, not cloud physics); labels fixed",
+  "uncertainty": "three-group ranges and leave-one-group-out pooled confusion; no pixel bootstrap or population CI",
+  "visualization": "per region/category choose patch with highest mean confidence on qualifying pixels; ties sample_id; report unavailable; error threshold0.8",
+  "explainability": "integrated gradients of mean High logit over fixed valid true-High pixels, one max-High-support patch/region; training-mean baseline, 32 and64-step trapezoid convergence check"
+}

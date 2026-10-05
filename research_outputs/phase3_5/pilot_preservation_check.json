@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "unchanged_pilot_artifacts": 42,
+  "files": [
+    {
+      "path": "configs/phase3_pilot.json",
+      "bytes": 663,
+      "sha256": "76d6fdb4745281d89ccd4a03e9b2fb7f059bec524748871faadd11c5de575c8c"
+    },
+    {
+      "path": "data/metadata/phase3/access_logs/20261004T100414812636.json",
+      "bytes": 19837,
+      "sha256": "7e066d5c61f4f35968a639d4174047969621b5c826ce55a37825516d65a3a4fa"
+    },
+    {
+      "path": "data/metadata/phase3/access_logs/20261004T100731563923.json",
+      "bytes": 44678,
+      "sha256": "5aafe43acc23c6e474bcdda2eeac5973b91845cacb820ba49f589a82fcd3e9f8"
+    },
+    {
+      "path": "data/metadata/phase3/frozen_plan.json",
+      "bytes": 5304886,
+      "sha256": "f98d291e69681a070d30ba0d3c497c89d072202e6f53c23c5a9257708aff4061"
+    },
+    {
+      "path": "data/metadata/phase3/index_geographic_split.csv",
+      "bytes": 2973389,
+      "sha256": "86584a00edbd5b6d3ed2adbcebb1c052ef02512883e6080596e8e175eaa7ba6f"
+    },
+    {
+      "path": "data/metadata/phase3/index_random_split.csv",
+      "bytes": 2985732,
+      "sha256": "4a46d49fb2fdc3086d554fed70950232e1b509ca1f86f1ad27fafe15bb767915"
+    },
+    {
+      "path": "data/metadata/phase3/pilot_geographic_split.csv",
+      "bytes": 33096,
+      "sha256": "3c13b5c8eef6a36da81273b5075540953bcaed4729aa0db4d8a73f259da187e1"
+    },
+    {
+      "path": "data/metadata/phase3/pilot_manifest.json",
+      "bytes": 461054,
+      "sha256": "5d4445a427e51f3aad6f49a6d87d4a4ac9f34754f922a5cc5791f7c462561fac"
+    },
+    {
+      "path": "data/metadata/phase3/pilot_random_split.csv",
+      "bytes": 33155,
+      "sha256": "d9166be4bebd92e8cd681a192d6dd878bde02fcccd8795e77a6b24df0eaa8bae"
+    },
+    {
+      "path": "requirements-phase3.txt",
+      "bytes": 969,
+      "sha256": "95684c29ab6f0ecfa2e43105c12f58d1701376444ab880d67dea126e11f1d122"
+    },
+    {
+      "path": "requirements-training.txt",
+      "bytes": 858,
+      "sha256": "fa29359c8ee4388953378662b83e3780dfb4939b405a26976f0a36947a4eb4c7"
+    },
+    {
+      "path": "research_outputs/figures/phase3_author_grid_split.png",
+      "bytes": 68608,
+      "sha256": "9d475b23426435b5fe1cc4a6ce6489a19e75887402589128df78cc6df060224d"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/artifact_manifest.json",
+      "bytes": 2939,
+      "sha256": "0a79516e46edc56ba0429dff3f5b06e18df8b711ced1bed3803d21e216ca2fab"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/geographic/DeepLabV3_ResNet18.pt",
+      "bytes": 63834885,
+      "sha256": "de4464d47090ce727e4b2f174642f56180a7aef65f3304a081434a4fbde6b999"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/geographic/LogisticRegression.joblib",
+      "bytes": 2197,
+      "sha256": "dcafb8a1cccaf3cd84910ba348e644f9975ec1c45633bdfc69759396c175dcfb"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/geographic/RandomForest.joblib",
+      "bytes": 3602145,
+      "sha256": "5fdda1e5baa8dddf149cb3acac90b98f8ca86bb6f4fe7f6b9fd788d01f532340"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/geographic/SmallSegCNN.pt",
+      "bytes": 62021,
+      "sha256": "0cfd05228c86da5b2b1036034ce0c5ba5321cf266c15be5d910997cd9538732a"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/geographic/normalization.json",
+      "bytes": 13521,
+      "sha256": "4037255f902c8588a3de6ed15d6c04bedd027bfb6f05458bb67672755cc15d41"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/geographic/results.json",
+      "bytes": 32791,
+      "sha256": "8ee9212120971e42719343ac77cd423d2032ebf305e0fc108aad200f5639db9e"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/geographic/sampled_training_pixels.json",
+      "bytes": 3180459,
+      "sha256": "0456e24fd14cb0e773953aac4ba9fe0d22cdf073f8ac35dcb157be1802e54e1f"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/random/DeepLabV3_ResNet18.pt",
+      "bytes": 63834437,
+      "sha256": "44a243d12bc24a74caeae992c4d7328e535d68531453ecdd6c34a4877f6473d9"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/random/LogisticRegression.joblib",
+      "bytes": 2197,
+      "sha256": "650387c65b78f6b4c82d18028ba8b0ca20b7672ee9f95ec6aec8f2beb0788ec6"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/random/RandomForest.joblib",
+      "bytes": 4259681,
+      "sha256": "6bea8d8ba6e946948e3d1cb50d22ae09fa41a9e74aa7355436ae569d4c7e0472"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/random/SmallSegCNN.pt",
+      "bytes": 61637,
+      "sha256": "0e76c37245da218b6e68bed1ce608c2b3f81c9e0b44e9712c51aad17571637fd"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/random/normalization.json",
+      "bytes": 13108,
+      "sha256": "c6e2a92b801283c2608f8dc02951814e194a9dab43cd8cc30a2219631fdeb1cd"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/random/results.json",
+      "bytes": 32262,
+      "sha256": "726f40f35703bbe6fc83e53524ed21e3ef7b59f68dca6edc61842a9efd331429"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/random/sampled_training_pixels.json",
+      "bytes": 3179469,
+      "sha256": "94c75d4ca69978c8820b9e96e5ead9411e7a7d0805ba48f8042cd2bc512efc3e"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/results.json",
+      "bytes": 70222,
+      "sha256": "6d6dbcebb8f74bfa8035a2f7a29b508898e2236a4826e9c52e3143a1de9d60f3"
+    },
+    {
+      "path": "research_outputs/phase3_pilot/run_contract.json",
+      "bytes": 3491,
+      "sha256": "abb5774c076fd964b27f89688e4b626b211ada8484f647a932f6140726f1ae38"
+    },
+    {
+      "path": "research_outputs/reports/ORIGINAL_PIPELINE_RECONSTRUCTION.md",
+      "bytes": 8219,
+      "sha256": "6b0c7352035813a52b16588d6aec65f984810b389e8eb3d4c6c96cc6f442d544"
+    },
+    {
+      "path": "research_outputs/reports/RANDOM_SPLIT_LEAKAGE_AUDIT.md",
+      "bytes": 2420,
+      "sha256": "ecef3555decda92262c57f04d2ff9eca129d46ed112a09a7b159195e8c035b4b"
+    },
+    {
+      "path": "research_outputs/reports/TRAINING_SUBSET_DECISION.md",
+      "bytes": 3157,
+      "sha256": "dd1e4e5fae9636d5a4bdc3881bcf5056b65ade7b7be89c9e83b9f1eeed410cbf"
+    },
+    {
+      "path": "research_outputs/reports/phase3_pytest_results.xml",
+      "bytes": 10594,
+      "sha256": "1cc3d09a22c1a4dd71b7410969a3a74bfa2a9cc929e9291023254894b4e02582"
+    },
+    {
+      "path": "research_outputs/reports/phase3_reproduction_check.json",
+      "bytes": 725,
+      "sha256": "d46f697c10f21bc06fc4dcc8eff72f99bf8705e6fb9820dfca20bff6d15e5669"
+    },
+    {
+      "path": "research_outputs/reports/phase3_terminal_summary.txt",
+      "bytes": 1070,
+      "sha256": "3c3856b7e2b36b0fee69f9ffe97c14cdbf79e121f433d38548c80253f379de10"
+    },
+    {
+      "path": "research_outputs/reports/phase3_training.log",
+      "bytes": 1075,
+      "sha256": "c4b3b297c1a97df200bf1b7a5021cc1ce7f3db2f9833edd2be81693e7c3f3e10"
+    },
+    {
+      "path": "research_outputs/reports/phase3_validation.json",
+      "bytes": 1819,
+      "sha256": "e2aa3599ce9b714fc2210cf96f482c548ac1e0304226f2bdcf29b054819a8561"
+    },
+    {
+      "path": "research_outputs/tables/phase3_leakage.json",
+      "bytes": 6839,
+      "sha256": "4af4e499b6ff0bc64b0c10fe50aa1eb5407bf4c97276e4862f7e939a02f58fcc"
+    },
+    {
+      "path": "research_outputs/tables/phase3_per_class_metrics.csv",
+      "bytes": 8773,
+      "sha256": "65d9db3e8ced1d3f3678bb970848fec3d767e193b6f5214ebb0e4a90c8d5eb44"
+    },
+    {
+      "path": "research_outputs/tables/phase3_pixel_audit.csv",
+      "bytes": 43978,
+      "sha256": "01e3bb6273f081fc57e61ce665da38fd1408daf75f6a036d708ccaa3ba1501be"
+    },
+    {
+      "path": "research_outputs/tables/phase3_statistics.json",
+      "bytes": 2857,
+      "sha256": "0d353bde4a3e712ca923de7c105d69a55dea1a57b8c910076955d50bb53f6181"
+    },
+    {
+      "path": "research_outputs/tables/random_vs_geographic_pilot.csv",
+      "bytes": 1683,
+      "sha256": "3fa0f842408594d8e94d9c52da0b7c906eaebfc82b7373be55746dfa45ecaee7"
+    }
+  ]
+}

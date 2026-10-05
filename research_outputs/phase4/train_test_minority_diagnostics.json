@@ -1,0 +1,302 @@
+{
+  "LogisticRegression": {
+    "training_resubstitution": {
+      "metrics": {
+        "confusion_matrix": [
+          [
+            17583,
+            677,
+            0
+          ],
+          [
+            2003,
+            4220,
+            1
+          ],
+          [
+            0,
+            56,
+            0
+          ]
+        ],
+        "valid_pixels": 24540,
+        "accuracy": 0.8884678076609617,
+        "macro_f1_fixed_three_zero_division": 0.5614362766016777,
+        "macro_f1_supported": 0.5614362766016777,
+        "all_three_classes_present": true,
+        "per_class": [
+          {
+            "class": "Low",
+            "support": 18260,
+            "predicted": 19586,
+            "precision": 0.8977330746451547,
+            "recall": 0.9629244249726178,
+            "f1": 0.9291867040109919,
+            "tp": 17583,
+            "fp": 2003,
+            "fn": 677,
+            "true_proportion": 0.7440912795436023,
+            "predicted_proportion": 0.7981255093724532
+          },
+          {
+            "class": "Moderate",
+            "support": 6224,
+            "predicted": 4953,
+            "precision": 0.8520088835049465,
+            "recall": 0.6780205655526992,
+            "f1": 0.7551221257940414,
+            "tp": 4220,
+            "fp": 733,
+            "fn": 2004,
+            "true_proportion": 0.25362673186634066,
+            "predicted_proportion": 0.20183374083129585
+          },
+          {
+            "class": "High",
+            "support": 56,
+            "predicted": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 1,
+            "fn": 56,
+            "true_proportion": 0.0022819885900570496,
+            "predicted_proportion": 4.0749796251018746e-05
+          }
+        ],
+        "macro_f1": 0.5614362766016777
+      },
+      "true_high_mean_probability": 0.11783259361982346,
+      "true_high_quantiles": [
+        0.012457916513085365,
+        0.03805970959365368,
+        0.3724156320095062
+      ]
+    },
+    "geographic_test": {
+      "metrics": {
+        "confusion_matrix": [
+          [
+            268910,
+            32704,
+            770
+          ],
+          [
+            16873,
+            58823,
+            12811
+          ],
+          [
+            1667,
+            15114,
+            20987
+          ]
+        ],
+        "valid_pixels": 428659,
+        "accuracy": 0.8135137720192507,
+        "macro_f1_fixed_three_zero_division": 0.6983118192371219,
+        "macro_f1_supported": 0.6983118192371219,
+        "all_three_classes_present": true,
+        "per_class": [
+          {
+            "class": "Low",
+            "support": 302384,
+            "predicted": 287450,
+            "precision": 0.9355018264045921,
+            "recall": 0.8892996983967406,
+            "f1": 0.9118158668371101,
+            "tp": 268910,
+            "fp": 18540,
+            "fn": 33474,
+            "true_proportion": 0.7054185261478237,
+            "predicted_proportion": 0.6705796448925603
+          },
+          {
+            "class": "Moderate",
+            "support": 88507,
+            "predicted": 106641,
+            "precision": 0.5515983533537757,
+            "recall": 0.6646140983199069,
+            "f1": 0.6028552688216123,
+            "tp": 58823,
+            "fp": 47818,
+            "fn": 29684,
+            "true_proportion": 0.20647414378328696,
+            "predicted_proportion": 0.24877816632801364
+          },
+          {
+            "class": "High",
+            "support": 37768,
+            "predicted": 34568,
+            "precision": 0.6071221939365887,
+            "recall": 0.5556820588858292,
+            "f1": 0.5802643220526432,
+            "tp": 20987,
+            "fp": 13581,
+            "fn": 16781,
+            "true_proportion": 0.08810733006888925,
+            "predicted_proportion": 0.08064218877942607
+          }
+        ],
+        "macro_f1": 0.6983118192371219
+      },
+      "true_high_mean_probability": 0.5483332276344299,
+      "true_high_quantiles": [
+        0.000348468340234831,
+        0.6738963723182678,
+        0.9990606069564819
+      ]
+    }
+  },
+  "RandomForest": {
+    "training_resubstitution": {
+      "metrics": {
+        "confusion_matrix": [
+          [
+            17945,
+            315,
+            0
+          ],
+          [
+            250,
+            5973,
+            1
+          ],
+          [
+            0,
+            33,
+            23
+          ]
+        ],
+        "valid_pixels": 24540,
+        "accuracy": 0.9755908720456398,
+        "macro_f1_fixed_three_zero_division": 0.8372511111054015,
+        "macro_f1_supported": 0.8372511111054015,
+        "all_three_classes_present": true,
+        "per_class": [
+          {
+            "class": "Low",
+            "support": 18260,
+            "predicted": 18195,
+            "precision": 0.9862599615278923,
+            "recall": 0.982749178532311,
+            "f1": 0.9845014401316692,
+            "tp": 17945,
+            "fp": 250,
+            "fn": 315,
+            "true_proportion": 0.7440912795436023,
+            "predicted_proportion": 0.741442542787286
+          },
+          {
+            "class": "Moderate",
+            "support": 6224,
+            "predicted": 6321,
+            "precision": 0.9449454200284765,
+            "recall": 0.959672236503856,
+            "f1": 0.9522518931845356,
+            "tp": 5973,
+            "fp": 348,
+            "fn": 251,
+            "true_proportion": 0.25362673186634066,
+            "predicted_proportion": 0.2575794621026895
+          },
+          {
+            "class": "High",
+            "support": 56,
+            "predicted": 24,
+            "precision": 0.9583333333333334,
+            "recall": 0.4107142857142857,
+            "f1": 0.575,
+            "tp": 23,
+            "fp": 1,
+            "fn": 33,
+            "true_proportion": 0.0022819885900570496,
+            "predicted_proportion": 0.0009779951100244498
+          }
+        ],
+        "macro_f1": 0.8372511111054015
+      },
+      "true_high_mean_probability": 0.4801120334564069,
+      "true_high_quantiles": [
+        0.18965004139777333,
+        0.44637546520776333,
+        0.8192251143426214
+      ]
+    },
+    "geographic_test": {
+      "metrics": {
+        "confusion_matrix": [
+          [
+            252472,
+            49912,
+            0
+          ],
+          [
+            20504,
+            67993,
+            10
+          ],
+          [
+            3096,
+            34649,
+            23
+          ]
+        ],
+        "valid_pixels": 428659,
+        "accuracy": 0.7476525629929618,
+        "macro_f1_fixed_three_zero_division": 0.4794160815417758,
+        "macro_f1_supported": 0.4794160815417758,
+        "all_three_classes_present": true,
+        "per_class": [
+          {
+            "class": "Low",
+            "support": 302384,
+            "predicted": 276072,
+            "precision": 0.9145150540438726,
+            "recall": 0.8349383565268004,
+            "f1": 0.8729168683529949,
+            "tp": 252472,
+            "fp": 23600,
+            "fn": 49912,
+            "true_proportion": 0.7054185261478237,
+            "predicted_proportion": 0.6440364018952127
+          },
+          {
+            "class": "Moderate",
+            "support": 88507,
+            "predicted": 152554,
+            "precision": 0.44569791680323034,
+            "recall": 0.7682217225756155,
+            "f1": 0.5641144772484973,
+            "tp": 67993,
+            "fp": 84561,
+            "fn": 20514,
+            "true_proportion": 0.20647414378328696,
+            "predicted_proportion": 0.3558866138352397
+          },
+          {
+            "class": "High",
+            "support": 37768,
+            "predicted": 33,
+            "precision": 0.696969696969697,
+            "recall": 0.0006089811480618513,
+            "f1": 0.0012168990238353482,
+            "tp": 23,
+            "fp": 10,
+            "fn": 37745,
+            "true_proportion": 0.08810733006888925,
+            "predicted_proportion": 7.69842695475891e-05
+          }
+        ],
+        "macro_f1": 0.4794160815417758
+      },
+      "true_high_mean_probability": 0.05657502253304621,
+      "true_high_quantiles": [
+        0.0,
+        0.032389074427480916,
+        0.14430156573498967
+      ]
+    }
+  }
+}

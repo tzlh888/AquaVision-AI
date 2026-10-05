@@ -1,0 +1,51 @@
+{
+  "cached_pool": {
+    "decoded_pairs": 24518,
+    "valid_pixels": 85603357,
+    "low_pixels": 80402329,
+    "moderate_pixels": 5101408,
+    "high_pixels": 99620,
+    "high_percent_valid": 0.11637394080234494,
+    "high_pairs": 123,
+    "high_components": 3,
+    "high_subtiles": 7,
+    "high_dates": 7,
+    "high_source_tiles": [
+      "6_2",
+      "7_2"
+    ]
+  },
+  "all_screened": {
+    "decoded_pairs": 32882,
+    "valid_pixels": 110458680,
+    "low_pixels": 100503490,
+    "moderate_pixels": 9806139,
+    "high_pixels": 149051,
+    "high_percent_valid": 0.13493824115949965,
+    "high_pairs": 178,
+    "high_components": 12,
+    "high_subtiles": 20,
+    "high_dates": 32,
+    "high_source_tiles": [
+      "6_2",
+      "6_5",
+      "7_2",
+      "7_5",
+      "8_3"
+    ]
+  },
+  "full_index_pairs": 404450,
+  "full_index_subtiles": 156,
+  "full_index_components": 38,
+  "uninspected_references": 371568,
+  "full_corpus_pixel_counts": "UNKNOWN outside decoded references",
+  "qualifying_components": [
+    "author_grid_component:6_2_X0500_Y1150_S050",
+    "author_grid_component:6_2_X0650_Y0900_S050",
+    "author_grid_component:7_5_X1300_Y0900_S050",
+    "author_grid_component:7_5_X1800_Y1700_S050",
+    "author_grid_component:8_3_X0350_Y1550_S050"
+  ],
+  "candidate_gate": "BLOCKED",
+  "reason": "Need 6 qualifying components; found 5"
+}

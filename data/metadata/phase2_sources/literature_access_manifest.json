@@ -1,0 +1,60 @@
+[
+  {
+    "name": "nasa_qa.pdf",
+    "url": "https://appliedsciences.nasa.gov/sites/default/files/2023-08/Water%20Quality%20Q%26A%20Part%202.pdf",
+    "retrieved_utc": "2026-10-04T09:32:44.296357+00:00",
+    "status": 200,
+    "final_url": "https://science.nasa.gov/earth-science/earth-action/",
+    "content_type": "text/html; charset=UTF-8",
+    "over_limit": false,
+    "bytes": 402779,
+    "sha256": "fac55807f18674ffca445db44d09a942a8228112dd689667edbcb88595e3872a",
+    "local_path": "nasa_qa_redirect.html"
+  },
+  {
+    "name": "california_cyan.pdf",
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/swamp/docs/2025/ca-satellite-tech-report-2025.pdf",
+    "retrieved_utc": "2026-10-04T09:32:45.277856+00:00",
+    "status": 200,
+    "final_url": "https://www.waterboards.ca.gov/water_issues/programs/swamp/docs/2025/ca-satellite-tech-report-2025.pdf",
+    "content_type": "application/pdf",
+    "over_limit": true,
+    "local_path": null
+  },
+  {
+    "name": "cyan_tile_index_canonical.zip",
+    "url": "https://www.earthdata.nasa.gov/s3fs-public/2026-01/CONUS_tiles_shapefile.zip",
+    "retrieved_utc": "2026-10-04T09:32:47.770854+00:00",
+    "status": 403,
+    "final_url": "https://www.earthdata.nasa.gov/s3fs-public/2026-01/CONUS_tiles_shapefile.zip",
+    "content_type": "text/html",
+    "over_limit": false,
+    "bytes": 919,
+    "sha256": "061cd3ac858fb2b83a433baf267341aa68aa233a59156e29b20acaf776ca9499",
+    "local_path": "cyan_tile_index_canonical_error.html"
+  },
+  {
+    "name": "frontiers_2023.html",
+    "url": "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1157609/full",
+    "retrieved_utc": "2026-10-04T09:32:47.834747+00:00",
+    "status": 200,
+    "final_url": "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1157609/full",
+    "content_type": "text/html;charset=utf-8",
+    "over_limit": false,
+    "bytes": 1576518,
+    "sha256": "1f17989f9c406adb2ede2286f0bbfe8a357088a3339468808fefe6be4bedf4cd",
+    "local_path": "frontiers_2023.html"
+  },
+  {
+    "name": "noaa_validation.pdf",
+    "url": "https://repository.library.noaa.gov/view/noaa/50665/noaa_50665_DS1.pdf",
+    "retrieved_utc": "2026-10-04T09:32:48.355966+00:00",
+    "status": 200,
+    "final_url": "https://repository.library.noaa.gov/view/noaa/50665/noaa_50665_DS1.pdf",
+    "content_type": "application/pdf",
+    "over_limit": false,
+    "bytes": 1765632,
+    "sha256": "f6bdb619d0d1feba1f642f6b5ee02e22c42336c1b5906c00db4390dfb935e214",
+    "local_path": "noaa_validation.pdf"
+  }
+]

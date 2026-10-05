@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-10-04T09:46:40.410081+00:00",
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "70",
+    "time": "0.257",
+    "timestamp": "2026-10-04T11:39:19.869998+02:00",
+    "hostname": "tangzedeMacBook-Pro.local"
+  },
+  "checks": {
+    "dependencies": {
+      "command": ".venv/bin/python -m pip check",
+      "exit_code": 0,
+      "stdout": "No broken requirements found."
+    },
+    "compile": {
+      "command": ".venv/bin/python -m compileall -q src scripts tests",
+      "exit_code": 0,
+      "stdout": ""
+    }
+  },
+  "real_data_audit": "scripts/validate_phase2.py completed; 8 original hashes verified; outputs phase2_summary.json"
+}

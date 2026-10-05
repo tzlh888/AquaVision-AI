@@ -1,0 +1,17 @@
+Regional/shift/LR-RF tables complete
+Calibration complete
+robustness brightness mild 0.4396
+robustness brightness moderate 0.4372
+robustness contrast mild 0.4375
+robustness contrast moderate 0.4343
+robustness noise mild 0.4408
+robustness noise moderate 0.442
+robustness blur mild 0.4474
+robustness blur moderate 0.4456
+robustness resolution mild 0.4462
+robustness resolution moderate 0.44
+robustness mask mild 0.4364
+robustness mask moderate 0.4357
+IG 6_2_X0500_Y1150 0.01746731674826372
+IG 6_2_X0650_Y0900 0.09491744268965373
+IG 7_5_X1800_Y1700 0.024924207191264244

@@ -1,0 +1,19 @@
+phase: 2
+seed: 42
+training_allowed: false
+reference_units: processed_cyan_digital_number
+native_bin_edges: [100, 200]
+aggregation_quantile: 0.9
+# All coverage values below are diagnostic sensitivity scenarios, not approved QC.
+coverage_scenarios: [0.05, 0.5, 0.8, 0.95]
+image_target_status: NOT_VALIDATED
+cells_per_ml_conversion: DISABLED
+requested_cell_risk_thresholds:
+  status: NOT_APPLICABLE_WITHOUT_VALIDATED_CONVERSION
+  moderate_min_inclusive: 20000
+  high_above_exclusive: 100000
+  # Desired convention puts exactly 100000 in Moderate, never silently in High.
+geography_status: NOT_VALIDATED
+candidate_grouping: connected_adjacent_parent_grids_within_cyan_tile
+approved_holdout_preference: verified_basin_with_whole_waterbody_constraints
+final_splits_allowed: false

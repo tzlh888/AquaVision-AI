@@ -1,0 +1,65 @@
+{
+  "scope": "Real access probe only; no training or evaluation",
+  "pairs": 8,
+  "image_shape": [
+    12,
+    64,
+    64
+  ],
+  "reference_shape": [
+    1,
+    64,
+    64
+  ],
+  "image_dtype": "uint16",
+  "reference_dtype": "uint8",
+  "band_order_source": "pinned upstream generate_all_bands; NPY itself has no band names",
+  "band_order": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B8A",
+    "B09",
+    "B11",
+    "B12"
+  ],
+  "regions": {
+    "6_2": 4,
+    "7_2": 4
+  },
+  "years": {
+    "2019": 3,
+    "2020": 5
+  },
+  "months": {
+    "01": 1,
+    "06": 1,
+    "07": 1,
+    "11": 1,
+    "02": 2,
+    "08": 1,
+    "10": 1
+  },
+  "total_reference_pixels": 32768,
+  "valid_reference_pixels": 25062,
+  "paper_bin_pixel_counts": [
+    24704,
+    358,
+    0
+  ],
+  "masked_pixels": 7706,
+  "land_flag_pixels": 0,
+  "invalid_reference_pixels": 0,
+  "image_nonfinite_values": 0,
+  "missing_coordinate_pairs": 8,
+  "missing_water_body_id_pairs": 8,
+  "image_level_risk_labels": "not_defined",
+  "cells_per_ml_conversion": "blocked",
+  "exact_image_duplicate_groups": [],
+  "geographic_map": "not_generated_missing_verified_coordinates"
+}

@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-03T23:00:01.090007+00:00",
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "37",
+    "time": "0.239",
+    "timestamp": "2026-10-04T00:57:55.106172+02:00",
+    "hostname": "tangzedeMacBook-Pro.local"
+  },
+  "checks": {
+    "dependency_check": {
+      "command": ".venv/bin/python -m pip check",
+      "exit_code": 0,
+      "stdout": "No broken requirements found."
+    },
+    "compileall": {
+      "command": ".venv/bin/python -m compileall -q src scripts tests",
+      "exit_code": 0,
+      "stdout": ""
+    }
+  },
+  "real_data_smoke_test": "prepare_data.py --download-sample; inspect_metadata.py; inspect_sample.py all completed with 8 real pairs; see manifests and sample_summary.json"
+}
