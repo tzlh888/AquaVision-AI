@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "purpose": "Document path-only sanitization performed during public release preparation without rewriting the original Phase 5 preservation manifest.",
+  "scientific_impact": "None. No dataset split, model, prediction, metric, seed, selection rule, or scientific conclusion changed.",
+  "files": {
+    "data/metadata/phase4/preservation_manifest.json": {
+      "before_sha256": "7400c2e1fe2201f5e71a2ec5630f1808f217ac7e4c37515288a40ee37049712e",
+      "after_sha256": "90d2b4a9b8b1e4e819a29b2bc7a4526d64ff829124d68485f9bf3604ffb81c62",
+      "change": "Updated three nested hashes to refer to the path-sanitized run contracts and Phase 1 status."
+    },
+    "requirements-phase3.txt": {
+      "before_sha256": "95684c29ab6f0ecfa2e43105c12f58d1701376444ab880d67dea126e11f1d122",
+      "after_sha256": "6ab8286b46e39a8cd9cbfbb6b717bfb874e990d81fd91d09c9cdded4314a2194",
+      "change": "Replaced a machine-specific editable-install path with -e ."
+    },
+    "research_outputs/phase3_5/models_v2/run_contract.json": {
+      "before_sha256": "7bcd6ada7e21db2f351e405c2283152f366d6ea87579364767e2e4b5c101c567",
+      "after_sha256": "44dd2422767e485ddeeb34bac10adb70b128271963e9e196d7fd8df814b9ce08",
+      "change": "Replaced one machine-specific source-path key with its repository-relative path; the recorded source hash is unchanged."
+    },
+    "research_outputs/phase3_pilot/run_contract.json": {
+      "before_sha256": "abb5774c076fd964b27f89688e4b626b211ada8484f647a932f6140726f1ae38",
+      "after_sha256": "657f2d7effbee916eecb3115a86b80e9170fcfb3a70e7a93614557ef392f9156",
+      "change": "Replaced one machine-specific source-path key with its repository-relative path; the recorded source hash is unchanged."
+    },
+    "research_outputs/phase4/run_contract.json": {
+      "before_sha256": "d32930f5e9ffa45510f982d5c9695d7a2984631362a19d5d76f9955e459c844d",
+      "after_sha256": "6317ae007c92b01fe62a7d56649febc4b4a06e75515cd5304c23390795ee53bd",
+      "change": "Replaced one machine-specific source-path key with its repository-relative path; the recorded source hash is unchanged."
+    },
+    "research_outputs/phase4/verification_first_attempt.log": {
+      "before_sha256": "4bc847464bd06bd02bda991985d47a78f667ef31b73107a9c0c7a87a5a93eef8",
+      "after_sha256": "65747cc6533a32e65420d9678dcc4fdb1d3ecb47260bbe6462d49c65c23a1674",
+      "change": "Replaced machine-specific traceback prefixes with repository-relative script paths."
+    },
+    "research_outputs/reports/PHASE_1_STATUS.md": {
+      "before_sha256": "5da59011b3cf57c4adec39ee30376302813ef2d45f44b3deae97beb23dfb63dd",
+      "after_sha256": "68020d955f0a6b3cf58a61f3d136d27bc3dba740efee1b88c47489b3c8aa4af6",
+      "change": "Replaced machine-specific workspace paths with neutral repository-relative wording."
+    }
+  }
+}

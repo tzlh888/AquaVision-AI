@@ -3,6 +3,16 @@
   "preservation": {
     "expected_files": 443,
     "checked_files": 443,
+    "original_hash_matches": 436,
+    "documented_public_release_path_sanitizations": [
+      "data/metadata/phase4/preservation_manifest.json",
+      "requirements-phase3.txt",
+      "research_outputs/phase3_5/models_v2/run_contract.json",
+      "research_outputs/phase3_pilot/run_contract.json",
+      "research_outputs/phase4/run_contract.json",
+      "research_outputs/phase4/verification_first_attempt.log",
+      "research_outputs/reports/PHASE_1_STATUS.md"
+    ],
     "changed_files": [],
     "unavailable_files": [],
     "complete_local_preservation": true,
@@ -56,20 +66,20 @@
     "canonical_numbered_sections": 19,
     "readme_provenance_records": 49,
     "core_figures": 10,
-    "public_local_links_verified": 143,
+    "public_local_links_verified": 146,
     "public_documents": 10
   },
   "claim_scan": {
-    "matched_lines": 85,
-    "matched_term_occurrences": 98,
+    "matched_lines": 84,
+    "matched_term_occurrences": 97,
     "scope_counts": {
+      "current public document": 14,
       "implementation/test/protocol text": 17,
       "frozen historical/scientific report": 43,
-      "current public document": 15,
       "historical overview": 3,
       "primary-source snapshot": 5,
-      "release provenance/audit": 1,
-      "saved provenance/experiment metadata": 1
+      "saved provenance/experiment metadata": 1,
+      "release provenance/audit": 1
     },
     "manual_review_required": "See FINAL_RELEASE_AUDIT.md; phrase occurrence alone is not a misleading claim."
   },

@@ -3,42 +3,49 @@
   "scope": "All repository-owned text including ignored source snapshots. Binary arrays/PDFs, Git internals, dependency environments and temporary generated work are excluded; cached extracted source text is included. This inventory excludes itself to avoid recursive copies.",
   "occurrences": [
     {
-      "path": "scripts/build_phase5_indexes.py",
-      "line": 33,
+      "path": "README.md",
+      "line": 5,
       "terms": [
-        "ground truth"
+        "reliable three-class geographic generalization"
       ],
-      "line_bytes": 571,
-      "line_sha256": "33e821a997edcc4dfded063b9899d451e9febc5a3469d550e9629beee935594a",
+      "line_bytes": 299,
+      "line_sha256": "600f6c3bc247dfeb6be1a2ce3891e43cf0f7b8472c4def774664d0919a54f5ab",
+      "contexts": [
+        {
+          "term": "reliable three-class geographic generalization",
+          "start_byte": 98,
+          "end_byte": 144,
+          "context": "**Final conclusion: LIMITED.** Predictive signal exists in the released CyAN-derived classes, but reliable three-class geographic generalization has not been demonstrated. The modeling phase is complete; this repository preserves the negative results and the evaluation decisions that produced them."
+        }
+      ],
+      "scope": "current public document",
+      "disposition": "Explicit limitation, research question, or qualified interpretation; manually reviewed in the release audit."
+    },
+    {
+      "path": "README.md",
+      "line": 25,
+      "terms": [
+        "ground truth",
+        "Cells/mL"
+      ],
+      "line_bytes": 382,
+      "line_sha256": "89b3f5a2df4fa851e614516634c73771f86d704c8aa1b30dbfb676cba9710b63",
       "contexts": [
         {
           "term": "ground truth",
-          "start_byte": 341,
-          "end_byte": 353,
-          "context": "rent project overview. Source snapshots under `data/metadata/sources/` and `data/metadata/phase2_sources/` may use terminology from their authors, including \u201cground truth\u201d; they are unedited primary-source evidence, not AquaVision claims of laboratory validation. The previous root README is retained at `data/metadata/phase5/RE"
-        }
-      ],
-      "scope": "implementation/test/protocol text",
-      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
-    },
-    {
-      "path": "scripts/build_phase5_indexes.py",
-      "line": 73,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 1110,
-      "line_sha256": "ef86cba9f57201f337b3b8e4b5e048412de46a1c61b1ded171f80079f0ad01bc",
-      "contexts": [
+          "start_byte": 211,
+          "end_byte": 223,
+          "context": "ap to Low, Moderate, and High. Flags 254/255 and invalid values use ignore index **\u2212100**. CyAN provides satellite-derived reference labels, **not laboratory ground truth**. Cells/mL conversion is disabled and is not the training target. Coarse source-reference resampling limits the meaning and independence of fine-grid labels."
+        },
         {
-          "term": "cells/mL",
-          "start_byte": 295,
-          "end_byte": 303,
-          "context": "on/data/labels.py','locator':'segmentation_target; boundary tests in tests/test_segmentation.py','review':'Verified implementation and existing boundary tests; cells/mL disabled'}, {'id':'band_shape','readme_snippet':'**12 \u00d7 64 \u00d7 64**','source':'src/aquavision/data/segmentation_dataset.py','locator':'training_normalization s"
+          "term": "Cells/mL",
+          "start_byte": 227,
+          "end_byte": 235,
+          "context": "ate, and High. Flags 254/255 and invalid values use ignore index **\u2212100**. CyAN provides satellite-derived reference labels, **not laboratory ground truth**. Cells/mL conversion is disabled and is not the training target. Coarse source-reference resampling limits the meaning and independence of fine-grid labels."
         }
       ],
-      "scope": "implementation/test/protocol text",
-      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+      "scope": "current public document",
+      "disposition": "Explicit limitation, research question, or qualified interpretation; manually reviewed in the release audit."
     },
     {
       "path": "src/aquavision/data/eda.py",
@@ -54,6 +61,44 @@
           "start_byte": 99,
           "end_byte": 107,
           "context": "- Paper-native bin pixel counts: `{counts.tolist()}`. These are **not** image-level risk counts or cells/mL thresholds."
+        }
+      ],
+      "scope": "implementation/test/protocol text",
+      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+    },
+    {
+      "path": "tests/test_labels.py",
+      "line": 1,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 76,
+      "line_sha256": "869925dc90152970e0d6c439f6410b07ec9fa22ebd763d96cf2a78c49deabba2",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 48,
+          "end_byte": 56,
+          "context": "\"\"\"Synthetic native-DN boundary and flag tests; cells/mL remains blocked.\"\"\""
+        }
+      ],
+      "scope": "implementation/test/protocol text",
+      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+    },
+    {
+      "path": "tests/test_labels.py",
+      "line": 41,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 52,
+      "line_sha256": "639599d9b1362718105f195bb9c4918739be2993ed9fe873f87622d15aca5b23",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 42,
+          "end_byte": 50,
+          "context": "inspect_reference([20000], units=\"cells/mL\")"
         }
       ],
       "scope": "implementation/test/protocol text",
@@ -79,73 +124,38 @@
       "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
     },
     {
-      "path": "scripts/audit_final_release.py",
-      "line": 14,
+      "path": "scripts/report_phase3.py",
+      "line": 99,
       "terms": [
-        "pollution detection",
-        "accurately generalizes",
-        "best model",
-        "state.of.the.art"
+        "Cells/mL"
       ],
-      "line_bytes": 164,
-      "line_sha256": "607bfe4099feca60ae69bf5951c30e994ab89f44c19c02d49845e096724dfb10",
+      "line_bytes": 341,
+      "line_sha256": "60538b2300949afe201478745af6d2ff558e23b075fd9c8a93c88d1bdabf9245",
       "contexts": [
         {
-          "term": "pollution detection",
-          "start_byte": 26,
-          "end_byte": 45,
-          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
-        },
-        {
-          "term": "accurately generalizes",
-          "start_byte": 46,
-          "end_byte": 68,
-          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
-        },
-        {
-          "term": "best model",
-          "start_byte": 136,
-          "end_byte": 146,
-          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
-        },
-        {
-          "term": "state.of.the.art",
-          "start_byte": 147,
-          "end_byte": 163,
-          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
+          "term": "Cells/mL",
+          "start_byte": 268,
+          "end_byte": 276,
+          "context": "te=1, 200\u2013253 to High=2. Ignore index is **-100** for 254, 255 and invalid numerical data. No mean, median, maximum or majority image target enters training. Cells/mL conversion stays disabled as optional scientific interpretation."
         }
       ],
       "scope": "implementation/test/protocol text",
       "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
     },
     {
-      "path": "scripts/audit_final_release.py",
-      "line": 99,
+      "path": "scripts/report_phase3.py",
+      "line": 174,
       "terms": [
-        "reliable three.class geographic generalization",
-        "state.of.the.art",
-        "accurately generalizes"
+        "Cells/mL"
       ],
-      "line_bytes": 195,
-      "line_sha256": "5898afe4734eb61713cf608883ae60c023610d5a65914ac6cae1b4de1be1d19c",
+      "line_bytes": 359,
+      "line_sha256": "8b25df5bca39112574c1331f206f1c7c81f7c6d62f829b3cce30093f023cb4d8",
       "contexts": [
         {
-          "term": "reliable three.class geographic generalization",
-          "start_byte": 79,
-          "end_byte": 125,
-          "context": "assert not re.search(r'(?i)the model generalizes successfully|achieves reliable three.class geographic generalization|state.of.the.art performance|accurately generalizes',p.read_text()),p"
-        },
-        {
-          "term": "state.of.the.art",
-          "start_byte": 126,
-          "end_byte": 142,
-          "context": "assert not re.search(r'(?i)the model generalizes successfully|achieves reliable three.class geographic generalization|state.of.the.art performance|accurately generalizes',p.read_text()),p"
-        },
-        {
-          "term": "accurately generalizes",
-          "start_byte": 155,
-          "end_byte": 177,
-          "context": "assert not re.search(r'(?i)the model generalizes successfully|achieves reliable three.class geographic generalization|state.of.the.art performance|accurately generalizes',p.read_text()),p"
+          "term": "Cells/mL",
+          "start_byte": 263,
+          "end_byte": 271,
+          "context": "cern the final evaluation: independent-region diversity, High-class held-out support, missing full reference census, convergence and repeated-seed uncertainty. Cells/mL conversion and image-level aggregation are **not** reinstated as training requirements."
         }
       ],
       "scope": "implementation/test/protocol text",
@@ -228,38 +238,57 @@
       "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
     },
     {
-      "path": "scripts/report_phase3.py",
-      "line": 99,
+      "path": "scripts/report_phase4.py",
+      "line": 32,
       "terms": [
-        "Cells/mL"
+        "ground truth"
       ],
-      "line_bytes": 341,
-      "line_sha256": "60538b2300949afe201478745af6d2ff558e23b075fd9c8a93c88d1bdabf9245",
+      "line_bytes": 723,
+      "line_sha256": "9c251974007bbceec52a2ab3dc49ebf94ed6048920341ae24dac78e1ae93d146",
       "contexts": [
         {
-          "term": "Cells/mL",
-          "start_byte": 268,
-          "end_byte": 276,
-          "context": "te=1, 200\u2013253 to High=2. Ignore index is **-100** for 254, 255 and invalid numerical data. No mean, median, maximum or majority image target enters training. Cells/mL conversion stays disabled as optional scientific interpretation."
+          "term": "ground truth",
+          "start_byte": 517,
+          "end_byte": 529,
+          "context": "kes or independent bloom episodes. References are processed/resampled CyAN DN classes, not in-situ cell counts, toxin measurements, or verified 20 m biological ground truth. Neural budgets remain only 3 epochs (SmallSegCNN) / 2 epochs (DeepLab), random initialization, one seed. These are controlled short-budget experiments, not co"
         }
       ],
       "scope": "implementation/test/protocol text",
       "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
     },
     {
-      "path": "scripts/report_phase3.py",
-      "line": 174,
+      "path": "scripts/report_phase4.py",
+      "line": 246,
       "terms": [
-        "Cells/mL"
+        "reliable three-class geographic generalization"
       ],
-      "line_bytes": 359,
-      "line_sha256": "8b25df5bca39112574c1331f206f1c7c81f7c6d62f829b3cce30093f023cb4d8",
+      "line_bytes": 96,
+      "line_sha256": "4017686b5191d07bc02362e032b88992d63f517dd76841494c327aba9eec9ad1",
       "contexts": [
         {
-          "term": "Cells/mL",
-          "start_byte": 263,
-          "end_byte": 271,
-          "context": "cern the final evaluation: independent-region diversity, High-class held-out support, missing full reference census, convergence and repeated-seed uncertainty. Cells/mL conversion and image-level aggregation are **not** reinstated as training requirements."
+          "term": "reliable three-class geographic generalization",
+          "start_byte": 47,
+          "end_byte": 93,
+          "context": "**Final scientific claim: LIMITED evidence for reliable three-class geographic generalization.**"
+        }
+      ],
+      "scope": "implementation/test/protocol text",
+      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+    },
+    {
+      "path": "scripts/report_phase4.py",
+      "line": 297,
+      "terms": [
+        "reliable three-class geographic generalization"
+      ],
+      "line_bytes": 451,
+      "line_sha256": "87e626020f94db026f69f8180d542b1b7b66902bc4413644eb17d0d8f9db982e",
+      "contexts": [
+        {
+          "term": "reliable three-class geographic generalization",
+          "start_byte": 64,
+          "end_byte": 110,
+          "context": "**Phase4 complete. Final scientific claim: LIMITED evidence for reliable three-class geographic generalization.** The project demonstrates partial predictive ability on CyAN-derived reference classes, but validation selection, minority behavior and confidence reliabilit"
         }
       ],
       "scope": "implementation/test/protocol text",
@@ -321,127 +350,6 @@
       ],
       "scope": "frozen historical/scientific report",
       "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
-      "path": "scripts/report_phase4.py",
-      "line": 32,
-      "terms": [
-        "ground truth"
-      ],
-      "line_bytes": 723,
-      "line_sha256": "9c251974007bbceec52a2ab3dc49ebf94ed6048920341ae24dac78e1ae93d146",
-      "contexts": [
-        {
-          "term": "ground truth",
-          "start_byte": 517,
-          "end_byte": 529,
-          "context": "kes or independent bloom episodes. References are processed/resampled CyAN DN classes, not in-situ cell counts, toxin measurements, or verified 20 m biological ground truth. Neural budgets remain only 3 epochs (SmallSegCNN) / 2 epochs (DeepLab), random initialization, one seed. These are controlled short-budget experiments, not co"
-        }
-      ],
-      "scope": "implementation/test/protocol text",
-      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
-    },
-    {
-      "path": "scripts/report_phase4.py",
-      "line": 246,
-      "terms": [
-        "reliable three-class geographic generalization"
-      ],
-      "line_bytes": 96,
-      "line_sha256": "4017686b5191d07bc02362e032b88992d63f517dd76841494c327aba9eec9ad1",
-      "contexts": [
-        {
-          "term": "reliable three-class geographic generalization",
-          "start_byte": 47,
-          "end_byte": 93,
-          "context": "**Final scientific claim: LIMITED evidence for reliable three-class geographic generalization.**"
-        }
-      ],
-      "scope": "implementation/test/protocol text",
-      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
-    },
-    {
-      "path": "scripts/report_phase4.py",
-      "line": 297,
-      "terms": [
-        "reliable three-class geographic generalization"
-      ],
-      "line_bytes": 451,
-      "line_sha256": "87e626020f94db026f69f8180d542b1b7b66902bc4413644eb17d0d8f9db982e",
-      "contexts": [
-        {
-          "term": "reliable three-class geographic generalization",
-          "start_byte": 64,
-          "end_byte": 110,
-          "context": "**Phase4 complete. Final scientific claim: LIMITED evidence for reliable three-class geographic generalization.** The project demonstrates partial predictive ability on CyAN-derived reference classes, but validation selection, minority behavior and confidence reliabilit"
-        }
-      ],
-      "scope": "implementation/test/protocol text",
-      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
-    },
-    {
-      "path": "README.md",
-      "line": 5,
-      "terms": [
-        "reliable three-class geographic generalization"
-      ],
-      "line_bytes": 299,
-      "line_sha256": "600f6c3bc247dfeb6be1a2ce3891e43cf0f7b8472c4def774664d0919a54f5ab",
-      "contexts": [
-        {
-          "term": "reliable three-class geographic generalization",
-          "start_byte": 98,
-          "end_byte": 144,
-          "context": "**Final conclusion: LIMITED.** Predictive signal exists in the released CyAN-derived classes, but reliable three-class geographic generalization has not been demonstrated. The modeling phase is complete; this repository preserves the negative results and the evaluation decisions that produced them."
-        }
-      ],
-      "scope": "current public document",
-      "disposition": "Explicit limitation, research question, or qualified interpretation; manually reviewed in the release audit."
-    },
-    {
-      "path": "README.md",
-      "line": 25,
-      "terms": [
-        "ground truth",
-        "Cells/mL"
-      ],
-      "line_bytes": 382,
-      "line_sha256": "89b3f5a2df4fa851e614516634c73771f86d704c8aa1b30dbfb676cba9710b63",
-      "contexts": [
-        {
-          "term": "ground truth",
-          "start_byte": 211,
-          "end_byte": 223,
-          "context": "ap to Low, Moderate, and High. Flags 254/255 and invalid values use ignore index **\u2212100**. CyAN provides satellite-derived reference labels, **not laboratory ground truth**. Cells/mL conversion is disabled and is not the training target. Coarse source-reference resampling limits the meaning and independence of fine-grid labels."
-        },
-        {
-          "term": "Cells/mL",
-          "start_byte": 227,
-          "end_byte": 235,
-          "context": "ate, and High. Flags 254/255 and invalid values use ignore index **\u2212100**. CyAN provides satellite-derived reference labels, **not laboratory ground truth**. Cells/mL conversion is disabled and is not the training target. Coarse source-reference resampling limits the meaning and independence of fine-grid labels."
-        }
-      ],
-      "scope": "current public document",
-      "disposition": "Explicit limitation, research question, or qualified interpretation; manually reviewed in the release audit."
-    },
-    {
-      "path": "README.md",
-      "line": 77,
-      "terms": [
-        "reliable three-class geographic generalization"
-      ],
-      "line_bytes": 528,
-      "line_sha256": "7b3a682c05cdf49471b61466abb16b938a8d736497a150a6996d67b444ff40bc",
-      "contexts": [
-        {
-          "term": "reliable three-class geographic generalization",
-          "start_byte": 481,
-          "end_byte": 527,
-          "context": "ts were not validated. Validation selection and test observations disagree. These findings support **LIMITED** evidence, not deployment readiness or a claim of reliable three-class geographic generalization."
-        }
-      ],
-      "scope": "current public document",
-      "disposition": "Explicit limitation, research question, or qualified interpretation; manually reviewed in the release audit."
     },
     {
       "path": "research_outputs/reports/ORIGINAL_PIPELINE_RECONSTRUCTION.md",
@@ -520,6 +428,44 @@
       "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
     },
     {
+      "path": "scripts/build_phase5_indexes.py",
+      "line": 33,
+      "terms": [
+        "ground truth"
+      ],
+      "line_bytes": 571,
+      "line_sha256": "33e821a997edcc4dfded063b9899d451e9febc5a3469d550e9629beee935594a",
+      "contexts": [
+        {
+          "term": "ground truth",
+          "start_byte": 341,
+          "end_byte": 353,
+          "context": "rent project overview. Source snapshots under `data/metadata/sources/` and `data/metadata/phase2_sources/` may use terminology from their authors, including \u201cground truth\u201d; they are unedited primary-source evidence, not AquaVision claims of laboratory validation. The previous root README is retained at `data/metadata/phase5/RE"
+        }
+      ],
+      "scope": "implementation/test/protocol text",
+      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+    },
+    {
+      "path": "scripts/build_phase5_indexes.py",
+      "line": 73,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 1110,
+      "line_sha256": "ef86cba9f57201f337b3b8e4b5e048412de46a1c61b1ded171f80079f0ad01bc",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 295,
+          "end_byte": 303,
+          "context": "on/data/labels.py','locator':'segmentation_target; boundary tests in tests/test_segmentation.py','review':'Verified implementation and existing boundary tests; cells/mL disabled'}, {'id':'band_shape','readme_snippet':'**12 \u00d7 64 \u00d7 64**','source':'src/aquavision/data/segmentation_dataset.py','locator':'training_normalization s"
+        }
+      ],
+      "scope": "implementation/test/protocol text",
+      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+    },
+    {
       "path": "research_outputs/reports/PORTFOLIO_SUMMARY.md",
       "line": 15,
       "terms": [
@@ -539,38 +485,19 @@
       "disposition": "Explicit limitation, research question, or qualified interpretation; manually reviewed in the release audit."
     },
     {
-      "path": "tests/test_labels.py",
-      "line": 1,
+      "path": "scripts/validate_phase2.py",
+      "line": 147,
       "terms": [
         "cells/mL"
       ],
-      "line_bytes": 76,
-      "line_sha256": "869925dc90152970e0d6c439f6410b07ec9fa22ebd763d96cf2a78c49deabba2",
+      "line_bytes": 142,
+      "line_sha256": "672d61d29dc215feec7ef2c2bda609f93b781dfb0b7238223f9b5ded0b5cfb37",
       "contexts": [
         {
           "term": "cells/mL",
-          "start_byte": 48,
-          "end_byte": 56,
-          "context": "\"\"\"Synthetic native-DN boundary and flag tests; cells/mL remains blocked.\"\"\""
-        }
-      ],
-      "scope": "implementation/test/protocol text",
-      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
-    },
-    {
-      "path": "tests/test_labels.py",
-      "line": 41,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 52,
-      "line_sha256": "639599d9b1362718105f195bb9c4918739be2993ed9fe873f87622d15aca5b23",
-      "contexts": [
-        {
-          "term": "cells/mL",
-          "start_byte": 42,
-          "end_byte": 50,
-          "context": "inspect_reference([20000], units=\"cells/mL\")"
+          "start_byte": 95,
+          "end_byte": 103,
+          "context": "ax.set_title(\"Eight real pairs: diagnostic aggregation sensitivity\\nGrey = unavailable; no cells/mL conversion or finalized image labels\")"
         }
       ],
       "scope": "implementation/test/protocol text",
@@ -596,23 +523,96 @@
       "disposition": "Explicit limitation, research question, or qualified interpretation; manually reviewed in the release audit."
     },
     {
-      "path": "scripts/validate_phase2.py",
-      "line": 147,
+      "path": "scripts/audit_final_release.py",
+      "line": 14,
       "terms": [
-        "cells/mL"
+        "pollution detection",
+        "accurately generalizes",
+        "best model",
+        "state.of.the.art"
       ],
-      "line_bytes": 142,
-      "line_sha256": "672d61d29dc215feec7ef2c2bda609f93b781dfb0b7238223f9b5ded0b5cfb37",
+      "line_bytes": 164,
+      "line_sha256": "607bfe4099feca60ae69bf5951c30e994ab89f44c19c02d49845e096724dfb10",
       "contexts": [
         {
-          "term": "cells/mL",
-          "start_byte": 95,
-          "end_byte": 103,
-          "context": "ax.set_title(\"Eight real pairs: diagnostic aggregation sensitivity\\nGrey = unavailable; no cells/mL conversion or finalized image labels\")"
+          "term": "pollution detection",
+          "start_byte": 26,
+          "end_byte": 45,
+          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
+        },
+        {
+          "term": "accurately generalizes",
+          "start_byte": 46,
+          "end_byte": 68,
+          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
+        },
+        {
+          "term": "best model",
+          "start_byte": 136,
+          "end_byte": 146,
+          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
+        },
+        {
+          "term": "state.of.the.art",
+          "start_byte": 147,
+          "end_byte": 163,
+          "context": "PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\\s*/\\s*ml|best model|state.of.the.art'"
         }
       ],
       "scope": "implementation/test/protocol text",
       "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+    },
+    {
+      "path": "scripts/audit_final_release.py",
+      "line": 102,
+      "terms": [
+        "reliable three.class geographic generalization",
+        "state.of.the.art",
+        "accurately generalizes"
+      ],
+      "line_bytes": 195,
+      "line_sha256": "5898afe4734eb61713cf608883ae60c023610d5a65914ac6cae1b4de1be1d19c",
+      "contexts": [
+        {
+          "term": "reliable three.class geographic generalization",
+          "start_byte": 79,
+          "end_byte": 125,
+          "context": "assert not re.search(r'(?i)the model generalizes successfully|achieves reliable three.class geographic generalization|state.of.the.art performance|accurately generalizes',p.read_text()),p"
+        },
+        {
+          "term": "state.of.the.art",
+          "start_byte": 126,
+          "end_byte": 142,
+          "context": "assert not re.search(r'(?i)the model generalizes successfully|achieves reliable three.class geographic generalization|state.of.the.art performance|accurately generalizes',p.read_text()),p"
+        },
+        {
+          "term": "accurately generalizes",
+          "start_byte": 155,
+          "end_byte": 177,
+          "context": "assert not re.search(r'(?i)the model generalizes successfully|achieves reliable three.class geographic generalization|state.of.the.art performance|accurately generalizes',p.read_text()),p"
+        }
+      ],
+      "scope": "implementation/test/protocol text",
+      "disposition": "Terms are validation refusals, test fixtures, search patterns or historical report templates; not positive final claims."
+    },
+    {
+      "path": "research_outputs/reports/PHASE_3_5_STATUS.md",
+      "line": 148,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 134,
+      "line_sha256": "75e929898349be272242da5a6be73b779aa0bac9abab01c16301ea877cd04b42",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 109,
+          "end_byte": 117,
+          "context": "- Source masking/no-data discrepancies and remote-sensing label uncertainty persist; no direct laboratory or cells/mL claims are made."
+        }
+      ],
+      "scope": "frozen historical/scientific report",
+      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
     },
     {
       "path": "research_outputs/reports/RESEARCH_RESULTS.md",
@@ -729,82 +729,6 @@
       "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
     },
     {
-      "path": "research_outputs/reports/DATASET_AUDIT.md",
-      "line": 62,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 300,
-      "line_sha256": "2c82a2e92f9b58c7805c8b5a1a49eaf596c98ca07a2b6059e1d4d9c5c8c275b0",
-      "contexts": [
-        {
-          "term": "cells/mL",
-          "start_byte": 174,
-          "end_byte": 182,
-          "context": "l-product DN guide distinguishes 0 (below detection), 1-253 (data), 254 (land), and 255 (no data, including cloud). Zero must not be interpreted as proven zero cells/mL. The author pipeline remaps/masks land and cloud into 255; postprocessed 255 does not identify the missingness cause."
-        }
-      ],
-      "scope": "frozen historical/scientific report",
-      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
-      "path": "research_outputs/reports/DATASET_AUDIT.md",
-      "line": 68,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 691,
-      "line_sha256": "c3b81bfca850e2f79a48b00a3742e1a01afe112c56298eb63e3b1178bdb3be95",
-      "contexts": [
-        {
-          "term": "cells/mL",
-          "start_byte": 74,
-          "end_byte": 82,
-          "context": "This is a documented original-product index formula, **not an implemented cells/mL conversion for this archive**. It does not establish the provenance/version of the daily GeoTIFFs used for the deposit, recover removed flags, or undo bilinear"
-        }
-      ],
-      "scope": "frozen historical/scientific report",
-      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
-      "path": "research_outputs/reports/DATASET_AUDIT.md",
-      "line": 70,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 436,
-      "line_sha256": "cc93b72dfa9896c6f3e7982de9b69642b1af02a64feeca805052d02ed74a7b06",
-      "contexts": [
-        {
-          "term": "cells/mL",
-          "start_byte": 148,
-          "end_byte": 156,
-          "context": "The paper uses pixel bins **0-99, 100-199, 200-253**. These are not automatically equivalent to the requested **<20,000 / 20,000-100,000 / >100,000 cells/mL** thresholds. Phase 1 only reports those native bins, clearly named `Paper DN bin ...`; it does not assign Low/Moderate/High image-level risk. Flags and invali"
-        }
-      ],
-      "scope": "frozen historical/scientific report",
-      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
-      "path": "research_outputs/reports/DATASET_AUDIT.md",
-      "line": 92,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 343,
-      "line_sha256": "d948f073b2afc8de9d4abf79033dc9ad573d5e5ff81d4101a6213cb73122a1f7",
-      "contexts": [
-        {
-          "term": "cells/mL",
-          "start_byte": 21,
-          "end_byte": 29,
-          "context": "| Can exact 20k/100k cells/mL categories be defended for the processed DN? | Defines the scientific target | Original CyAN product version, calibration source, encoding/flag treatment, inte"
-        }
-      ],
-      "scope": "frozen historical/scientific report",
-      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
       "path": "research_outputs/reports/LABEL_PROVENANCE.md",
       "line": 19,
       "terms": [
@@ -900,19 +824,76 @@
       "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
     },
     {
-      "path": "research_outputs/reports/IMAGE_LABEL_DEFINITION.md",
-      "line": 20,
+      "path": "research_outputs/reports/DATASET_AUDIT.md",
+      "line": 62,
       "terms": [
         "cells/mL"
       ],
-      "line_bytes": 317,
-      "line_sha256": "4257556b3ea9ab4d669210957907da575df23e1142ebfb4915008d5b64c82a70",
+      "line_bytes": 300,
+      "line_sha256": "2c82a2e92f9b58c7805c8b5a1a49eaf596c98ca07a2b6059e1d4d9c5c8c275b0",
       "contexts": [
         {
           "term": "cells/mL",
-          "start_byte": 217,
-          "end_byte": 225,
-          "context": "d; these comparisons are **native-DN proxies only**. Both raw references and hashes are preserved. DN 0 is retained as below detection, not asserted to be zero cells/mL. Flags 254/255 and invalid/NaN values are excluded; all-invalid patches never become bin 0."
+          "start_byte": 174,
+          "end_byte": 182,
+          "context": "l-product DN guide distinguishes 0 (below detection), 1-253 (data), 254 (land), and 255 (no data, including cloud). Zero must not be interpreted as proven zero cells/mL. The author pipeline remaps/masks land and cloud into 255; postprocessed 255 does not identify the missingness cause."
+        }
+      ],
+      "scope": "frozen historical/scientific report",
+      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
+    },
+    {
+      "path": "research_outputs/reports/DATASET_AUDIT.md",
+      "line": 68,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 691,
+      "line_sha256": "c3b81bfca850e2f79a48b00a3742e1a01afe112c56298eb63e3b1178bdb3be95",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 74,
+          "end_byte": 82,
+          "context": "This is a documented original-product index formula, **not an implemented cells/mL conversion for this archive**. It does not establish the provenance/version of the daily GeoTIFFs used for the deposit, recover removed flags, or undo bilinear"
+        }
+      ],
+      "scope": "frozen historical/scientific report",
+      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
+    },
+    {
+      "path": "research_outputs/reports/DATASET_AUDIT.md",
+      "line": 70,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 436,
+      "line_sha256": "cc93b72dfa9896c6f3e7982de9b69642b1af02a64feeca805052d02ed74a7b06",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 148,
+          "end_byte": 156,
+          "context": "The paper uses pixel bins **0-99, 100-199, 200-253**. These are not automatically equivalent to the requested **<20,000 / 20,000-100,000 / >100,000 cells/mL** thresholds. Phase 1 only reports those native bins, clearly named `Paper DN bin ...`; it does not assign Low/Moderate/High image-level risk. Flags and invali"
+        }
+      ],
+      "scope": "frozen historical/scientific report",
+      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
+    },
+    {
+      "path": "research_outputs/reports/DATASET_AUDIT.md",
+      "line": 92,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 343,
+      "line_sha256": "d948f073b2afc8de9d4abf79033dc9ad573d5e5ff81d4101a6213cb73122a1f7",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 21,
+          "end_byte": 29,
+          "context": "| Can exact 20k/100k cells/mL categories be defended for the processed DN? | Defines the scientific target | Original CyAN product version, calibration source, encoding/flag treatment, inte"
         }
       ],
       "scope": "frozen historical/scientific report",
@@ -951,6 +932,25 @@
           "start_byte": 500,
           "end_byte": 512,
           "context": "kes or independent bloom episodes. References are processed/resampled CyAN DN classes, not in-situ cell counts, toxin measurements, or verified 20 m biological ground truth. Neural budgets remain only 3 epochs (SmallSegCNN) / 2 epochs (DeepLab), random initialization, one seed. These are controlled short-budget experiments, not co"
+        }
+      ],
+      "scope": "frozen historical/scientific report",
+      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
+    },
+    {
+      "path": "research_outputs/reports/IMAGE_LABEL_DEFINITION.md",
+      "line": 20,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 317,
+      "line_sha256": "4257556b3ea9ab4d669210957907da575df23e1142ebfb4915008d5b64c82a70",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 217,
+          "end_byte": 225,
+          "context": "d; these comparisons are **native-DN proxies only**. Both raw references and hashes are preserved. DN 0 is retained as below detection, not asserted to be zero cells/mL. Flags 254/255 and invalid/NaN values are excluded; all-invalid patches never become bin 0."
         }
       ],
       "scope": "frozen historical/scientific report",
@@ -1061,7 +1061,7 @@
         "state-of-the-art"
       ],
       "line_bytes": 623,
-      "line_sha256": "9d9894c16dc8481faf0cb9dabba3d49f18f9ff967059dec60d4b7aea6a232702",
+      "line_sha256": "1c83ee6d64fc5d744247042ee6504f52e295b6882becd6d6e7be4bf8d2843819",
       "contexts": [
         {
           "term": "ground-truth",
@@ -1073,19 +1073,19 @@
           "term": "pollution detection",
           "start_byte": 213,
           "end_byte": 232,
-          "context": "source code, configuration, metadata, cached source snapshots, reports, tables, logs, and SVG figures. It searched for wording concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, \u201cbest model,\u201d and state-of-the-art claims. All 98 matched terms across 8"
+          "context": "source code, configuration, metadata, cached source snapshots, reports, tables, logs, and SVG figures. It searched for wording concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, \u201cbest model,\u201d and state-of-the-art claims. All 97 matched terms across 8"
         },
         {
           "term": "best model",
           "start_byte": 319,
           "end_byte": 329,
-          "context": "searched for wording concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, \u201cbest model,\u201d and state-of-the-art claims. All 98 matched terms across 85 source lines were manually reviewed. Every matched location is recorded with file, line, term,"
+          "context": "searched for wording concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, \u201cbest model,\u201d and state-of-the-art claims. All 97 matched terms across 84 source lines were manually reviewed. Every matched location is recorded with file, line, term,"
         },
         {
           "term": "state-of-the-art",
           "start_byte": 338,
           "end_byte": 354,
-          "context": "ng concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, \u201cbest model,\u201d and state-of-the-art claims. All 98 matched terms across 85 source lines were manually reviewed. Every matched location is recorded with file, line, term, bounded surrounding conte"
+          "context": "ng concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, \u201cbest model,\u201d and state-of-the-art claims. All 97 matched terms across 84 source lines were manually reviewed. Every matched location is recorded with file, line, term, bounded surrounding conte"
         }
       ],
       "scope": "current public document",
@@ -1301,6 +1301,44 @@
       "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
     },
     {
+      "path": "research_outputs/reports/FINAL_RELIABILITY_ASSESSMENT.md",
+      "line": 3,
+      "terms": [
+        "reliable three-class geographic generalization"
+      ],
+      "line_bytes": 96,
+      "line_sha256": "4017686b5191d07bc02362e032b88992d63f517dd76841494c327aba9eec9ad1",
+      "contexts": [
+        {
+          "term": "reliable three-class geographic generalization",
+          "start_byte": 47,
+          "end_byte": 93,
+          "context": "**Final scientific claim: LIMITED evidence for reliable three-class geographic generalization.**"
+        }
+      ],
+      "scope": "frozen historical/scientific report",
+      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
+    },
+    {
+      "path": "research_outputs/reports/FINAL_RELIABILITY_ASSESSMENT.md",
+      "line": 30,
+      "terms": [
+        "ground truth"
+      ],
+      "line_bytes": 705,
+      "line_sha256": "3113ed7bccb82e3cfb3df8b9d17909b209fa280673d2f88391568be5ebd93e88",
+      "contexts": [
+        {
+          "term": "ground truth",
+          "start_byte": 500,
+          "end_byte": 512,
+          "context": "kes or independent bloom episodes. References are processed/resampled CyAN DN classes, not in-situ cell counts, toxin measurements, or verified 20 m biological ground truth. Neural budgets remain only 3 epochs (SmallSegCNN) / 2 epochs (DeepLab), random initialization, one seed. These are controlled short-budget experiments, not co"
+        }
+      ],
+      "scope": "frozen historical/scientific report",
+      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
+    },
+    {
       "path": "research_outputs/reports/CELLS_PER_ML_VALIDATION.md",
       "line": 1,
       "terms": [
@@ -1448,63 +1486,6 @@
       "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
     },
     {
-      "path": "research_outputs/reports/FINAL_RELIABILITY_ASSESSMENT.md",
-      "line": 3,
-      "terms": [
-        "reliable three-class geographic generalization"
-      ],
-      "line_bytes": 96,
-      "line_sha256": "4017686b5191d07bc02362e032b88992d63f517dd76841494c327aba9eec9ad1",
-      "contexts": [
-        {
-          "term": "reliable three-class geographic generalization",
-          "start_byte": 47,
-          "end_byte": 93,
-          "context": "**Final scientific claim: LIMITED evidence for reliable three-class geographic generalization.**"
-        }
-      ],
-      "scope": "frozen historical/scientific report",
-      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
-      "path": "research_outputs/reports/FINAL_RELIABILITY_ASSESSMENT.md",
-      "line": 30,
-      "terms": [
-        "ground truth"
-      ],
-      "line_bytes": 705,
-      "line_sha256": "3113ed7bccb82e3cfb3df8b9d17909b209fa280673d2f88391568be5ebd93e88",
-      "contexts": [
-        {
-          "term": "ground truth",
-          "start_byte": 500,
-          "end_byte": 512,
-          "context": "kes or independent bloom episodes. References are processed/resampled CyAN DN classes, not in-situ cell counts, toxin measurements, or verified 20 m biological ground truth. Neural budgets remain only 3 epochs (SmallSegCNN) / 2 epochs (DeepLab), random initialization, one seed. These are controlled short-budget experiments, not co"
-        }
-      ],
-      "scope": "frozen historical/scientific report",
-      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
-      "path": "research_outputs/reports/PHASE_3_5_STATUS.md",
-      "line": 148,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 134,
-      "line_sha256": "75e929898349be272242da5a6be73b779aa0bac9abab01c16301ea877cd04b42",
-      "contexts": [
-        {
-          "term": "cells/mL",
-          "start_byte": 109,
-          "end_byte": 117,
-          "context": "- Source masking/no-data discrepancies and remote-sensing label uncertainty persist; no direct laboratory or cells/mL claims are made."
-        }
-      ],
-      "scope": "frozen historical/scientific report",
-      "disposition": "Preserve exact evidence; scope explained in ARCHIVE_INDEX. Physical conversion remains unsupported and no stable-transfer outcome is claimed."
-    },
-    {
       "path": "data/README.md",
       "line": 21,
       "terms": [
@@ -1619,25 +1600,6 @@
       "disposition": "Preserve original wording; externally authored material excluded from AquaVision outcome claims."
     },
     {
-      "path": "research_outputs/phase5/readme_claim_sources.json",
-      "line": 323,
-      "terms": [
-        "cells/mL"
-      ],
-      "line_bytes": 88,
-      "line_sha256": "045168f019f379a2304752fd074df32042a00c29ab53307b6ca429fe47ea1850",
-      "contexts": [
-        {
-          "term": "cells/mL",
-          "start_byte": 70,
-          "end_byte": 78,
-          "context": "\"review\": \"Verified implementation and existing boundary tests; cells/mL disabled\""
-        }
-      ],
-      "scope": "release provenance/audit",
-      "disposition": "Review trail or explicit methodological limitation; numerical sources remain linked."
-    },
-    {
       "path": "research_outputs/phase4/README.md",
       "line": 5,
       "terms": [
@@ -1655,6 +1617,25 @@
       ],
       "scope": "saved provenance/experiment metadata",
       "disposition": "Preserve recorded protocol and source context; no retrospective scientific rewriting."
+    },
+    {
+      "path": "research_outputs/phase5/readme_claim_sources.json",
+      "line": 323,
+      "terms": [
+        "cells/mL"
+      ],
+      "line_bytes": 88,
+      "line_sha256": "045168f019f379a2304752fd074df32042a00c29ab53307b6ca429fe47ea1850",
+      "contexts": [
+        {
+          "term": "cells/mL",
+          "start_byte": 70,
+          "end_byte": 78,
+          "context": "\"review\": \"Verified implementation and existing boundary tests; cells/mL disabled\""
+        }
+      ],
+      "scope": "release provenance/audit",
+      "disposition": "Review trail or explicit methodological limitation; numerical sources remain linked."
     },
     {
       "path": "data/metadata/phase2_sources/frontiers_2023.html",

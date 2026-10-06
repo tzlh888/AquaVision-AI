@@ -2,10 +2,10 @@
 
 The canonical project account is [RESEARCH_RESULTS.md](RESEARCH_RESULTS.md); the root README describes the completed study. Historical reports are preserved byte-for-byte and must be read as records of their named stage.
 
-- **Phases1–2:** dataset/target investigation. Earlier mandatory image-classification and physical-conversion gates were superseded by verified pixel segmentation. “Not ready,” unset splits and proposed concentration thresholds describe that historical inquiry, not the final training target.
-- **Phase3 pilot:** the 272-pair random/geographic comparison. Statements about zero High Test support and 94 tests refer to that pilot. They do not describe v2.
-- **Phase3.5:** support correction and frozen v2 baseline experiment. Its earlier PARTIAL classification is preserved. Phase4's final reliability conclusion is LIMITED.
-- **Phase4 appendices:** final, valid scientific evidence. Their results remain authoritative for the packaged report; Phase5 adds presentation and verification only.
+- **Dataset and target investigation (Phases 1–2):** earlier mandatory image-classification and physical-conversion gates were superseded by verified pixel segmentation. “Not ready,” unset splits and proposed concentration thresholds describe that historical inquiry, not the final training target.
+- **Pilot study (Phase 3):** the 272-pair random/geographic comparison. Statements about zero High Test support and 94 tests refer to that pilot. They do not describe the final benchmark.
+- **Class-support correction (Phase 3.5):** support screening and the fixed v2 baseline experiment. Its earlier PARTIAL classification is preserved. The later reliability analysis reaches a LIMITED conclusion.
+- **Reliability analysis and final evaluation (Phase 4):** final scientific evidence. These results remain authoritative for the packaged report; the release stage adds presentation and verification only.
 
 `data/README.md` is a preserved Phase1–3 provenance narrative. Its “current” Phase3 heading and references to eight-pair/pilot artifacts are historical scope, not a second current project overview. Source snapshots under `data/metadata/sources/` and `data/metadata/phase2_sources/` may use terminology from their authors, including “ground truth”; they are unedited primary-source evidence, not AquaVision claims of laboratory validation. The previous root README is retained at `data/metadata/phase5/README_before_phase5.md` as an explicitly archived snapshot.
 

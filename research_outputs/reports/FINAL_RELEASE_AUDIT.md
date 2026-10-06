@@ -1,6 +1,6 @@
 # AquaVision AI — Final Release Audit
 
-**Audit date:** 5 October 2026  
+**Audit date:** 6 October 2026
 **Release conclusion:** **PASS**, with the scientific outcome retained as **LIMITED**.
 
 This audit verifies the final research package without fitting, tuning, or selecting another model. The complete local audit reloaded the saved data, model checkpoints, prediction caches, and machine-readable metrics. A second metadata-only pass checks the public documents after packaging. The evidence is recorded in [`final_audit.json`](../phase5/final_audit.json), [`metadata_audit.json`](../phase5/metadata_audit.json), and the pytest XML report at [`pytest_results.xml`](../phase5/pytest_results.xml).
@@ -8,7 +8,7 @@ This audit verifies the final research package without fitting, tuning, or selec
 ## 1. Scientific freeze and repository scope
 
 - The frozen v2 split SHA-256 is `e96abb63318fdd3a57c87ee4bc9078a476c288156e32d1baf3d126533d884df2`.
-- All **443** files covered by the Phase5 preservation manifest were present and matched their recorded SHA-256 values during the complete audit. This expanded manifest includes the historical scientific reports, Phase3/3.5/4 machine-readable results, source and test code, configurations, metadata, and eight earlier figures.
+- All **443** files covered by the Phase5 preservation manifest were present and accounted for during the complete audit. Of these, 436 retain their original recorded SHA-256 values. Seven text files match the explicit [public-release path-sanitization amendment](../../data/metadata/phase5/public_release_sanitization.json): machine-specific paths were replaced by repository-relative wording without changing source hashes, splits, models, predictions, metrics, or scientific conclusions.
 - Historical reports were not rewritten. Their scope and relationship to the final report are documented in [`ARCHIVE_INDEX.md`](ARCHIVE_INDEX.md).
 - The earlier root README is preserved as `data/metadata/phase5/README_before_phase5.md`; only the public-facing root README and new Phase5 packaging assets were intentionally written.
 - No model was trained, tuned, or selected during Phase5. The geographic split and validation-selection protocol were not changed.
@@ -40,7 +40,7 @@ Logistic Regression has geographic-Test High F1 `0.5803`, but validation High F1
 
 The public README has **49 claim-source records**. Each recorded snippet was found in the README, every linked machine-readable source exists, and every claim with a JSON locator matched its verified value. The canonical report contains all 19 requested numbered sections; its abstract is 188 words. The portfolio summary is 765 words, the application description is 197 words, and the CV one-line version is 29 words.
 
-A repository-wide case-insensitive scan covered text, source code, configuration, metadata, cached source snapshots, reports, tables, logs, and SVG figures. It searched for wording concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, “best model,” and state-of-the-art claims. All 98 matched terms across 85 source lines were manually reviewed. Every matched location is recorded with file, line, term, bounded surrounding context, source-line hash, scope, and disposition in [`claim_occurrences.json`](../phase5/claim_occurrences.json).
+A repository-wide case-insensitive scan covered text, source code, configuration, metadata, cached source snapshots, reports, tables, logs, and SVG figures. It searched for wording concerning ground-truth status, pollution detection, accurate or reliable geographic generalization, physical cells-per-mL conversion, “best model,” and state-of-the-art claims. All 97 matched terms across 84 source lines were manually reviewed. Every matched location is recorded with file, line, term, bounded surrounding context, source-line hash, scope, and disposition in [`claim_occurrences.json`](../phase5/claim_occurrences.json).
 
 The review found no unsupported positive claim in the current public materials. Current occurrences state limitations, pose the research question, or explain why a stronger claim is not supported. Other occurrences are in preserved historical reports, tests and refusal checks, saved provenance, or externally authored source snapshots. In particular:
 
@@ -70,7 +70,7 @@ The complete reload requires the locally retained raw arrays, model checkpoints,
 python scripts/audit_final_release.py --full
 ```
 
-Those large regenerable artifacts are intentionally ignored by Git. A fresh public clone can inspect the frozen reports, tables, figures, split metadata, claim provenance, and code, but cannot honestly reproduce checkpoint inference without obtaining the original data and local artifacts described in the README. The repository has no configured publication remote or release commit, so this audit verifies a local release candidate rather than asserting that it has been published.
+Those large regenerable artifacts are intentionally ignored by Git. A fresh public clone can inspect the reports, tables, figures, split metadata, claim provenance, and code, but cannot reproduce checkpoint inference without obtaining the original data and local artifacts described in the README. This audit records local scientific verification; publication history and hosting status are separate from that evidence.
 
 ## 7. Final assessment
 

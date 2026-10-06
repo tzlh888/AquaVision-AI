@@ -14,7 +14,7 @@ The final suite reports **123 passed, 0 failed, 0 errors, and 0 skipped**. Pytes
 
 ## Reproducibility status
 
-The full local audit passed. It verified all **443** protected historical files, the frozen split hash, **100** exact confusion-matrix reconstructions, **40** exact class-prediction caches, **96** exact calibration group/mode results, 18 temperature/argmax invariance checks, and hashes for all 288 input pairs. No training occurred during the audit. Public-document links, word limits, figures, table values, and the README's 49 claim-source records also passed automated checks.
+The full local audit passed. It accounted for all **443** protected historical files, including seven documented machine-path sanitizations made for public release, and verified the frozen split hash, **100** exact confusion-matrix reconstructions, **40** exact class-prediction caches, **96** exact calibration group/mode results, 18 temperature/argmax invariance checks, and hashes for all 288 input pairs. No training occurred during the audit. Public-document links, word limits, figures, table values, and the README's 49 claim-source records also passed automated checks.
 
 Complete checkpoint reload depends on local raw arrays, checkpoints, and caches that are not intended for Git distribution. A fresh public clone therefore supports inspection and metadata auditing, but requires those documented artifacts for full inference reproduction.
 
@@ -49,4 +49,3 @@ The project now has a short public README, a self-contained technical summary, a
 ## Recommended next action
 
 Use the package in university applications, GitHub review, technical interviews, and research discussions. Lead with the methodological correction from image classification to segmentation, the geographic-validation design, and the decision to retain a LIMITED conclusion despite an appealing post-hoc Test score. Further model development is not recommended for this completed project; any future research should begin as a separately registered study with new independent geographic support and, ideally, laboratory-linked reference measurements.
-

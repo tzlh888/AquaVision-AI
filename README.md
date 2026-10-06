@@ -4,7 +4,7 @@ AquaVision AI is a research-oriented computer-vision project investigating wheth
 
 **Final conclusion: LIMITED.** Predictive signal exists in the released CyAN-derived classes, but reliable three-class geographic generalization has not been demonstrated. The modeling phase is complete; this repository preserves the negative results and the evaluation decisions that produced them.
 
-[Research report](research_outputs/reports/RESEARCH_RESULTS.md) · [Project summary](research_outputs/reports/PORTFOLIO_SUMMARY.md) · [Final results](research_outputs/tables/final_results.md) · [Release audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md)
+[Research report](research_outputs/reports/RESEARCH_RESULTS.md) · [Project summary](research_outputs/reports/PORTFOLIO_SUMMARY.md) · [Final results](research_outputs/tables/final_results.md) · [Core figures](research_outputs/reports/FIGURE_INDEX.md)
 
 ![AquaVision research overview](research_outputs/figures/project_overview.png)
 
@@ -24,11 +24,11 @@ The source is [Zenodo version 14230064](https://doi.org/10.5281/zenodo.14230064)
 
 Stored DN values 0–99, 100–199, and 200–253 map to Low, Moderate, and High. Flags 254/255 and invalid values use ignore index **−100**. CyAN provides satellite-derived reference labels, **not laboratory ground truth**. Cells/mL conversion is disabled and is not the training target. Coarse source-reference resampling limits the meaning and independence of fine-grid labels.
 
-The final frozen v2 benchmark uses **288 real pairs**: **96 Train / 48 Validation / 144 Test**. Its **three geographic Test components** contain **37,768 High pixels**. The preceding audit decoded **38,002 reference masks**; screening volume is distinct from training volume. Test is deliberately High-enriched, so precision and calibration do not estimate natural-population performance. [Verified support counts](research_outputs/phase3_5/split_support.csv).
+The final benchmark uses **288 real pairs**: **96 Train / 48 Validation / 144 Test**. Its **three geographic Test components** contain **37,768 High pixels**. Test is deliberately High-enriched, so precision and calibration do not estimate natural-population performance. [Support counts](research_outputs/phase3_5/split_support.csv).
 
 ## Methodology
 
-Primary-source verification corrected the initial image-classification and concentration-conversion framing to pixel-level segmentation. Experiments use training-only preprocessing, explicit ignored pixels, frozen split membership, saved pixel identities, and versioned configurations. Controlled variants change weighting, sampling, loss, or available bands separately. [Scientific reframing](research_outputs/reports/RESEARCH_RESULTS.md#4-scientific-reframing).
+Primary-source verification corrected the initial image-classification and concentration-conversion framing to pixel-level segmentation. Experiments use training-only preprocessing, explicit ignored pixels, fixed split membership, saved pixel identities, and versioned configurations. Controlled variants change weighting, sampling, loss, or available bands separately. [Scientific reframing](research_outputs/reports/RESEARCH_RESULTS.md#4-scientific-reframing).
 
 ## Models
 
@@ -45,7 +45,7 @@ Touching or diagonally adjacent source-grid parent windows form connected compon
 
 An initial **272-pair** matched random/geographic pilot had **no High test support** in either split. The corrected v2 benchmark is a separate pool and must not be compared with pilot Random Test as though only the split changed.
 
-The Phase 4 rule ranked validation Macro F1, then High F1, subject to Low F1 ≥ 0.50 and Moderate F1 ≥ 0.25. It was registered before new variants were tested. Earlier baseline Test results were already known; the entire study was not blind. [Frozen protocol](research_outputs/reports/MODEL_SELECTION_PROTOCOL.md).
+The Phase 4 rule ranked validation Macro F1, then High F1, subject to Low F1 ≥ 0.50 and Moderate F1 ≥ 0.25. It was registered before new variants were tested. Earlier baseline Test results were already known; the entire study was not blind. [Study protocol](research_outputs/reports/MODEL_SELECTION_PROTOCOL.md).
 
 ## Key Results
 
@@ -74,51 +74,61 @@ The [core figure index](research_outputs/reports/FIGURE_INDEX.md) contains ten s
 
 ## Limitations
 
-Satellite-derived references, coarse label resolution, severe imbalance, spatial autocorrelation, three test components, one validation component, possible within-day sensor mismatch, atmospheric/context effects, and short single-seed training constrain interpretation. Exact biological concentration and toxin measurements were not validated. Validation selection and test observations disagree. These findings support **LIMITED** evidence, not deployment readiness or a claim of reliable three-class geographic generalization.
+Satellite-derived references, coarse label resolution, severe imbalance, spatial autocorrelation, three test components, one validation component, possible within-day sensor mismatch, atmospheric/context effects, and short single-seed training constrain interpretation. Exact biological concentration and toxin measurements were not validated. These limits prevent deployment claims and leave three-class geographic performance unresolved.
+
+## What I Learned
+
+The project changed most when I verified what the dataset actually represented: that evidence shifted the task from image classification and concentration conversion to spatial segmentation. Geographic grouping and class-support checks mattered as much as model implementation, and the validation rule had to remain fixed even when a different model looked better on Test. The negative result clarified the difference between predictive signal and dependable behavior under distribution shift.
 
 ## Reproducibility
 
-The final local audit passes **123 tests** and reproduces **100 confusion matrices** and **40 class-prediction caches** exactly. RF probability summation differs only at floating-point roundoff under its unchanged parallel setting; class predictions remain identical. Historical scientific outputs and the frozen split remain unchanged. See the [audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md), [preservation manifest](data/metadata/phase5/preservation_manifest.json), and [claim provenance](research_outputs/phase5/readme_claim_sources.json).
-
-Raw arrays, model checkpoints, and prediction caches are local research artifacts, not bundled into the lightweight public checkout. Metadata, metrics, protocols, tables, and core figures support review without running models. Full local verification requires the original artifacts at their manifest paths. This is not a promise of one-command model reproduction from a data-free clone.
-
-## Repository Structure
-
-```text
-configs/                         Frozen experimental configurations
-src/aquavision/                  Data, features, segmentation, reliability primitives
-scripts/                        Acquisition, experiments, packaging, and audit tools
-tests/                          Scientific invariants and reproducibility tests
-data/metadata/                  Provenance, frozen membership, artifact hashes
-research_outputs/reports/       Canonical report, application materials, archive index
-research_outputs/tables/        Final results and historical machine-readable tables
-research_outputs/figures/       Ten selected core figures plus historical figures
-research_outputs/phase4/        Frozen metrics and experiment evidence
-research_outputs/phase5/        Packaging provenance and final audit outputs
-```
-
-Historical Phase 1–4 documents remain immutable. Some earlier files describe superseded states, including absent pilot High support or a pre-segmentation design. The [archive index](research_outputs/reports/ARCHIVE_INDEX.md) identifies their scope; they are not the current project summary.
-
-## Running the Project
-
-Tested in the recorded Python 3.12.14, macOS arm64 CPU environment. Portable dependency pins are in `requirements-training.txt`; `requirements-phase3.txt` is a historical environment snapshot containing an original local path.
+The repository retains the experiment configurations, exact split membership, analysis code, saved metrics, tables, and figures needed to inspect the study. Tests cover label mapping, data loading, geographic separation, leakage prevention, evaluation metrics, and the registered selection rule. Raw arrays and model checkpoints are not bundled into the lightweight public checkout, so full inference reproduction requires the original dataset artifacts.
 
 ```bash
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements-training.txt
+.venv/bin/python -m pytest -q
+```
+
+<details>
+<summary>Technical verification records</summary>
+
+The final local audit passes **123 tests** and reproduces **100 confusion matrices** and **40 class-prediction caches** exactly. RF probability summation differs only at floating-point roundoff under its unchanged parallel setting; class predictions remain identical. Historical scientific outputs and the frozen split remain unchanged. See the [release audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md), [preservation manifest](data/metadata/phase5/preservation_manifest.json), and [claim provenance](research_outputs/phase5/readme_claim_sources.json).
+
+The earlier support-screening stage decoded **38,002 reference masks**; this screening volume is distinct from the 288-pair model benchmark.
+
+The metadata-only check works with the public files:
+
+```bash
 .venv/bin/python scripts/audit_final_release.py --metadata-only
 ```
 
-The metadata audit recomputes metrics from stored confusion matrices, checks table claims and release documents, and reports unavailable local artifacts separately. It performs no training or network acquisition.
-
-The full test suite includes artifact-integration checks and requires the original local arrays, checkpoints, and caches. With those artifacts available:
+With the original local arrays, checkpoints, and caches available, the complete reload check is:
 
 ```bash
-.venv/bin/python -m pytest -q --junitxml=research_outputs/phase5/pytest_results.xml
 .venv/bin/python scripts/audit_final_release.py --full
 ```
 
-The full audit reloads existing checkpoints and predictions and writes only Phase 5 audit outputs. It does not train or select models. Historical training/report runners can rewrite their output directories and should not be run against frozen evidence. Figure regeneration is available through `scripts/build_phase5_figures.py` when its listed local source arrays/caches are present. [Detailed reproduction scope](research_outputs/reports/FINAL_RELEASE_AUDIT.md).
+The audit reads existing scientific artifacts and does not train or select models. Historical experiment runners can rewrite their original output directories, so they should be used only in a separate reproduction workspace. [Detailed reproduction scope](research_outputs/reports/FINAL_RELEASE_AUDIT.md).
+
+</details>
+
+## Repository Structure
+
+```text
+configs/                         Experiment settings
+src/aquavision/                  Data, features, segmentation, reliability primitives
+scripts/                        Data preparation, experiments, analysis, and release tools
+tests/                          Data, split, evaluation, and selection checks
+data/metadata/                  Provenance and fixed split membership
+research_outputs/reports/       Canonical report, application materials, archive index
+research_outputs/tables/        Final results and historical machine-readable tables
+research_outputs/figures/       Ten selected core figures plus historical figures
+research_outputs/phase4/        Final reliability-analysis evidence
+research_outputs/phase5/        Technical release records
+```
+
+The historical folders record four stages in natural terms: dataset interpretation, a pilot study, class-support correction, and final reliability analysis. Their original directory names remain unchanged because reports and provenance records refer to them. The [archive index](research_outputs/reports/ARCHIVE_INDEX.md) explains which documents describe earlier or superseded states.
 
 ## Research Reports
 
@@ -129,8 +139,13 @@ The full audit reloads existing checkpoints and predictions and writes only Phas
 | [CV Description](research_outputs/reports/CV_DESCRIPTION.md) | One line and two concise bullets |
 | [Application Description](research_outputs/reports/APPLICATION_DESCRIPTION.md) | Reflective application-ready project account |
 | [Final Results](research_outputs/tables/final_results.md) | Selected comparisons and metric definitions |
-| [Final Release Audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md) | Tests, frozen evidence, claim consistency and limitations |
-| [Phase 5 Status](research_outputs/reports/PHASE_5_STATUS.md) | Packaging completion and recommended use |
+| [Figure Index](research_outputs/reports/FIGURE_INDEX.md) | Ten selected figures and their scientific captions |
+
+Technical records are collected in the [archive index](research_outputs/reports/ARCHIVE_INDEX.md), [release audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md), and [release status](research_outputs/reports/PHASE_5_STATUS.md).
+
+## Repository Note
+
+This repository was published after the main experimentation and documentation work had been completed, so the public Git history primarily reflects release preparation rather than the full development timeline.
 
 ## License
 

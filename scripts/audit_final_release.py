@@ -23,15 +23,18 @@ def pointer(data,path):
     return data
 
 def preservation(full):
-    expected=read('data/metadata/phase5/preservation_manifest.json')['files'];missing=[];changed=[];checked=0
+    expected=read('data/metadata/phase5/preservation_manifest.json')['files'];amendment=read('data/metadata/phase5/public_release_sanitization.json')['files'];missing=[];changed=[];sanitized=[];checked=0
     for p,h in expected.items():
         path=ROOT/p
         if not path.exists():missing.append(p);continue
-        checked+=1
-        if sha(path)!=h:changed.append(p)
+        checked+=1;observed=sha(path)
+        if observed==h:continue
+        release_change=amendment.get(p,{})
+        if release_change.get('before_sha256')==h and release_change.get('after_sha256')==observed:sanitized.append(p)
+        else:changed.append(p)
     assert not changed,changed
     if full:assert not missing,missing
-    return {'expected_files':len(expected),'checked_files':checked,'changed_files':changed,'unavailable_files':missing,'complete_local_preservation':not missing and not changed,'frozen_v2_sha256':sha(ROOT/'data/metadata/phase3_5/geographic_split_v2.json')}
+    return {'expected_files':len(expected),'checked_files':checked,'original_hash_matches':checked-len(sanitized),'documented_public_release_path_sanitizations':sanitized,'changed_files':changed,'unavailable_files':missing,'complete_local_preservation':not missing and not changed,'frozen_v2_sha256':sha(ROOT/'data/metadata/phase3_5/geographic_split_v2.json')}
 
 def metric_tables():
     results=read('research_outputs/phase4/results.json');specs=read('research_outputs/phase4/specifications.json');selection=read('research_outputs/phase4/selection.json');count=0
