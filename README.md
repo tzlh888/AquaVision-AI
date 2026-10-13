@@ -84,9 +84,13 @@ The [core figure index](research_outputs/reports/FIGURE_INDEX.md) contains ten s
 
 Satellite-derived references, coarse label resolution, severe imbalance, spatial autocorrelation, three test components, one validation component, possible within-day sensor mismatch, atmospheric/context effects, and short single-seed training constrain interpretation. Exact biological concentration and toxin measurements were not validated. These limits prevent deployment claims and leave three-class geographic performance unresolved.
 
-## What I Learned
+## Research Lessons
 
-The project changed most when I verified what the dataset actually represented: that evidence shifted the task from image classification and concentration conversion to spatial segmentation. Geographic grouping and class-support checks mattered as much as model implementation, and the validation rule had to remain fixed even when a different model looked better on Test. The negative result clarified the difference between predictive signal and dependable behavior under distribution shift.
+Dataset and label verification led to reformulating the research task as spatial segmentation of processed CyAN proxy classes rather than concentration conversion.
+
+Geographic grouping, High-class support, and prespecified validation rules proved essential to interpreting model performance. An alternative model's stronger result on an already-viewed test set did not justify retrospectively changing the original selection decision.
+
+The findings illustrate that predictive performance on a limited dataset does not establish reliable generalization to independent geographic regions.
 
 ## Reproducibility
 
