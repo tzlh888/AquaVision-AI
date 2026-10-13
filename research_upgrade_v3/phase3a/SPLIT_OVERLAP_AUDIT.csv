@@ -1,0 +1,37 @@
+left_split,right_split,identity_type,evidence_level,overlap_count,overlap_values,status,interpretation
+train,validation,sample_id,VERIFIED,0,,NO_OVERLAP,Exact saved sample identity
+train,validation,geographic_component,CANDIDATE,0,,NO_OVERLAP,"Author-grid connected component, not a lake"
+train,validation,source_subtile,CANDIDATE,0,,NO_OVERLAP,Author fixed-grid parent
+train,validation,patch_position,CANDIDATE,0,,NO_OVERLAP,Filename grid position; no physical CRS
+train,validation,sentinel_array_hash,VERIFIED_CONTENT,0,,NO_OVERLAP,Exact saved Sentinel-array hash
+train,validation,cyan_array_hash,VERIFIED_CONTENT,1,06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed,OVERLAP_OBSERVED,Exact saved processed-reference hash
+train,validation,acquisition_date,DATE_ONLY,13,2019-01-06|2019-01-11|2019-03-22|2019-03-27|2019-04-01|2019-09-03|2019-09-08|2019-09-23|2019-10-23|2020-01-06|2020-04-05|2020-11-01|2020-11-21,OVERLAP_OBSERVED,Same date is not proof of same scene
+train,validation,lake_waterbody_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,validation,sentinel_scene_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,validation,footprint_geometry,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,validation,physical_footprint_overlap,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,validation,bloom_event_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,test,sample_id,VERIFIED,0,,NO_OVERLAP,Exact saved sample identity
+train,test,geographic_component,CANDIDATE,0,,NO_OVERLAP,"Author-grid connected component, not a lake"
+train,test,source_subtile,CANDIDATE,0,,NO_OVERLAP,Author fixed-grid parent
+train,test,patch_position,CANDIDATE,0,,NO_OVERLAP,Filename grid position; no physical CRS
+train,test,sentinel_array_hash,VERIFIED_CONTENT,0,,NO_OVERLAP,Exact saved Sentinel-array hash
+train,test,cyan_array_hash,VERIFIED_CONTENT,1,06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed,OVERLAP_OBSERVED,Exact saved processed-reference hash
+train,test,acquisition_date,DATE_ONLY,6,2019-01-06|2019-01-11|2019-03-22|2019-03-25|2019-03-27|2020-12-01,OVERLAP_OBSERVED,Same date is not proof of same scene
+train,test,lake_waterbody_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,test,sentinel_scene_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,test,footprint_geometry,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,test,physical_footprint_overlap,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+train,test,bloom_event_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+validation,test,sample_id,VERIFIED,0,,NO_OVERLAP,Exact saved sample identity
+validation,test,geographic_component,CANDIDATE,0,,NO_OVERLAP,"Author-grid connected component, not a lake"
+validation,test,source_subtile,CANDIDATE,0,,NO_OVERLAP,Author fixed-grid parent
+validation,test,patch_position,CANDIDATE,0,,NO_OVERLAP,Filename grid position; no physical CRS
+validation,test,sentinel_array_hash,VERIFIED_CONTENT,0,,NO_OVERLAP,Exact saved Sentinel-array hash
+validation,test,cyan_array_hash,VERIFIED_CONTENT,1,06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed,OVERLAP_OBSERVED,Exact saved processed-reference hash
+validation,test,acquisition_date,DATE_ONLY,5,2019-01-06|2019-01-11|2019-01-21|2019-03-22|2019-03-27,OVERLAP_OBSERVED,Same date is not proof of same scene
+validation,test,lake_waterbody_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+validation,test,sentinel_scene_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+validation,test,footprint_geometry,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+validation,test,physical_footprint_overlap,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested
+validation,test,bloom_event_id,UNVERIFIED,,,UNVERIFIED,Required source identity/geometry is absent; overlap cannot be tested

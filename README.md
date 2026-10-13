@@ -6,6 +6,14 @@ AquaVision AI is a research-oriented computer-vision project investigating wheth
 
 [Research report](research_outputs/reports/RESEARCH_RESULTS.md) · [Project summary](research_outputs/reports/PORTFOLIO_SUMMARY.md) · [Final results](research_outputs/tables/final_results.md) · [Core figures](research_outputs/reports/FIGURE_INDEX.md)
 
+## Research Upgrade v3 — Final Evidence Status
+
+The upgrade exactly recovered all **288 historical Sentinel arrays and 288 historical CyAN arrays**, but **0/288 historical patches** gained confirmed real-world scene, footprint and waterbody identity. A separate metadata-first pilot then acquired and version-verified **6/6 NASA Ocean Color CyAN V6 products** and aligned them with six frozen Sentinel candidates across three named waterbodies. This demonstrates a reproducible label-integration pipeline, not a classification-performance improvement.
+
+The bounded expansion ended with **0 qualified independent High units** and **0/0/0 Training/Validation/Confirmation members**. No confirmation set was sealed and Phase 3B model training was not started. The scientific conclusion therefore remains **LIMITED**: reliable cross-waterbody three-class generalization has not been demonstrated.
+
+[Final scientific report](research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md) · [One-page research summary](research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md) · [Final label pilot](research_upgrade_v3/final_label_pilot/FINAL_LABEL_PILOT_HANDOFF.md) · [Bounded expansion handoff](research_upgrade_v3/phase3a3/PHASE3A3_FINAL_HANDOFF.md) · [Reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md)
+
 ![AquaVision research overview](research_outputs/figures/project_overview.png)
 
 ## Research Question
@@ -76,9 +84,13 @@ The [core figure index](research_outputs/reports/FIGURE_INDEX.md) contains ten s
 
 Satellite-derived references, coarse label resolution, severe imbalance, spatial autocorrelation, three test components, one validation component, possible within-day sensor mismatch, atmospheric/context effects, and short single-seed training constrain interpretation. Exact biological concentration and toxin measurements were not validated. These limits prevent deployment claims and leave three-class geographic performance unresolved.
 
-## What I Learned
+## Research Lessons
 
-The project changed most when I verified what the dataset actually represented: that evidence shifted the task from image classification and concentration conversion to spatial segmentation. Geographic grouping and class-support checks mattered as much as model implementation, and the validation rule had to remain fixed even when a different model looked better on Test. The negative result clarified the difference between predictive signal and dependable behavior under distribution shift.
+Dataset and label verification led to reformulating the research task as spatial segmentation of processed CyAN proxy classes rather than concentration conversion.
+
+Geographic grouping, High-class support, and prespecified validation rules proved essential to interpreting model performance. An alternative model's stronger result on an already-viewed test set did not justify retrospectively changing the original selection decision.
+
+The findings illustrate that predictive performance on a limited dataset does not establish reliable generalization to independent geographic regions.
 
 ## Reproducibility
 
@@ -93,7 +105,7 @@ python3.12 -m venv .venv
 <details>
 <summary>Technical verification records</summary>
 
-The final local audit passes **123 tests** and reproduces **100 confusion matrices** and **40 class-prediction caches** exactly. RF probability summation differs only at floating-point roundoff under its unchanged parallel setting; class predictions remain identical. Historical scientific outputs and the frozen split remain unchanged. See the [release audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md), [preservation manifest](data/metadata/phase5/preservation_manifest.json), and [claim provenance](research_outputs/phase5/readme_claim_sources.json).
+The historical complete-artifact audit recorded **123 passing tests** and reproduced **100 confusion matrices** and **40 class-prediction caches** exactly. Those full-reload checks require ignored local arrays, checkpoints and caches that are not bundled in the lightweight public checkout. During final release preparation, the clean Python 3.12 public suite produced **122 passed and 1 expected skip**: 12 ignored local model/checkpoint artifacts were unavailable and editable installation regenerated three packaging-metadata records. All present non-generated registered artifacts were hash-checked. The separate research-upgrade suites pass **60/60 tests**. RF probability summation in the historical full audit differed only at floating-point roundoff under its unchanged parallel setting; class predictions remained identical. See the [release audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md), [preservation manifest](data/metadata/phase5/preservation_manifest.json), [claim provenance](research_outputs/phase5/readme_claim_sources.json), and [current reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md).
 
 The earlier support-screening stage decoded **38,002 reference masks**; this screening volume is distinct from the 288-pair model benchmark.
 
@@ -110,6 +122,12 @@ With the original local arrays, checkpoints, and caches available, the complete 
 ```
 
 The audit reads existing scientific artifacts and does not train or select models. Historical experiment runners can rewrite their original output directories, so they should be used only in a separate reproduction workspace. [Detailed reproduction scope](research_outputs/reports/FINAL_RELEASE_AUDIT.md).
+
+Run all five research-upgrade suites from the repository root with:
+
+```bash
+.venv/bin/python scripts/run_research_upgrade_tests.py
+```
 
 </details>
 

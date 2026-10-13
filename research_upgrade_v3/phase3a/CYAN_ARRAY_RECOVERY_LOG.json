@@ -1,0 +1,2606 @@
+{
+  "expected_arrays": 288,
+  "full_archive_downloaded": false,
+  "method": "bounded HTTP byte ranges; HTTP 206 required; ZIP CRC/size/member and historical SHA-256 verified",
+  "model_training_performed": false,
+  "record": "https://doi.org/10.5281/zenodo.14230064",
+  "records": [
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0500_Y1150_S050_2019_03_17_x256_y384_64x64_15_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0500_Y1150_S050_2019_03_17_x256_y384_64x64_15_cyan.npy",
+      "sample_id": "6_2_X0500_Y1150_S050_2019_03_17_x256_y384_64x64_15",
+      "sha256": "58bb0acf8f848ef255b53f0224d037aa797153628703e42d13e3ad96abbee9cb",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0500_Y1150_S050_2019_08_19_x256_y0_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0500_Y1150_S050_2019_08_19_x256_y0_64x64_18_cyan.npy",
+      "sample_id": "6_2_X0500_Y1150_S050_2019_08_19_x256_y0_64x64_18",
+      "sha256": "685a90b8d4e29ceb7c2359d6655501e6971d27189e2f62c3208c0a611756cf92",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0500_Y1150_S050_2020_08_16_x256_y640_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0500_Y1150_S050_2020_08_16_x256_y640_64x64_25_cyan.npy",
+      "sample_id": "6_2_X0500_Y1150_S050_2020_08_16_x256_y640_64x64_25",
+      "sha256": "1705ab9ca16849d65dbf1fcbb775ace5250109e9c71ebd9ab7ae0d12d0eb3600",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0500_Y1150_S050_2020_09_05_x192_y256_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0500_Y1150_S050_2020_09_05_x192_y256_64x64_14_cyan.npy",
+      "sample_id": "6_2_X0500_Y1150_S050_2020_09_05_x192_y256_64x64_14",
+      "sha256": "5778f27923704c4c2f473b1cba2490b6ae0fce5fff9a06ec0312e96d60c4ff3f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0500_Y1150_S050_2020_09_25_x384_y640_64x64_31_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0500_Y1150_S050_2020_09_25_x384_y640_64x64_31_cyan.npy",
+      "sample_id": "6_2_X0500_Y1150_S050_2020_09_25_x384_y640_64x64_31",
+      "sha256": "2b269c305f7ed5f3d2ca0f83285068dbf85a155258b2d70e34daf179d682b26c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2019_03_17_x128_y128_64x64_4_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2019_03_17_x128_y128_64x64_4_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2019_03_17_x128_y128_64x64_4",
+      "sha256": "9adef3d90c69dedc57f3890e3b51ea423755012bbb9e3ecacdf4134ba7a54205",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2019_03_25_x192_y128_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2019_03_25_x192_y128_64x64_11_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2019_03_25_x192_y128_64x64_11",
+      "sha256": "cf9cdbb47b00d98e70cc3b75c32989a801fd0a1ef5c786970ef7e37d8eb2d1d5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2019_03_25_x320_y576_64x64_38_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2019_03_25_x320_y576_64x64_38_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2019_03_25_x320_y576_64x64_38",
+      "sha256": "c16cef560440e662c3febd837a2183df76a41df66f99768a04b4c8f21e44ff0f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2019_04_26_x576_y512_64x64_85_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2019_04_26_x576_y512_64x64_85_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2019_04_26_x576_y512_64x64_85",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2019_07_10_x576_y0_64x64_74_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2019_07_10_x576_y0_64x64_74_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2019_07_10_x576_y0_64x64_74",
+      "sha256": "7713e01813152cb93ac7651bad4db2d887fd82fefd3355c32bc2dd2784d87df4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2020_05_13_x320_y128_64x64_33_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2020_05_13_x320_y128_64x64_33_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2020_05_13_x320_y128_64x64_33",
+      "sha256": "104039ae14b6c3d396d6876d7f75ac62c82a325ed35ee8d98a5c9e7ff019e996",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2020_08_16_x192_y576_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2020_08_16_x192_y576_64x64_19_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2020_08_16_x192_y576_64x64_19",
+      "sha256": "78d4794066c664f4cf5273217942072baa909a3ac1ddd2b5abfc808ab1926f2c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1100_S050_2020_08_16_x576_y256_64x64_81_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1100_S050_2020_08_16_x576_y256_64x64_81_cyan.npy",
+      "sample_id": "6_2_X0550_Y1100_S050_2020_08_16_x576_y256_64x64_81",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_03_25_x64_y0_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_03_25_x64_y0_64x64_12_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_03_25_x64_y0_64x64_12",
+      "sha256": "9aa5024b6cebfa93e35eef02ed1fd3417ed4d696f1e53a7fb7bd8d301fce6629",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_04_26_x64_y256_64x64_16_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_04_26_x64_y256_64x64_16_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_04_26_x64_y256_64x64_16",
+      "sha256": "2d30da86d68d57f89ef608a1427cc9d2fda4488225cf7680b139b154b5f58d11",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_07_10_x192_y64_64x64_35_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_07_10_x192_y64_64x64_35_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_07_10_x192_y64_64x64_35",
+      "sha256": "5326fd9f4cc9196d125a04a75deb2d78ba68691cd0e3b8dabc7f180b850afd74",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_07_10_x576_y0_64x64_103_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_07_10_x576_y0_64x64_103_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_07_10_x576_y0_64x64_103",
+      "sha256": "33aabb0d4cf398f54c0a027f4cf2d24a0844879c446b6d7df98978bb33bdb00a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_07_25_x192_y512_64x64_42_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_07_25_x192_y512_64x64_42_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_07_25_x192_y512_64x64_42",
+      "sha256": "ebd00cd51e7d3104df25105c5aea62818dd1a3f2b20706133334ab7302594a61",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_07_25_x384_y576_64x64_78_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_07_25_x384_y576_64x64_78_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_07_25_x384_y576_64x64_78",
+      "sha256": "9c68cefae5890d843a4c38a0b28ce6fc57d07b99dd5e1de7a1a03ed3252dae19",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_07_25_x64_y640_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_07_25_x64_y640_64x64_22_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_07_25_x64_y640_64x64_22",
+      "sha256": "b7af3f014f42794f6f6259595d75a870d529f490ad32e64c44e71be5a4373652",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_08_19_x448_y640_64x64_91_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_08_19_x448_y640_64x64_91_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_08_19_x448_y640_64x64_91",
+      "sha256": "9c2ac8b85b9e40bfd2025c81d8934c846e1346a353820b3300544add907521d7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2019_08_19_x512_y448_64x64_99_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2019_08_19_x512_y448_64x64_99_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2019_08_19_x512_y448_64x64_99",
+      "sha256": "ed543b1883cd1999b21df0a2e90177ba74de5680617821ea2bdbcfc72583eab0",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_05_13_x448_y0_64x64_81_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_05_13_x448_y0_64x64_81_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_05_13_x448_y0_64x64_81",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_08_18_x256_y64_64x64_46_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_08_18_x256_y64_64x64_46_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_08_18_x256_y64_64x64_46",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_08_18_x384_y640_64x64_77_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_08_18_x384_y640_64x64_77_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_08_18_x384_y640_64x64_77",
+      "sha256": "3058c82dcffb6764bf96c78fa98327f8835134d0a363660fe6b263016268f495",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_08_21_x128_y640_64x64_31_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_08_21_x128_y640_64x64_31_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_08_21_x128_y640_64x64_31",
+      "sha256": "138b1820fee3e3076a2e974e62887a3e5e2b41c67c0a6d75ba15dcd95e3a5b13",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_08_21_x192_y448_64x64_39_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_08_21_x192_y448_64x64_39_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_08_21_x192_y448_64x64_39",
+      "sha256": "7cd350f11ccbbd925ee4cf85efe95ed8ea3f5c1b6e2be192b7926745a79ae5bd",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_09_05_x192_y320_64x64_39_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_09_05_x192_y320_64x64_39_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_09_05_x192_y320_64x64_39",
+      "sha256": "180f376f10dafa33579864c227f1320481b8b98a6dbd5faa019bd117b72022e6",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_09_05_x192_y512_64x64_42_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_09_05_x192_y512_64x64_42_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_09_05_x192_y512_64x64_42",
+      "sha256": "3286ba93019365425d83ea462a76a7c929b85824ef7247de6e0d671a4e58b3ed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_09_25_x256_y576_64x64_54_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_09_25_x256_y576_64x64_54_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_09_25_x256_y576_64x64_54",
+      "sha256": "42a75da848dd8c7fa019e80f1092244c6ddb48302dddaf95af2f256f00b16f13",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1150_S050_2020_12_01_x128_y192_64x64_26_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1150_S050_2020_12_01_x128_y192_64x64_26_cyan.npy",
+      "sample_id": "6_2_X0550_Y1150_S050_2020_12_01_x128_y192_64x64_26",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_03_25_x128_y64_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_03_25_x128_y64_64x64_25_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_03_25_x128_y64_64x64_25",
+      "sha256": "b4f29541beb6a8c38cb6c9dbc191295fa46cbf6a2a11d3e0ef005953c774d9aa",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_03_25_x320_y192_64x64_60_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_03_25_x320_y192_64x64_60_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_03_25_x320_y192_64x64_60",
+      "sha256": "894755e6e8f482d30e801aa06d409567934b26e0524f4a9475b2fa44613d0e2e",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_04_26_x512_y320_64x64_86_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_04_26_x512_y320_64x64_86_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_04_26_x512_y320_64x64_86",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_04_26_x512_y512_64x64_89_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_04_26_x512_y512_64x64_89_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_04_26_x512_y512_64x64_89",
+      "sha256": "ccea19d95b5921b9935da902e1f1513df0b4adda49059f7ad500c8adbea6d7d3",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_04_26_x64_y384_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_04_26_x64_y384_64x64_19_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_04_26_x64_y384_64x64_19",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_07_10_x64_y448_64x64_20_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_07_10_x64_y448_64x64_20_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_07_10_x64_y448_64x64_20",
+      "sha256": "23a2e835f47ef09b2b2a9c406b1158b38715d5729147b9f090cf42d1ecf24d27",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_07_25_x192_y704_64x64_46_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_07_25_x192_y704_64x64_46_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_07_25_x192_y704_64x64_46",
+      "sha256": "8f14bda11d56c44398c1133604cabedb6aa799306beca107fe374c6bad3735a9",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_07_25_x384_y448_64x64_73_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_07_25_x384_y448_64x64_73_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_07_25_x384_y448_64x64_73",
+      "sha256": "03ff03084fe31162d94df4633c985a4906bb83f90770b4897b2091106093aae1",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2019_07_25_x576_y128_64x64_90_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2019_07_25_x576_y128_64x64_90_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2019_07_25_x576_y128_64x64_90",
+      "sha256": "e4cdaf2ce5d353b655c864dbd4177c6975d2f397ed9c638f3a82d84552320c77",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_08_16_x256_y256_64x64_50_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_08_16_x256_y256_64x64_50_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_08_16_x256_y256_64x64_50",
+      "sha256": "a566fea68b2d8c3d2b57545b71a7de20595d3e7153f4b9b9c87e26aba6f670ec",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_08_21_x384_y384_64x64_71_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_08_21_x384_y384_64x64_71_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_08_21_x384_y384_64x64_71",
+      "sha256": "7f3af0c83aa60f18b602ed617610b7be81afa3143319a6f95c5abf0ac493cebd",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_08_21_x576_y256_64x64_91_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_08_21_x576_y256_64x64_91_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_08_21_x576_y256_64x64_91",
+      "sha256": "16e73c433280dc84d589d29e470e411d6ad8432ea1ae552d3b33f8ccaf87d45a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_09_05_x320_y256_64x64_61_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_09_05_x320_y256_64x64_61_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_09_05_x320_y256_64x64_61",
+      "sha256": "4e82b1ae2d29368ca1807c22ebe27f1e8da6a7bb182b5506215211a9a9777f52",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_09_05_x384_y320_64x64_71_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_09_05_x384_y320_64x64_71_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_09_05_x384_y320_64x64_71",
+      "sha256": "09b51c3e608cd006da2d4409952a2c4b571ab9a04afb1fb53b3bda650c42a617",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_12_04_x128_y256_64x64_28_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_12_04_x128_y256_64x64_28_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_12_04_x128_y256_64x64_28",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_12_04_x448_y256_64x64_78_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_12_04_x448_y256_64x64_78_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_12_04_x448_y256_64x64_78",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0550_Y1200_S050_2020_12_04_x64_y192_64x64_16_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2_X0550_Y1200_S050_2020_12_04_x64_y192_64x64_16_cyan.npy",
+      "sample_id": "6_2_X0550_Y1200_S050_2020_12_04_x64_y192_64x64_16",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_01_04_x512_y320_64x64_66_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_01_04_x512_y320_64x64_66_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_01_04_x512_y320_64x64_66",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_03_17_x128_y576_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_03_17_x128_y576_64x64_22_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_03_17_x128_y576_64x64_22",
+      "sha256": "e1a02813defdb9c82b7eaf95a4f6806a515f128f89b1987b7d3c1827d1bfe4a0",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_03_17_x448_y64_64x64_52_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_03_17_x448_y64_64x64_52_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_03_17_x448_y64_64x64_52",
+      "sha256": "eadee2ba4575236cf0b54558e79fd966a40338f9e6a7a3c0d230fa7dbf58b657",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_04_19_x384_y640_64x64_67_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_04_19_x384_y640_64x64_67_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_04_19_x384_y640_64x64_67",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_05_14_x512_y320_64x64_83_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_05_14_x512_y320_64x64_83_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_05_14_x512_y320_64x64_83",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_05_14_x576_y256_64x64_94_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_05_14_x576_y256_64x64_94_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_05_14_x576_y256_64x64_94",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_06_08_x512_y64_64x64_80_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_06_08_x512_y64_64x64_80_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_06_08_x512_y64_64x64_80",
+      "sha256": "6f343300a1b44d05ac1da7c2c0b1b8c378919218de3e8b266a08071d069d343c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_06_08_x64_y704_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_06_08_x64_y704_64x64_17_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_06_08_x64_y704_64x64_17",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_07_10_x0_y256_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_07_10_x0_y256_64x64_1_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_07_10_x0_y256_64x64_1",
+      "sha256": "d67b751480ef71b037ae041e6eab119ddd239f7c25aa8db81e44fcc6ce5f2156",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_07_10_x192_y512_64x64_34_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_07_10_x192_y512_64x64_34_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_07_10_x192_y512_64x64_34",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_07_23_x512_y128_64x64_78_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_07_23_x512_y128_64x64_78_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_07_23_x512_y128_64x64_78",
+      "sha256": "c3159ca740a60caf63bd998511a5dda2fb7e7c4b00b073ff7ed4b414c7c16d0f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_07_25_x192_y704_64x64_32_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_07_25_x192_y704_64x64_32_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_07_25_x192_y704_64x64_32",
+      "sha256": "c32787832903f431f5c48749a92421b405d3c62af11b49549e96daa30e5a5578",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_07_25_x256_y576_64x64_36_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_07_25_x256_y576_64x64_36_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_07_25_x256_y576_64x64_36",
+      "sha256": "b247488532ac1a3cd6e56439e13822533048cee8b457b681e3a428097ceddb71",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_08_09_x128_y256_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_08_09_x128_y256_64x64_19_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_08_09_x128_y256_64x64_19",
+      "sha256": "8690feebe7355cbaed73f5b52ff3c472b83d26dcf5adaae30a65ca0fca42d478",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_08_09_x128_y320_64x64_20_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_08_09_x128_y320_64x64_20_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_08_09_x128_y320_64x64_20",
+      "sha256": "e39d3073a09d8be6ae0c817f7354c5c3e2bd4c49d758afe8c29286af624e2d7d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_08_09_x448_y192_64x64_70_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_08_09_x448_y192_64x64_70_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_08_09_x448_y192_64x64_70",
+      "sha256": "74862d472574a29e1592f54aa4fd5c543ba928e23af073b0b661a544f891cdb4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_08_27_x256_y128_64x64_38_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_08_27_x256_y128_64x64_38_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_08_27_x256_y128_64x64_38",
+      "sha256": "dd53e06f8918d3aac51b69ad62c26e7a02b4e18ed889b83695fcfa68a2f4282f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_08_27_x384_y384_64x64_63_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_08_27_x384_y384_64x64_63_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_08_27_x384_y384_64x64_63",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_08_27_x64_y320_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_08_27_x64_y320_64x64_11_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_08_27_x64_y320_64x64_11",
+      "sha256": "b557420fe1b5785c861b0e00231b61b5d74a276478775fb8be622fa61c4dc31d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_09_26_x320_y384_64x64_52_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_09_26_x320_y384_64x64_52_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_09_26_x320_y384_64x64_52",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_09_26_x576_y128_64x64_93_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_09_26_x576_y128_64x64_93_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_09_26_x576_y128_64x64_93",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_09_28_x256_y320_64x64_41_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_09_28_x256_y320_64x64_41_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_09_28_x256_y320_64x64_41",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_09_28_x320_y192_64x64_49_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_09_28_x320_y192_64x64_49_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_09_28_x320_y192_64x64_49",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2019_10_06_x384_y448_64x64_64_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2019_10_06_x384_y448_64x64_64_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2019_10_06_x384_y448_64x64_64",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2020_05_15_x576_y384_64x64_98_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2020_05_15_x576_y384_64x64_98_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2020_05_15_x576_y384_64x64_98",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2020_06_02_x192_y320_64x64_30_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2020_06_02_x192_y320_64x64_30_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2020_06_02_x192_y320_64x64_30",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2020_06_02_x192_y448_64x64_32_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2020_06_02_x192_y448_64x64_32_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2020_06_02_x192_y448_64x64_32",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2020_06_02_x576_y64_64x64_91_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2020_06_02_x576_y64_64x64_91_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2020_06_02_x576_y64_64x64_91",
+      "sha256": "9f06495d1292f4fe06350402eed440be5f296438a74daba158bb618c3351c5b6",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0900_S050_2020_06_17_x384_y576_64x64_66_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0900_S050_2020_06_17_x384_y576_64x64_66_cyan.npy",
+      "sample_id": "6_2_X0650_Y0900_S050_2020_06_17_x384_y576_64x64_66",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_05_04_x256_y320_64x64_48_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_05_04_x256_y320_64x64_48_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_05_04_x256_y320_64x64_48",
+      "sha256": "c733289a52aeceb06e238b6c579bc157551517c33ee14c9b448c9213d43d13f5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_05_14_x64_y64_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_05_14_x64_y64_64x64_11_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_05_14_x64_y64_64x64_11",
+      "sha256": "8f409adf28a588f6227ed11aa6503be4b06bb271b80c32c25ba899d84f5d3429",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_06_08_x320_y384_64x64_58_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_06_08_x320_y384_64x64_58_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_06_08_x320_y384_64x64_58",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_08_04_x576_y0_64x64_66_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_08_04_x576_y0_64x64_66_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_08_04_x576_y0_64x64_66",
+      "sha256": "76e788a467861a2442be3112a01a6485066a8f9bd3d82645a20915136e104d38",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_09_28_x256_y320_64x64_48_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_09_28_x256_y320_64x64_48_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_09_28_x256_y320_64x64_48",
+      "sha256": "b2f1b18ef559a4ee9a521ee0c6009a765e136751d1a5fd2a0832cc3b44a6d044",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_10_08_x512_y64_64x64_66_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_10_08_x512_y64_64x64_66_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_10_08_x512_y64_64x64_66",
+      "sha256": "0d2f57369f5acf0d6418238821afa54ef9b089887adbeb523ecee75505dd1ac8",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_11_15_x0_y512_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_11_15_x0_y512_64x64_7_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_11_15_x0_y512_64x64_7",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2019_11_15_x128_y640_64x64_28_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2019_11_15_x128_y640_64x64_28_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2019_11_15_x128_y640_64x64_28",
+      "sha256": "62cd72e7a87bc816d0a5bf9597d904ff9b174cdce7c52603aaf18d892980f791",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_01_16_x576_y704_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_01_16_x576_y704_64x64_1_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_01_16_x576_y704_64x64_1",
+      "sha256": "0fdb357829edd3928619b07ff1872876667bfe0338647759ccdd0249a41b06bd",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_05_20_x320_y64_64x64_53_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_05_20_x320_y64_64x64_53_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_05_20_x320_y64_64x64_53",
+      "sha256": "12025c03d99666d31df742a63e1d874bd9aee4855a4db344eba3e4086bc18782",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_06_14_x0_y576_64x64_8_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_06_14_x0_y576_64x64_8_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_06_14_x0_y576_64x64_8",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_06_17_x256_y576_64x64_52_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_06_17_x256_y576_64x64_52_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_06_17_x256_y576_64x64_52",
+      "sha256": "60a11bd0d06fcb1d86d1fd91de6d058070228b4d42774327616e2bcafc25ab35",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_07_17_x256_y256_64x64_47_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_07_17_x256_y256_64x64_47_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_07_17_x256_y256_64x64_47",
+      "sha256": "49eaa99e9e16336fde9579e6a0c58dbf64dbfb7450cc2545715f1ac80f54b68a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_07_17_x320_y384_64x64_58_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_07_17_x320_y384_64x64_58_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_07_17_x320_y384_64x64_58",
+      "sha256": "5fa61bdf2e5ae0bdcdff4da37a28bb2e946179cf361990486afdcc1702bff5e1",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_07_17_x384_y384_64x64_64_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_07_17_x384_y384_64x64_64_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_07_17_x384_y384_64x64_64",
+      "sha256": "8d6973e0ad451b70a2758d692a361816bbc4ed6af82d5c328d68868eeb7c6669",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_09_02_x128_y256_64x64_26_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_09_02_x128_y256_64x64_26_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_09_02_x128_y256_64x64_26",
+      "sha256": "86c26314db8e58f5371ca53eea8915de205bdbfe400028efd2c6bc4fb5c61b22",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_10_10_x0_y128_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_10_10_x0_y128_64x64_1_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_10_10_x0_y128_64x64_1",
+      "sha256": "5115c22a294186d1e63273afe86cbd67bf548acf54e89809e19e23d9cc32ffdb",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_11_09_x0_y128_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_11_09_x0_y128_64x64_1_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_11_09_x0_y128_64x64_1",
+      "sha256": "6c3508ec6498080e8c64dd336f45ab2542faffcb3317518a82cd53855aeb43dd",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_2.zip",
+      "destination": "data/raw/phase3_5_references/6_2_X0650_Y0950_S050_2020_11_09_x128_y384_64x64_28_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_2/6_2_X0650_Y0950_S050_2020_11_09_x128_y384_64x64_28_cyan.npy",
+      "sample_id": "6_2_X0650_Y0950_S050_2020_11_09_x128_y384_64x64_28",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_01_06_x512_y576_64x64_8_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_01_06_x512_y576_64x64_8_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_01_06_x512_y576_64x64_8",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_03_22_x320_y640_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_03_22_x320_y640_64x64_1_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_03_22_x320_y640_64x64_1",
+      "sha256": "a59712ace636e7634f84cad88e1e8ae2c236abb904774a6269d26e65add32d32",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_03_22_x448_y512_64x64_4_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_03_22_x448_y512_64x64_4_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_03_22_x448_y512_64x64_4",
+      "sha256": "92afe4aa92b365b932b16699cb1ff9bb05c788431a3b611c7a67db72915927b7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_03_22_x576_y512_64x64_10_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_03_22_x576_y512_64x64_10_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_03_22_x576_y512_64x64_10",
+      "sha256": "46c5e77d44aadedc31f7f900d02087844bd1984ad18e408ec4646c8d36b0d57e",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_03_27_x512_y640_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_03_27_x512_y640_64x64_9_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_03_27_x512_y640_64x64_9",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_04_01_x576_y512_64x64_10_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_04_01_x576_y512_64x64_10_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_04_01_x576_y512_64x64_10",
+      "sha256": "fa3ae0f7f6e2208bc50f2ccc791f7a83f5a634e22cdb6336f212c56d7f25f6e5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_04_01_x640_y640_64x64_15_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_04_01_x640_y640_64x64_15_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_04_01_x640_y640_64x64_15",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_09_23_x448_y576_64x64_5_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_09_23_x448_y576_64x64_5_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_09_23_x448_y576_64x64_5",
+      "sha256": "7653f5897a4d7e3c23179b5422b4c5693f2c6f8890c8fb45d4570b48aa993535",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_09_23_x448_y640_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_09_23_x448_y640_64x64_6_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_09_23_x448_y640_64x64_6",
+      "sha256": "181352f51dc4d5fd26312e4798962422d9d2de8fea5a03470815926e8b8bf9cd",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2019_10_23_x576_y640_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2019_10_23_x576_y640_64x64_12_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2019_10_23_x576_y640_64x64_12",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2020_01_06_x512_y576_64x64_8_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2020_01_06_x512_y576_64x64_8_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2020_01_06_x512_y576_64x64_8",
+      "sha256": "e3fb1d7acd5768473afe20e32e91aae145903b432e5f3f9ac9031c27278ba2a9",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2020_01_06_x576_y640_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2020_01_06_x576_y640_64x64_12_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2020_01_06_x576_y640_64x64_12",
+      "sha256": "dc374f20887d5b2952d956efbfe1908497d062be11014f48206e8b8f9c17458d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2020_04_05_x512_y512_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2020_04_05_x512_y512_64x64_7_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2020_04_05_x512_y512_64x64_7",
+      "sha256": "b03d44ac06f61ac8605ee62c93a9cddd0d27acf3f5719d0a14887f82c83aa8e2",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2020_04_05_x640_y640_64x64_15_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2020_04_05_x640_y640_64x64_15_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2020_04_05_x640_y640_64x64_15",
+      "sha256": "7984791ff8ac2d388f39c2bd66d5ecce3a14c0b792619d3ced3351dec6baf0cc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2020_11_01_x448_y512_64x64_3_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2020_11_01_x448_y512_64x64_3_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2020_11_01_x448_y512_64x64_3",
+      "sha256": "92afe4aa92b365b932b16699cb1ff9bb05c788431a3b611c7a67db72915927b7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2020_11_21_x384_y640_64x64_3_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2020_11_21_x384_y640_64x64_3_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2020_11_21_x384_y640_64x64_3",
+      "sha256": "d69296c0202b51279808baa24e257d23ce1d93985d24aa94e34e8cb16087ab62",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0300_S050_2020_11_21_x640_y576_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0300_S050_2020_11_21_x640_y576_64x64_14_cyan.npy",
+      "sample_id": "6_5_X0250_Y0300_S050_2020_11_21_x640_y576_64x64_14",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_01_06_x0_y512_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_01_06_x0_y512_64x64_1_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_01_06_x0_y512_64x64_1",
+      "sha256": "859670b480c1e8ec302f60fe212c5b95572925f51d33b374f90bb9f74f5c0efc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_01_06_x64_y448_64x64_4_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_01_06_x64_y448_64x64_4_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_01_06_x64_y448_64x64_4",
+      "sha256": "fc6e34644743828482984b37baeaefbf7044a4f706924dd36da1904d55250201",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_01_06_x64_y640_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_01_06_x64_y640_64x64_7_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_01_06_x64_y640_64x64_7",
+      "sha256": "90bb0c71ccdd05384293a45b3d4d12401d671f2759c5c37d3631a099a3458c93",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_01_11_x384_y448_64x64_23_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_01_11_x384_y448_64x64_23_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_01_11_x384_y448_64x64_23",
+      "sha256": "7d011249f6f0b6787bcd7f4a40f8ecd6bae0399ce714f5e45740c2660b31cdf0",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_01_11_x384_y576_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_01_11_x384_y576_64x64_25_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_01_11_x384_y576_64x64_25",
+      "sha256": "b675d60f98170a8653aea00156662a748218bf10ea2696477aa118cb56c2fdb1",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_03_22_x256_y640_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_03_22_x256_y640_64x64_19_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_03_22_x256_y640_64x64_19",
+      "sha256": "15365a840718d6443e34e3dc77c02e72fb87ea016aa4407caf9dd8ae50cf0e1d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_04_01_x0_y576_64x64_2_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_04_01_x0_y576_64x64_2_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_04_01_x0_y576_64x64_2",
+      "sha256": "d51b61a1424edd61f9877206d92e13f022c2b3242c3b050c0cc7437a28f5a529",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_04_01_x128_y576_64x64_10_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_04_01_x128_y576_64x64_10_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_04_01_x128_y576_64x64_10",
+      "sha256": "975ef179dd03f1ada10c1eda002b9b5f1d18663cffd520274c1c3d14230bb0c3",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_03_x256_y576_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_03_x256_y576_64x64_18_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_03_x256_y576_64x64_18",
+      "sha256": "67c4d46443d4fd93cc32dd943e2af27047da2fea56a5cc66919d9281baffb0a7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_03_x256_y640_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_03_x256_y640_64x64_19_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_03_x256_y640_64x64_19",
+      "sha256": "aee9a8b7d95d09145d79464d71edf12bfbe74df2283ac3892fe06e5514f6d380",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_03_x384_y640_64x64_26_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_03_x384_y640_64x64_26_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_03_x384_y640_64x64_26",
+      "sha256": "cd732f6af03113679d1cc5997541558151a694e4e48e9f6b0f8bb8ff7a311445",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_08_x128_y640_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_08_x128_y640_64x64_11_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_08_x128_y640_64x64_11",
+      "sha256": "a704e8637d568a141e25b2aa5fc2631c860ab6806a51df837518b8ba1378dac6",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_08_x192_y576_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_08_x192_y576_64x64_14_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_08_x192_y576_64x64_14",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_13_x128_y640_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_13_x128_y640_64x64_12_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_13_x128_y640_64x64_12",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_23_x128_y640_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_23_x128_y640_64x64_11_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_23_x128_y640_64x64_11",
+      "sha256": "09cbc617aa1eafeb2a51b82863eb208f139b9d92c8c8c74ca6ccac8ec5d70d25",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_23_x320_y576_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_23_x320_y576_64x64_19_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_23_x320_y576_64x64_19",
+      "sha256": "712dcaa41cbeb582595bf50e5be8c076d6c8de51198051ebb1d03dfe522e1fef",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_09_23_x64_y640_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_09_23_x64_y640_64x64_7_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_09_23_x64_y640_64x64_7",
+      "sha256": "77d72a481596e63ae03e6706196b5c4ef0b129e16a2988d210ceb6f310617ef8",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_10_23_x64_y384_64x64_4_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_10_23_x64_y384_64x64_4_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_10_23_x64_y384_64x64_4",
+      "sha256": "30379873d6f4c6c3448eb88c3d7eeb82f4f345b984c20f54f4788b3df59cbb14",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_10_28_x320_y640_64x64_20_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_10_28_x320_y640_64x64_20_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_10_28_x320_y640_64x64_20",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_12_02_x192_y640_64x64_15_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_12_02_x192_y640_64x64_15_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_12_02_x192_y640_64x64_15",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2019_12_02_x64_y640_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2019_12_02_x64_y640_64x64_7_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2019_12_02_x64_y640_64x64_7",
+      "sha256": "4e3198dba83d6f37d2cfe75ab6a9d705cd6612ef562970b54145a7c1b3d1ffe5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_01_06_x192_y640_64x64_16_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_01_06_x192_y640_64x64_16_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_01_06_x192_y640_64x64_16",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_01_06_x384_y640_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_01_06_x384_y640_64x64_25_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_01_06_x384_y640_64x64_25",
+      "sha256": "785ad9060ef6c5ec9d5d6cd60a020f7152166027596b36f01eb21a90481839c8",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_01_06_x64_y512_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_01_06_x64_y512_64x64_6_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_01_06_x64_y512_64x64_6",
+      "sha256": "22df42d84bde5b58fdb19161682ed69ebde552c9b0d781598c57151d5bbafa8c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_01_06_x64_y576_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_01_06_x64_y576_64x64_7_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_01_06_x64_y576_64x64_7",
+      "sha256": "1787b84ae3915e5f9f9d48eac18f7f92ab5b3f9e310c06a6712acf5a746a3265",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_01_21_x256_y640_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_01_21_x256_y640_64x64_18_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_01_21_x256_y640_64x64_18",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_01_21_x64_y448_64x64_4_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_01_21_x64_y448_64x64_4_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_01_21_x64_y448_64x64_4",
+      "sha256": "dc0a6849b81c105e8875d9eb78decd6e1de0cf4db77bcff956dcf9df5909cb1c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_10_12_x384_y576_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_10_12_x384_y576_64x64_25_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_10_12_x384_y576_64x64_25",
+      "sha256": "322b1c0ed9572ca43b5e7aea8b9bdc63ab42f11f178054330d0518c861b8c665",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_11_06_x128_y448_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_11_06_x128_y448_64x64_9_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_11_06_x128_y448_64x64_9",
+      "sha256": "a896f793bc3f47e7e8e6b45c0bcdefef009827717204aaf73531ca3496c250db",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_11_21_x0_y576_64x64_2_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_11_21_x0_y576_64x64_2_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_11_21_x0_y576_64x64_2",
+      "sha256": "46e6a69b2cdc33e321d9f2ed2da410f9ec1f04897963c985d9ab6b6c1dfa6872",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0250_Y0450_S050_2020_12_21_x192_y576_64x64_15_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0250_Y0450_S050_2020_12_21_x192_y576_64x64_15_cyan.npy",
+      "sample_id": "6_5_X0250_Y0450_S050_2020_12_21_x192_y576_64x64_15",
+      "sha256": "d8786811e902eb148e52185e8f0765cf109daee15d0ce66483038c65fae87034",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_01_11_x192_y320_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_01_11_x192_y320_64x64_14_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_01_11_x192_y320_64x64_14",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_01_11_x256_y256_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_01_11_x256_y256_64x64_22_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_01_11_x256_y256_64x64_22",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_03_22_x192_y0_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_03_22_x192_y0_64x64_9_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_03_22_x192_y0_64x64_9",
+      "sha256": "4f9ca118d47eb7ad631a59646a7fb7e11c70d40ce28775b1a1160e68fa3ce74a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_03_22_x448_y448_64x64_57_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_03_22_x448_y448_64x64_57_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_03_22_x448_y448_64x64_57",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_03_22_x448_y576_64x64_59_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_03_22_x448_y576_64x64_59_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_03_22_x448_y576_64x64_59",
+      "sha256": "9a1b3a2b12fefb378bb025402b9679cd78c977e4971dc2b2e09d7fd20475f39c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_03_22_x576_y128_64x64_71_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_03_22_x576_y128_64x64_71_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_03_22_x576_y128_64x64_71",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_03_22_x576_y384_64x64_75_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_03_22_x576_y384_64x64_75_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_03_22_x576_y384_64x64_75",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_09_03_x128_y64_64x64_3_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_09_03_x128_y64_64x64_3_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_09_03_x128_y64_64x64_3",
+      "sha256": "245a47222591ea110b0a30344b755e04eea93baa7ee97ec5bd34394d4f92baa0",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_09_03_x256_y448_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_09_03_x256_y448_64x64_25_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_09_03_x256_y448_64x64_25",
+      "sha256": "001370103fd47e4b1ef466355ea931ea5594beeacc372f4685f47fa178fba433",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_09_03_x576_y0_64x64_68_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_09_03_x576_y0_64x64_68_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_09_03_x576_y0_64x64_68",
+      "sha256": "d2feba6390e67244c8683b55be8df0ed407ac11b83ff7ef83e5f9b827ae660b1",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_09_08_x128_y64_64x64_3_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_09_08_x128_y64_64x64_3_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_09_08_x128_y64_64x64_3",
+      "sha256": "ed867f5d19bc7fd0fd858d48f3dba4fa43419074570e21974d73ce81147ddaab",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_09_08_x192_y512_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_09_08_x192_y512_64x64_17_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_09_08_x192_y512_64x64_17",
+      "sha256": "29d1f0fb0c3415fa40755647d8e8f08f9ddc5006e405e27abe3e1d5844e0051c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_09_08_x256_y128_64x64_20_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_09_08_x256_y128_64x64_20_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_09_08_x256_y128_64x64_20",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2019_09_08_x640_y448_64x64_84_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2019_09_08_x640_y448_64x64_84_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2019_09_08_x640_y448_64x64_84",
+      "sha256": "04e561a4192cdd8d1f98f4ac98e570dd580df4e6ebdf6d2f66f3dc015024ed89",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0300_S050_2020_12_01_x640_y192_64x64_80_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0300_S050_2020_12_01_x640_y192_64x64_80_cyan.npy",
+      "sample_id": "6_5_X0300_Y0300_S050_2020_12_01_x640_y192_64x64_80",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_01_11_x384_y512_64x64_48_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_01_11_x384_y512_64x64_48_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_01_11_x384_y512_64x64_48",
+      "sha256": "5be4e7abe89b7628438b98cba3219fec15e9aa64ea992f7b8f6ea3432b4e6b5e",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_22_x0_y512_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_22_x0_y512_64x64_9_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_22_x0_y512_64x64_9",
+      "sha256": "65a7583e73e0583513310afcd1dd49507f53df727626892a7bb075ed368d382f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_22_x128_y640_64x64_27_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_22_x128_y640_64x64_27_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_22_x128_y640_64x64_27",
+      "sha256": "3747995595f9c921802cf1d09d368db8284b1683b450aa9facf72eab9f15dca1",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_22_x256_y64_64x64_38_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_22_x256_y64_64x64_38_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_22_x256_y64_64x64_38",
+      "sha256": "c9fdcc48f7a2d7283d876618a90f8052d6c7e11c9d7b95bb5f3b1e00d8e5ad78",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_22_x512_y576_64x64_55_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_22_x512_y576_64x64_55_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_22_x512_y576_64x64_55",
+      "sha256": "892a3e9f580988faafd3a114a373c795d73356e3fc77f1515663f86daad2b80d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_22_x64_y384_64x64_16_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_22_x64_y384_64x64_16_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_22_x64_y384_64x64_16",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_27_x192_y576_64x64_35_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_27_x192_y576_64x64_35_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_27_x192_y576_64x64_35",
+      "sha256": "27371d1a3478f4cbd91dda83b9381db36bef5a99b7840dc7e747d785ebf82c5d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_27_x384_y576_64x64_49_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_27_x384_y576_64x64_49_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_27_x384_y576_64x64_49",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_03_27_x576_y576_64x64_57_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_03_27_x576_y576_64x64_57_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_03_27_x576_y576_64x64_57",
+      "sha256": "d4f513ff5cfb15ea003119dd1ff9bf5a6e8acee6060e28e9449f2248f06043d0",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_09_03_x128_y384_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_09_03_x128_y384_64x64_25_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_09_03_x128_y384_64x64_25",
+      "sha256": "b1d2cf1fba871451aec63bb332959998d38f0c9e66b0a18b438877f527ebdbdc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_09_03_x128_y576_64x64_26_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_09_03_x128_y576_64x64_26_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_09_03_x128_y576_64x64_26",
+      "sha256": "36030bc103adfadc7b9e8e216060f4c5e73d82e8c23c10530afc1313886b5f33",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_09_03_x192_y0_64x64_28_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_09_03_x192_y0_64x64_28_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_09_03_x192_y0_64x64_28",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_09_03_x192_y192_64x64_31_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_09_03_x192_y192_64x64_31_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_09_03_x192_y192_64x64_31",
+      "sha256": "9a170483cfceeb76426db7492cceeb479052706773dc5c8a8d6b68014e5bcca4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2019_09_03_x256_y640_64x64_44_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2019_09_03_x256_y640_64x64_44_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2019_09_03_x256_y640_64x64_44",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2020_12_01_x448_y640_64x64_53_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2020_12_01_x448_y640_64x64_53_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2020_12_01_x448_y640_64x64_53",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0350_S050_2020_12_01_x64_y448_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0350_S050_2020_12_01_x64_y448_64x64_17_cyan.npy",
+      "sample_id": "6_5_X0300_Y0350_S050_2020_12_01_x64_y448_64x64_17",
+      "sha256": "838b78db52dde073936d6bb89d1ad9cdbf874d33fbfb9cce2730451a30d6671b",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_01_21_x192_y0_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_01_21_x192_y0_64x64_6_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_01_21_x192_y0_64x64_6",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_01_21_x320_y128_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_01_21_x320_y128_64x64_12_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_01_21_x320_y128_64x64_12",
+      "sha256": "46764942f92330a5909431fb8b31661604f5fd1d91093b394eb5aec516edfa49",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_03_27_x64_y0_64x64_2_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_03_27_x64_y0_64x64_2_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_03_27_x64_y0_64x64_2",
+      "sha256": "23a34e6389239e0cf60381939075e170e313c3e324c3a66e78d98b97cac8bb57",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_04_01_x0_y0_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_04_01_x0_y0_64x64_1_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_04_01_x0_y0_64x64_1",
+      "sha256": "d728128549ac5a2bdc606266001ed16be1ebd95d182cd7fd91a46f1f03f0ad35",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_09_08_x192_y0_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_09_08_x192_y0_64x64_6_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_09_08_x192_y0_64x64_6",
+      "sha256": "096154ed7d28a8f5e83e411619ce9c05d71f09b1f0fe22de9023e3b64009bdc6",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_09_23_x192_y64_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_09_23_x192_y64_64x64_6_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_09_23_x192_y64_64x64_6",
+      "sha256": "6764ac340e9ade17ccdb93ee84eb064a62d1a807d285ee3c95f79eaa7e704fc2",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_10_28_x192_y64_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_10_28_x192_y64_64x64_7_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_10_28_x192_y64_64x64_7",
+      "sha256": "55b57f7528554c85122db05f158ab7e4f52cddae4ec6e56191dd06acdfd7ef87",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2019_10_28_x448_y192_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2019_10_28_x448_y192_64x64_17_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2019_10_28_x448_y192_64x64_17",
+      "sha256": "6b6b082e7c89d328eb8670f497cc80cded75c9e500f3a7d577e6bac8321fb26c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_01_06_x256_y64_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_01_06_x256_y64_64x64_9_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_01_06_x256_y64_64x64_9",
+      "sha256": "2f95083242dcc5bf05364abfb7c917d6e09d89d52340b423b789d3627a40e200",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_01_06_x384_y192_64x64_15_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_01_06_x384_y192_64x64_15_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_01_06_x384_y192_64x64_15",
+      "sha256": "646a90e86947389afbe5f89a86118ff3b4b36cc9dd224f875cd55f4ec393f03e",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_01_06_x64_y64_64x64_3_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_01_06_x64_y64_64x64_3_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_01_06_x64_y64_64x64_3",
+      "sha256": "82875513e5f3e9d2dc2bec9da6b630a31e8b344c6f6d79f8ad1cb5267d9264c5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_04_05_x0_y0_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_04_05_x0_y0_64x64_1_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_04_05_x0_y0_64x64_1",
+      "sha256": "a75ae02844843d7a89ea5bfc4e0738dfee7b406aaabf49b33815f3d1da4600bc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_04_05_x64_y0_64x64_2_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_04_05_x64_y0_64x64_2_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_04_05_x64_y0_64x64_2",
+      "sha256": "49a247c60f2c04ae9ff940451a230b2e674ea2dcd1c89b4a9d688a263f2da89f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_10_02_x448_y192_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_10_02_x448_y192_64x64_17_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_10_02_x448_y192_64x64_17",
+      "sha256": "10478c46929d95100043781c7aeef304ebb3db9be0029279624c7036ddc597e5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_10_17_x128_y64_64x64_5_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_10_17_x128_y64_64x64_5_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_10_17_x128_y64_64x64_5",
+      "sha256": "902c0dfec0cc1c0339efb857c4f1975a3136924dae68a22d320b8ee94f6237cc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_11_01_x0_y0_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_11_01_x0_y0_64x64_1_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_11_01_x0_y0_64x64_1",
+      "sha256": "5c25b8b783da6926dedd0ae9f2c8ecc6229d72ab6108b08a3b3fefaf08ee91d2",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_train_6_5.zip",
+      "destination": "data/raw/phase3_5_references/6_5_X0300_Y0450_S050_2020_12_26_x320_y0_64x64_10_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "6_5/6_5_X0300_Y0450_S050_2020_12_26_x320_y0_64x64_10_cyan.npy",
+      "sample_id": "6_5_X0300_Y0450_S050_2020_12_26_x320_y0_64x64_10",
+      "sha256": "d505b5a06313a0881e34e8d7838461fdd7657c122cf20db458cf47e142c324ba",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0900_S050_2019_03_25_x192_y576_64x64_2_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0900_S050_2019_03_25_x192_y576_64x64_2_cyan.npy",
+      "sample_id": "7_5_X1300_Y0900_S050_2019_03_25_x192_y576_64x64_2",
+      "sha256": "51a1408d34ce0d52787cb5480cb6d6318e66dcfe0f4d4986dfddc069423c311b",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0900_S050_2019_04_24_x704_y256_64x64_26_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0900_S050_2019_04_24_x704_y256_64x64_26_cyan.npy",
+      "sample_id": "7_5_X1300_Y0900_S050_2019_04_24_x704_y256_64x64_26",
+      "sha256": "ba92cfb36e7cafa7cbfbb269f77e910c2dce34970718590098b9e7ded202e93a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0900_S050_2019_05_29_x704_y128_64x64_24_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0900_S050_2019_05_29_x704_y128_64x64_24_cyan.npy",
+      "sample_id": "7_5_X1300_Y0900_S050_2019_05_29_x704_y128_64x64_24",
+      "sha256": "873e84e7e1e964e65455ce6544f72583e6ae9a2c2cd0b935a8165ecfe77f496a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0900_S050_2019_11_30_x448_y64_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0900_S050_2019_11_30_x448_y64_64x64_12_cyan.npy",
+      "sample_id": "7_5_X1300_Y0900_S050_2019_11_30_x448_y64_64x64_12",
+      "sha256": "a2681b7fe108fb6d034a6159710c548fc8a21d09ebd237491317ee9c74cfdb5d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0900_S050_2020_12_09_x704_y256_64x64_25_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0900_S050_2020_12_09_x704_y256_64x64_25_cyan.npy",
+      "sample_id": "7_5_X1300_Y0900_S050_2020_12_09_x704_y256_64x64_25",
+      "sha256": "5399c4b292cdd6a84343daabd9560978e34ed176037cb0e94af88c40bc38a6a9",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2019_01_29_x320_y192_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2019_01_29_x320_y192_64x64_22_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2019_01_29_x320_y192_64x64_22",
+      "sha256": "5259938682d706d66fa6f7f13f9016c70ab2f13bfd8f4c97df0c3c1c9f2d8fd5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2019_04_24_x0_y320_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2019_04_24_x0_y320_64x64_6_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2019_04_24_x0_y320_64x64_6",
+      "sha256": "d017661991e48704bf3990f0aa8802c23ff4b8e1bea70e53735be969eeaf2a63",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2019_05_24_x576_y192_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2019_05_24_x576_y192_64x64_22_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2019_05_24_x576_y192_64x64_22",
+      "sha256": "f7c79c48d91616cdee1f7bb405ef883f92904c98510695c92b7e2ca015aab66a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2019_05_29_x320_y192_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2019_05_29_x320_y192_64x64_22_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2019_05_29_x320_y192_64x64_22",
+      "sha256": "0a41be2f541f32c5c01bea80562b12c7487ab7bb57eeeb9cc21e4c39a92f2bca",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2019_12_15_x64_y128_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2019_12_15_x64_y128_64x64_9_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2019_12_15_x64_y128_64x64_9",
+      "sha256": "bf021c2b6ce2b5bcb3c51b64051f9d4ca394816a33d3a08af0326dc5defeea49",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2020_04_08_x64_y384_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2020_04_08_x64_y384_64x64_14_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2020_04_08_x64_y384_64x64_14",
+      "sha256": "97b5c0796892f3a3f6d5b9cd8a89cfffd5c3fb56bf62bcc92fc1235cd0282cd9",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2020_12_09_x0_y0_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2020_12_09_x0_y0_64x64_1_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2020_12_09_x0_y0_64x64_1",
+      "sha256": "0634e152391ba0d56d0782549a6183f0ba27b8852f4a939d2fc8eabc309be087",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1300_Y0950_S050_2020_12_09_x64_y64_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1300_Y0950_S050_2020_12_09_x64_y64_64x64_9_cyan.npy",
+      "sample_id": "7_5_X1300_Y0950_S050_2020_12_09_x64_y64_64x64_9",
+      "sha256": "f84b2dd7c3af8f724392d021ca2ff4b023a64becaa72b4a10d6cba70541075d6",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_01_29_x128_y320_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_01_29_x128_y320_64x64_7_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_01_29_x128_y320_64x64_7",
+      "sha256": "34e0fe7a01e7cbab4226725900cc2d03a6d8cedb616a189cfb9aba35dc67d8e2",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_01_29_x256_y320_64x64_23_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_01_29_x256_y320_64x64_23_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_01_29_x256_y320_64x64_23",
+      "sha256": "4b42c4841ae23cfc3448c875abb6af561d880fb2734c54c4cee8f6488b98f18f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_01_29_x384_y128_64x64_37_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_01_29_x384_y128_64x64_37_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_01_29_x384_y128_64x64_37",
+      "sha256": "eafd81d8dae4aacfca5f8c4bfb649f8f9021e9f27af051f24192b743b1d6d93d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_01_29_x512_y192_64x64_54_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_01_29_x512_y192_64x64_54_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_01_29_x512_y192_64x64_54",
+      "sha256": "4cd55a7982485120f6013b0e95e3df96127d77c7a59d4938aabd9cca33dd3c4d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_03_25_x256_y512_64x64_26_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_03_25_x256_y512_64x64_26_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_03_25_x256_y512_64x64_26",
+      "sha256": "385ab048822d1bd9367a083e09979fdb2360326eb5162c80f2ec123898b73076",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_04_24_x512_y192_64x64_54_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_04_24_x512_y192_64x64_54_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_04_24_x512_y192_64x64_54",
+      "sha256": "1e552e9a5bf42fe09bda0168093db6393f1725a04678d01bcfd1d107274980c7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_05_24_x576_y512_64x64_67_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_05_24_x576_y512_64x64_67_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_05_24_x576_y512_64x64_67",
+      "sha256": "50004d65569e1bfb679e8fe66628893f5bfd7fe115aec5aaed5a58ba12f7c136",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_11_20_x320_y576_64x64_34_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_11_20_x320_y576_64x64_34_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_11_20_x320_y576_64x64_34",
+      "sha256": "3936763860667977f040511648d3158581227f581227ef6db5121cb1cdc44fc0",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_11_20_x640_y576_64x64_72_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_11_20_x640_y576_64x64_72_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_11_20_x640_y576_64x64_72",
+      "sha256": "de83515091d4f82b49c237293bbec9aa81f9c56abcb89331589c6971c6790eb7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_11_20_x64_y384_64x64_4_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_11_20_x64_y384_64x64_4_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_11_20_x64_y384_64x64_4",
+      "sha256": "f6a26f543a6b17c9a3022d7e073b43bed8eeb58d6708c4154c47ca2d138e2bd4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_11_30_x256_y256_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_11_30_x256_y256_64x64_22_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_11_30_x256_y256_64x64_22",
+      "sha256": "2b290bc8ee87eba826bde7ea7d93653c2a9d5d9c3d851f842fc766d00ce53dd7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_11_30_x320_y256_64x64_31_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_11_30_x320_y256_64x64_31_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_11_30_x320_y256_64x64_31",
+      "sha256": "aeefeefdce40a5745b3c1f9a38f93a97bc72602d704a43f14831b7fc71181c93",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_11_30_x384_y256_64x64_39_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_11_30_x384_y256_64x64_39_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_11_30_x384_y256_64x64_39",
+      "sha256": "403abdadfe5b2c3a9e3f7d8c4a05b42dadcb0e7e407504e9ce0f9f6efc64aa1e",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_11_30_x512_y512_64x64_59_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_11_30_x512_y512_64x64_59_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_11_30_x512_y512_64x64_59",
+      "sha256": "5d21ee8652835b0b48b4e2c61954302d553256b39021419a35242ed63e6a046c",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2019_12_15_x704_y384_64x64_74_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2019_12_15_x704_y384_64x64_74_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2019_12_15_x704_y384_64x64_74",
+      "sha256": "aa5c6942b90360cf62105a76bebcc17658f9c5848429d2561e9000e3a4941be3",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_02_28_x128_y192_64x64_5_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_02_28_x128_y192_64x64_5_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_02_28_x128_y192_64x64_5",
+      "sha256": "3505659c06c279d4db3f82092587b78a7f08ab02fcf26b64fb141f253eeaf307",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_02_28_x192_y192_64x64_13_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_02_28_x192_y192_64x64_13_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_02_28_x192_y192_64x64_13",
+      "sha256": "5e1cf7585a12e10e004a61c852e2973f2a05861bcf61256eb4e1941cd47f5947",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_02_28_x512_y192_64x64_54_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_02_28_x512_y192_64x64_54_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_02_28_x512_y192_64x64_54",
+      "sha256": "8f82a101dca4a4cdb4d5a53b30a5105721abfc1cc1dac47ca8c3cb9818df4302",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_04_08_x64_y256_64x64_2_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_04_08_x64_y256_64x64_2_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_04_08_x64_y256_64x64_2",
+      "sha256": "e59bc13d7a0d4c4de6b4116001a2d542dc150439d63b55767f7c4ae7bfcff058",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_11_24_x192_y512_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_11_24_x192_y512_64x64_17_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_11_24_x192_y512_64x64_17",
+      "sha256": "b3c27e465d88c1c3b68c078f0c612cc3d99084c6ae231d57a6469f14a21b9e18",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_11_24_x256_y128_64x64_20_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_11_24_x256_y128_64x64_20_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_11_24_x256_y128_64x64_20",
+      "sha256": "70831fe94d08973dfe954d7eb3d234e77bbe3afa0bca533cba821e364beea9de",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_11_24_x448_y256_64x64_46_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_11_24_x448_y256_64x64_46_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_11_24_x448_y256_64x64_46",
+      "sha256": "4f4b1aa6e4a69cbf6f6d40071f1d4f2e76abbc088c0825b89ccaf37233b003dc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_11_24_x448_y320_64x64_47_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_11_24_x448_y320_64x64_47_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_11_24_x448_y320_64x64_47",
+      "sha256": "9fb7128d73d8b2b3dac53d9d4d7985712a4ab77980e3fdee08a5fe12a33b64bc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_12_09_x384_y256_64x64_38_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_12_09_x384_y256_64x64_38_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_12_09_x384_y256_64x64_38",
+      "sha256": "c45fa0d2d05a3c4e90d4531e0bca26400ff9a446ba046372f8ea62ea06ef057e",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_12_09_x448_y512_64x64_50_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_12_09_x448_y512_64x64_50_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_12_09_x448_y512_64x64_50",
+      "sha256": "7467307428d88b2190c14ec3e79207e74b25b6fccce21f60e4109ce7259178f6",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_12_29_x256_y192_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_12_29_x256_y192_64x64_18_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_12_29_x256_y192_64x64_18",
+      "sha256": "28d95cd1c0c420eeef54854e54164031b14cac5f56c62b44eb0a3ffb9ee2d74d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_12_29_x448_y576_64x64_47_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_12_29_x448_y576_64x64_47_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_12_29_x448_y576_64x64_47",
+      "sha256": "fd19af5caee6258a3cbb1e2f0ae8df1a92d2f3f90322fb53e9ee08dc12c06558",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1350_Y0850_S050_2020_12_29_x512_y192_64x64_49_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1350_Y0850_S050_2020_12_29_x512_y192_64x64_49_cyan.npy",
+      "sample_id": "7_5_X1350_Y0850_S050_2020_12_29_x512_y192_64x64_49",
+      "sha256": "7b19a81ed58a3ef72b59fa01a6f79ad2e4706da904968a91768de0d3d38f051d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1400_Y0850_S050_2019_03_25_x448_y448_64x64_8_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1400_Y0850_S050_2019_03_25_x448_y448_64x64_8_cyan.npy",
+      "sample_id": "7_5_X1400_Y0850_S050_2019_03_25_x448_y448_64x64_8",
+      "sha256": "5e14606fee3302200ea7d2c3fe887ade7255cec5962fd75b278cdf3a8e85de26",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1400_Y0850_S050_2019_04_24_x576_y448_64x64_15_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1400_Y0850_S050_2019_04_24_x576_y448_64x64_15_cyan.npy",
+      "sample_id": "7_5_X1400_Y0850_S050_2019_04_24_x576_y448_64x64_15",
+      "sha256": "11f54c69fdb4cc3ac973866bcc75a00f9196a9fd21ffdfe7d399b7e47d23cfc2",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1400_Y0850_S050_2019_04_24_x640_y0_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1400_Y0850_S050_2019_04_24_x640_y0_64x64_18_cyan.npy",
+      "sample_id": "7_5_X1400_Y0850_S050_2019_04_24_x640_y0_64x64_18",
+      "sha256": "b7d35fe65fb2b9def7bd2b67de5d03b215aa8005b75c7e3781e338308fc33f24",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1400_Y0850_S050_2019_05_24_x512_y576_64x64_13_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1400_Y0850_S050_2019_05_24_x512_y576_64x64_13_cyan.npy",
+      "sample_id": "7_5_X1400_Y0850_S050_2019_05_24_x512_y576_64x64_13",
+      "sha256": "b4d970ddc88ec9ab281b5572de7b9fd071849f47c9796dcc15a5e1422537a39a",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1400_Y0850_S050_2019_05_29_x576_y576_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1400_Y0850_S050_2019_05_29_x576_y576_64x64_11_cyan.npy",
+      "sample_id": "7_5_X1400_Y0850_S050_2019_05_29_x576_y576_64x64_11",
+      "sha256": "84f2c8e817494380e2703ccf7457b38f53855afc8f34483903ec09b726b271fc",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1400_Y0850_S050_2019_11_20_x512_y512_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1400_Y0850_S050_2019_11_20_x512_y512_64x64_11_cyan.npy",
+      "sample_id": "7_5_X1400_Y0850_S050_2019_11_20_x512_y512_64x64_11",
+      "sha256": "de98ce97dac1fee50cc28ac84c3e64a244d27423a26b35d46976fd45ee4549f7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1400_Y0850_S050_2020_12_29_x576_y576_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1400_Y0850_S050_2020_12_29_x576_y576_64x64_12_cyan.npy",
+      "sample_id": "7_5_X1400_Y0850_S050_2020_12_29_x576_y576_64x64_12",
+      "sha256": "e223f32fe7ae0bb3c5153369592787e539165ddfbd6cacd5bff4ff52b1de7cb5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_06_x192_y512_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_06_x192_y512_64x64_7_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_06_x192_y512_64x64_7",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_06_x448_y512_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_06_x448_y512_64x64_14_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_06_x448_y512_64x64_14",
+      "sha256": "05e208493b895412fedacfa91b0ac824cd6e6372f818790d4ae8ae1149057bcf",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_06_x576_y384_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_06_x576_y384_64x64_19_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_06_x576_y384_64x64_19",
+      "sha256": "9601e6ea4e850c48cef0e5dea1af45100c3edf3bb239c1a6f8d968371731efaf",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_06_x640_y448_64x64_24_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_06_x640_y448_64x64_24_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_06_x640_y448_64x64_24",
+      "sha256": "e6dfe974a612680e305c66c0293048ca5a13f7f0b6f4627919369a8abcb3d498",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_11_x192_y512_64x64_8_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_11_x192_y512_64x64_8_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_11_x192_y512_64x64_8",
+      "sha256": "b0db979c4747abff26eacffed2e3fa85d265216ac3b690ed24b7eca891fbe91b",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_11_x256_y512_64x64_10_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_11_x256_y512_64x64_10_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_11_x256_y512_64x64_10",
+      "sha256": "ea1bf04e7fa4f882165855b983f1331d15ca76ff2754e8021feb263ae763b096",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_11_x576_y512_64x64_19_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_11_x576_y512_64x64_19_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_11_x576_y512_64x64_19",
+      "sha256": "5f8c1688a28ac4448f2e63ee85ded55c1a432dd1b479a2c48dbefc5ab52513a2",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_11_x640_y448_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_11_x640_y448_64x64_22_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_11_x640_y448_64x64_22",
+      "sha256": "051db9de37f5a2670ec5ee9c9d201bb4a78c4bb24a3c0f47a2c84a34e7f2e397",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_01_21_x576_y512_64x64_26_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_01_21_x576_y512_64x64_26_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_01_21_x576_y512_64x64_26",
+      "sha256": "ea26fb11d3f6ebbc179f6bd1b6dea99c96a18fc872367c63eefd6de1d5129fbf",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_02_05_x128_y512_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_02_05_x128_y512_64x64_7_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_02_05_x128_y512_64x64_7",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_02_05_x320_y448_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_02_05_x320_y448_64x64_12_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_02_05_x320_y448_64x64_12",
+      "sha256": "bc62828575f0ef5ae57a51be3a8dbe602cf8328144219cb74d1177cab8e90c1b",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_02_05_x576_y384_64x64_22_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_02_05_x576_y384_64x64_22_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_02_05_x576_y384_64x64_22",
+      "sha256": "19ff75e755a6a9f01e2db335e988cc0a641bee95dfd43d885c29c93da7219572",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_02_05_x704_y384_64x64_30_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_02_05_x704_y384_64x64_30_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_02_05_x704_y384_64x64_30",
+      "sha256": "a39ef63487d29312c0f1805ca0a5f6cad4c02fb0722eeef1c78253bbeb75e9c4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_02_x192_y448_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_02_x192_y448_64x64_7_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_02_x192_y448_64x64_7",
+      "sha256": "2dbcee49b47a0cb95da200ac8d1182c2ae371c69030fc0c2004a784e8210a01d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_02_x256_y448_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_02_x256_y448_64x64_9_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_02_x256_y448_64x64_9",
+      "sha256": "90b6f203e7efbf5013628a580dbc1a598afbbca468bd3ebae8bfe56932fba5ea",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_02_x512_y448_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_02_x512_y448_64x64_18_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_02_x512_y448_64x64_18",
+      "sha256": "188dcb25cda87378cfb051f550075067b3638bc7cc1a435f8b930e104d0da6c5",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_02_x64_y448_64x64_3_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_02_x64_y448_64x64_3_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_02_x64_y448_64x64_3",
+      "sha256": "2bc8c1de65b06c917d5996e91811259e82ebbcc07866a62844f68d6904116b25",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_22_x256_y512_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_22_x256_y512_64x64_11_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_22_x256_y512_64x64_11",
+      "sha256": "de83cfe66e07f25375778c28ae19c3e695c6ceb91c5c0bd9fddd47644cc448c8",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_22_x384_y512_64x64_13_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_22_x384_y512_64x64_13_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_22_x384_y512_64x64_13",
+      "sha256": "557c6b67639c7435501aa604f25b267f060fed46dfd06fd750f385044b6523b7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_22_x448_y384_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_22_x448_y384_64x64_14_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_22_x448_y384_64x64_14",
+      "sha256": "5714a3699e36f4bdd0d75a0baa52c6af7680f0751b19415609d2fae4576b8df7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_22_x576_y384_64x64_21_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_22_x576_y384_64x64_21_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_22_x576_y384_64x64_21",
+      "sha256": "054362d7f16b02d166f5d6affb1764063890bbc5abb04d357cc13b8e9b32ce23",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_27_x192_y448_64x64_9_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_27_x192_y448_64x64_9_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_27_x192_y448_64x64_9",
+      "sha256": "4793f3d51b9e3bd81e81f6d2ec4c153589e801c337359f2ab4d89e5497a0255d",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_27_x320_y448_64x64_13_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_27_x320_y448_64x64_13_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_27_x320_y448_64x64_13",
+      "sha256": "6a4e63a49fb4ebc4a42ac3be21ca68c32175bc3984f7c907acde99e0028dbd26",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_27_x448_y448_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_27_x448_y448_64x64_17_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_27_x448_y448_64x64_17",
+      "sha256": "7fea0074bb86c66de7f04f52a0cc2b3e73193dc19508e3f14cfec5f511e78139",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_03_27_x448_y512_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_03_27_x448_y512_64x64_18_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_03_27_x448_y512_64x64_18",
+      "sha256": "ea617a1ae5f8d4811134f19544399f01299e9691d1eff4bf0d26ab4f8d86a9b4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_04_16_x192_y448_64x64_7_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_04_16_x192_y448_64x64_7_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_04_16_x192_y448_64x64_7",
+      "sha256": "cd55cce3ce6b978d6af862366ba243362af748c348e63c5f56c375ee4fe6b839",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_04_16_x256_y512_64x64_10_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_04_16_x256_y512_64x64_10_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_04_16_x256_y512_64x64_10",
+      "sha256": "908482746b289fab51b55d54632d39b83411eb86456adca6e72811605a268086",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_04_16_x448_y384_64x64_14_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_04_16_x448_y384_64x64_14_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_04_16_x448_y384_64x64_14",
+      "sha256": "9a521e58eaa1730e3d84c56317d4faa4491c2ef6bf5afe0e923c63f08317fec6",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_04_16_x704_y320_64x64_28_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_04_16_x704_y320_64x64_28_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_04_16_x704_y320_64x64_28",
+      "sha256": "dc8d03bbce799a8f5cd91885c12309a4a6a4b9e28bc76e8686144d00de1397d4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_12_07_x128_y512_64x64_8_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_12_07_x128_y512_64x64_8_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_12_07_x128_y512_64x64_8",
+      "sha256": "06a9c033c64aca2820e3d6ba5f74dc3c188c14cead16e3fb236d27ba4baeeeed",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_12_07_x640_y448_64x64_28_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_12_07_x640_y448_64x64_28_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_12_07_x640_y448_64x64_28",
+      "sha256": "8ef837e9a946b8f2cfd1c8d64adf68f4c033505bd8b618711ecfcd94f038b746",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_12_07_x64_y512_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_12_07_x64_y512_64x64_6_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_12_07_x64_y512_64x64_6",
+      "sha256": "a158f2093b40eb918a8ea102de5e065dcd2160d2d1ae9812d4e2a4d6892bd8da",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2019_12_07_x704_y448_64x64_32_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2019_12_07_x704_y448_64x64_32_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2019_12_07_x704_y448_64x64_32",
+      "sha256": "ffd68fd618229e556ad0323505bd5f94ec7603634a8d0fc2ef663f983fac4d89",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_01_01_x576_y384_64x64_23_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_01_01_x576_y384_64x64_23_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_01_01_x576_y384_64x64_23",
+      "sha256": "89bba48037c4a0a4ba94ccd9af197620a24838fe0c064e53fffb3eb5273c9aea",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_01_01_x64_y320_64x64_4_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_01_01_x64_y320_64x64_4_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_01_01_x64_y320_64x64_4",
+      "sha256": "7de63850f83875ee34832e6b0b041fd0cad3d89c2bafb1fc8f27e4da75646106",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_01_16_x192_y448_64x64_11_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_01_16_x192_y448_64x64_11_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_01_16_x192_y448_64x64_11",
+      "sha256": "bccd3c034c99ded3ac6c463a70aee0703b8698b91d62e5b0d66e9dbc57b1a9f4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_01_16_x448_y512_64x64_20_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_01_16_x448_y512_64x64_20_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_01_16_x448_y512_64x64_20",
+      "sha256": "d356e1ef03ed4f0b3d1ceb07b0d31b44cc2e04aa0ea8c1b0e292afff24ad19e7",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_01_16_x64_y320_64x64_5_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_01_16_x64_y320_64x64_5_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_01_16_x64_y320_64x64_5",
+      "sha256": "223e109d35062bfb1543dc81f10cb3a7ccfab255960ccfaeedccf4b18f66afd1",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_01_16_x64_y384_64x64_6_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_01_16_x64_y384_64x64_6_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_01_16_x64_y384_64x64_6",
+      "sha256": "f8a9607fac4dfcfa8931b3967636cfab3ba118b0c6417a575bb2cb962db849ad",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_03_26_x576_y512_64x64_24_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_03_26_x576_y512_64x64_24_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_03_26_x576_y512_64x64_24",
+      "sha256": "cc3ba32ef5ff16ec19abcafddc6e8fecdda5e16396f5bdde9e5459030a27f64b",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_03_26_x640_y512_64x64_28_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_03_26_x640_y512_64x64_28_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_03_26_x640_y512_64x64_28",
+      "sha256": "0634ba559dd5678d5827012c0844fc92c2807056bab1b919294cb5a3de648843",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_11_26_x0_y512_64x64_1_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_11_26_x0_y512_64x64_1_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_11_26_x0_y512_64x64_1",
+      "sha256": "401940ac97d034795913960f214c658a88f9cf71f548386145410f834b1334f3",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_11_26_x320_y448_64x64_10_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_11_26_x320_y448_64x64_10_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_11_26_x320_y448_64x64_10",
+      "sha256": "27936f949485f8259eab518482f0da503c1b4c084843d55bc8d0a20552ea807f",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_11_26_x512_y512_64x64_18_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_11_26_x512_y512_64x64_18_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_11_26_x512_y512_64x64_18",
+      "sha256": "6745ba5024418ed7be73da55f4bf246a668044cd63d092445481fd0eab092d69",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_11_26_x640_y320_64x64_23_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_11_26_x640_y320_64x64_23_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_11_26_x640_y320_64x64_23",
+      "sha256": "bf86009b68226a9f64caa468f8c9e8a38f40382b5d56665ce749348a2c938a6b",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_12_01_x256_y512_64x64_12_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_12_01_x256_y512_64x64_12_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_12_01_x256_y512_64x64_12",
+      "sha256": "05d3a425e1e8765c2d67dfc3879aa9aabb73b09774404484518524dbd880e8d4",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_12_01_x448_y448_64x64_17_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_12_01_x448_y448_64x64_17_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_12_01_x448_y448_64x64_17",
+      "sha256": "d9eb8e428e81934a4f7078be86e0b01d26d73a84524264b6b5d1b46107d2e964",
+      "size_bytes": 4224
+    },
+    {
+      "archive": "dataset_test.zip",
+      "destination": "data/raw/phase3_5_references/7_5_X1800_Y1700_S050_2020_12_01_x704_y512_64x64_33_cyan.npy",
+      "disposition": "RECOVERED_AND_VERIFIED",
+      "member": "7_5_X1800_Y1700_S050_2020_12_01_x704_y512_64x64_33_cyan.npy",
+      "sample_id": "7_5_X1800_Y1700_S050_2020_12_01_x704_y512_64x64_33",
+      "sha256": "b81bcb77a1c6e5deb2b5b9d3a379306504858ffb5ef783601721435514823822",
+      "size_bytes": 4224
+    }
+  ],
+  "recovery_date": "2026-10-12",
+  "requests_made": 12,
+  "schema_version": "phase3a_cyan_recovery_v1",
+  "source_snapshot": "data/metadata/sources/zenodo_record.json",
+  "verified_arrays": 288
+}

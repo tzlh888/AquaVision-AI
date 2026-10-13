@@ -1,0 +1,18 @@
+path_or_pattern,exclusion_action,reason
+data/metadata/phase3_5/dataset_test_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_6_2_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_6_5_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_7_2_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_7_5_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_8_3_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md,HUMAN_REVIEW,Owner must confirm personal contribution claims before publication
+data/raw/*,KEEP_IGNORED,Raw remote sensing data remain external
+data/interim/*,KEEP_IGNORED,Intermediate remote sensing data remain external
+data/processed/*,KEEP_IGNORED,Derived remote sensing data remain external
+*.pt,CANNOT_PUBLIC,Unreviewed model checkpoint or large binary
+*.pth,CANNOT_PUBLIC,Unreviewed model checkpoint or large binary
+.env*,CANNOT_PUBLIC,Credentials or local environment configuration must never be published
+__pycache__/*,KEEP_IGNORED,Regenerable Python cache
+*.pyc,KEEP_IGNORED,Regenerable Python bytecode
+research_outputs/phase4/*.npz,KEEP_IGNORED,Regenerable local inference artifact
+research_outputs/phase4/models/*.joblib,KEEP_IGNORED,Regenerable local model artifact
