@@ -1,0 +1,138 @@
+{
+  "accepted_samples": [],
+  "accepted_samples_note": "No sample had complete new Sentinel payload provenance and the frozen High-unit gate; candidate evidence is retained in the two CSV audit tables.",
+  "actual_scale": {
+    "derived_screening_bytes": 55666,
+    "existing_cyan_bytes_reused": 29336654,
+    "existing_cyan_products_reused": 6,
+    "frozen_new_candidates": 12,
+    "identity_failure_types": {
+      "HTTPError": 1,
+      "TimeoutError": 6
+    },
+    "identity_query_failures": 7,
+    "new_complete_v3_sample_units": 0,
+    "new_cyan_products_downloaded": 0,
+    "new_sentinel_payload_bytes": 0,
+    "new_sentinel_scene_dates": 0,
+    "new_waterbodies_with_any_high": 3,
+    "official_identity_and_cyan_screen_complete": 5,
+    "official_metadata_bytes_preserved": 44888528
+  },
+  "credentials_stored": false,
+  "final_status": "NOT READY",
+  "generated_artifact_sha256": {
+    "V3_CONFIRMATION_SEAL_STATUS.md": "5161cc8d73f85e344f14fdc3985ef89f1e3c3c8af9efc077375e780fbe46fc62",
+    "V3_EXPANSION_PROTOCOL.md": "74709f5cdc042d8cda0d14f1313d2f19c4082419e0ed78425d40092d626e2732",
+    "V3_HIGH_UNIT_QUALIFICATION.csv": "b9ee8b0075f3de7018caf60f1518ad95c31c9c99d2872ea2fc83fc272e7dfecf",
+    "V3_NATIVE_PIXEL_AUDIT.md": "4591a0b971360cbbb62cace8c56546802b797c017d68a6b586b99495d292b452",
+    "V3_REPRODUCIBILITY_REPORT.md": "334c13da50703ff6304481be02a58744e98f3fa9f2f7b9c16cf108aa3ebb9881",
+    "V3_SPLIT_INDEPENDENCE_AUDIT.md": "01586dd935855026aa1c017ac8f963c9096bc84268275ac964640b19f03501ad",
+    "V3_WATERBODY_CATALOG.csv": "c43479827947cb3b41a2d37d5d3816bcd9a7a41cbe9a89f85a6c9cc1e41262bd",
+    "fetch_existing_pilot_geometries.py": "e2ce4071595c22fcedf8d0cddb8f59695661f45e9df698f971e538f85967625f",
+    "generate_phase3a3_outputs.py": "8416dc7212197ee8841b15cd5726939bcd1580f8dccae47ae77ac6a86bf51373",
+    "phase3a3_audit.py": "61ce028cb490d0df9ac1b1d8cbab7fcff15f6c740ed2edcf549e1bbb5c144276",
+    "phase3a3_config.json": "4bdb2232298a92a90b3c7ef789bd64e6b80340eb9ceb761cde81fcc0db9a1266",
+    "query_usgs_candidates.py": "8dceb65bf0e9c3777feae9f81c99cd8abf1aae96373186e139d09defc8cdad92",
+    "screen_candidate_pool.py": "05bda93193e8b106d834b3103a71f5eae99fad92e5c88a24c9bb8a44cb955564",
+    "test_phase3a3_audit.py": "883fc791a3572a656f12db8e9a7cecee47595acf20cebc150f5fda0216a8293a",
+    "test_phase3a3_real_integration.py": "1175b6dca6004d27d173d11dffe48a0591fadd467fc0330f647e40eaa7c868e6"
+  },
+  "generated_at_utc": "2026-10-12T20:54:29.086610+00:00",
+  "git": {
+    "branch": "research-upgrade-v3",
+    "final_full_status_sha256": "d442c174d6fe5e0f9b4405397018463f32df188ae112aab0c441668da4fb33a8",
+    "final_untracked_file_count": 77,
+    "head": "bd11eceaa7efa7ca785d5e466cf807312ed70df0",
+    "initial_full_status_sha256": "9cca88b42aac151bfacebd59c74a5b70b46e5d7f1ef890883fdb34986d40fe8d",
+    "initial_untracked_file_count": 60,
+    "tracked_or_staged_changes_at_end": 0,
+    "tracked_or_staged_changes_at_start": 0
+  },
+  "legacy_v2_used": false,
+  "model_training_performed": false,
+  "official_sources": {
+    "copernicus_stac": "https://stac.dataspace.copernicus.eu/v1/",
+    "nasa_cyan": "https://oceandata.sci.gsfc.nasa.gov/api/cyan_file_search",
+    "usgs_nhdplus_hr": "https://hydro.nationalmap.gov/arcgis/rest/services/NHDPlus_HR/MapServer/9"
+  },
+  "protected_snapshot": {
+    "aquavision_archive_sha256": "14419204591e1988038827983aee8668a87026f9326c9a5b986671cd9ed7dec0",
+    "aquavision_untracked_file_count": 60,
+    "archive_location": "workspace outputs outside both Git repositories; not for public commit",
+    "watersense_archive_sha256": "e44fa74e853bf5569d79e96443d4ad1d58029758db6ff790a3d2010f8ce863b8",
+    "watersense_untracked_file_count": 131
+  },
+  "qualification": {
+    "confirmation_sealed": false,
+    "confirmation_units": 0,
+    "phase3b_prerequisites_met": false,
+    "qualified_independent_high_units": 0,
+    "training_units": 0,
+    "validation_units": 0
+  },
+  "research_stage": "Phase 3A-3 bounded v3-only expansion",
+  "resource_budget": {
+    "new_cyan_products_max": 24,
+    "new_sentinel_scene_dates_max": 24,
+    "new_waterbodies_max": 12
+  },
+  "schema_version": "aquavision-v3-phase3a3-manifest-v1",
+  "source_artifacts": {
+    "cyan_products": [
+      {
+        "date": "2025-07-12",
+        "product_id": "L2025193.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m.tif",
+        "sha256": "ee9775ca7c1b7b12e64c68b3c24595e2991b3a73b513f5af47cad15441c39b40",
+        "version": "6.0"
+      },
+      {
+        "date": "2025-07-25",
+        "product_id": "L2025206.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m.tif",
+        "sha256": "0eed1b55b0fbdc8fbbb0bb8ccbfa70ad9b33d1451fa39b9ce1f0d927ffa4cd8f",
+        "version": "6.0"
+      },
+      {
+        "date": "2025-07-28",
+        "product_id": "L2025209.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m.tif",
+        "sha256": "5a778a76124f33ee48e03c2f6146a2c1dd1125ef37519dca446384d565bf530c",
+        "version": "6.0"
+      },
+      {
+        "date": "2025-09-19",
+        "product_id": "L2025262.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m.tif",
+        "sha256": "4624d8b25c0ab28dd9d37beb4abac00355642531e3d30d2dfaf22a2055874d30",
+        "version": "6.0"
+      },
+      {
+        "date": "2025-09-23",
+        "product_id": "L2025266.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m.tif",
+        "sha256": "e8aa9de2ca1a7dc8e465d58975383990d6a9adda18145f87ecf55804a35aae4e",
+        "version": "6.0"
+      },
+      {
+        "date": "2025-09-25",
+        "product_id": "L2025268.L3m_DAY_CYAN_CI_cyano_CYAN_CONUS_300m.tif",
+        "sha256": "18348a9b777cfd5b485e638b1bea1792615f9053915a8ee0e85363d9991b4c8f",
+        "version": "6.0"
+      }
+    ],
+    "native_screen": {
+      "git_ignored": true,
+      "path": "data/processed/phase3a3/candidate_native_screen.json",
+      "sha256": "009d57de17ae86cf1e2ed034031971388884987ecdbadc436559b07779d84c7d"
+    },
+    "usgs_existing_pilot_queries": {
+      "git_ignored": true,
+      "path": "data/raw/phase3a3/usgs/existing_pilot_geometries.json",
+      "sha256": "742e5d501c12c59d1032a3fdb769254619180a6acffbab5a33acf7e9632ea765"
+    },
+    "usgs_new_candidate_queries": {
+      "git_ignored": true,
+      "path": "data/raw/phase3a3/usgs/frozen_candidate_identity_queries.json",
+      "sha256": "8db06ea0bd1c1d355c44387fcecd296cc49f1d4dc94bbdd0d5d7492dcf81347c"
+    }
+  },
+  "stable_evidence_sha256": "1f996cc8e83dc3c352d8a6019c422f9c5f3f7bb42aef334b13c79ab20da7f3ab",
+  "stop_reason": "Only five of twelve new frozen candidates returned authoritative identity/geometry. Together with the three historical pilot waterbodies, the bounded verified universe contains at most eight independent waterbodies, fewer than the nine required for 3/3/3."
+}

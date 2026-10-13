@@ -1,0 +1,74 @@
+{
+  "schema_version": "phase3a3-config-v1",
+  "frozen_at": "2026-10-12T00:00:00+02:00",
+  "random_seed": 20261012,
+  "limits": {
+    "new_waterbodies": 12,
+    "new_sentinel_scene_dates": 24,
+    "new_cyan_products": 24,
+    "patches_per_scene": 8,
+    "patches_per_waterbody": 16
+  },
+  "candidate_pool": {
+    "source": "USGS NHDPlus HR Waterbody MapServer layer 9",
+    "service_url": "https://hydro.nationalmap.gov/arcgis/rest/services/NHDPlus_HR/MapServer/9",
+    "where": "AREASQKM >= 50 AND GNIS_NAME IS NOT NULL",
+    "output_crs": 5070,
+    "nationwide_query_attempts": 3,
+    "nationwide_query_result": "HTTP 504; no candidate metadata returned",
+    "amendment_before_label_screening": true,
+    "fallback_identity_queries_max": 12,
+    "fallback_candidates": [
+      {"name": "Lake Erie", "state_hint": "Great Lakes", "latitude": 42.2, "longitude": -81.2},
+      {"name": "Lake Champlain", "state_hint": "VT/NY", "latitude": 44.5, "longitude": -73.3},
+      {"name": "Lake Winnebago", "state_hint": "WI", "latitude": 44.0, "longitude": -88.4},
+      {"name": "Mille Lacs Lake", "state_hint": "MN", "latitude": 46.2, "longitude": -93.6},
+      {"name": "Lake Pontchartrain", "state_hint": "LA", "latitude": 30.2, "longitude": -90.1},
+      {"name": "Clear Lake", "state_hint": "CA", "latitude": 39.0, "longitude": -122.75},
+      {"name": "Pyramid Lake", "state_hint": "NV", "latitude": 40.0, "longitude": -119.5},
+      {"name": "Lake Texoma", "state_hint": "TX/OK", "latitude": 33.9, "longitude": -96.6},
+      {"name": "Fort Peck Lake", "state_hint": "MT", "latitude": 47.7, "longitude": -106.5},
+      {"name": "Lake Sakakawea", "state_hint": "ND", "latitude": 47.5, "longitude": -101.4},
+      {"name": "Lake Eufaula", "state_hint": "OK", "latitude": 35.3, "longitude": -95.5},
+      {"name": "Saginaw Bay", "state_hint": "MI", "latitude": 43.9, "longitude": -83.6}
+    ]
+  },
+  "screening": {
+    "design": "high-enriched",
+    "uses_model_predictions": false,
+    "cyan_dates": [
+      "2025-07-12",
+      "2025-07-25",
+      "2025-07-28",
+      "2025-09-19",
+      "2025-09-23",
+      "2025-09-25"
+    ],
+    "sentinel_cyan_date_tolerance_days": 0
+  },
+  "labels": {
+    "processing_version": "V6",
+    "low": [0, 99],
+    "moderate": [100, 199],
+    "high": [200, 253],
+    "land": 254,
+    "nodata": 255,
+    "discrete_resampling": "nearest"
+  },
+  "qualification": {
+    "minimum_dates": 2,
+    "minimum_date_separation_days": 30,
+    "minimum_high_patches": 3,
+    "minimum_unique_dated_native_high_pixels": 100
+  },
+  "split": {
+    "group": "conservative_waterbody_event_history",
+    "assignment": "sha256-round-robin",
+    "salt": "phase3a3-split-v1",
+    "minimum_qualified_high_units": {
+      "training": 3,
+      "validation": 3,
+      "confirmation": 3
+    }
+  }
+}

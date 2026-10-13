@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "frozen_at_utc": "2026-10-12T16:25:00Z",
+  "study_status": "metadata_first_pilot_no_model_training",
+  "selection_rationale": "Three large, named CONUS waterbodies in distinct regions were fixed before any CyAN pixel values or model predictions were accessed. They are a pipeline test, not a representative or prevalence sample.",
+  "sources": {
+    "copernicus_stac": "https://stac.dataspace.copernicus.eu/v1",
+    "usgs_nhdplus_hr_waterbody": "https://hydro.nationalmap.gov/arcgis/rest/services/NHDPlus_HR/MapServer/9",
+    "nasa_cyan_daily": "https://oceandata.sci.gsfc.nasa.gov/directdataaccess/Level-3%20Mapped/Merged-S3-CYAN",
+    "nasa_cyan_version_note": "https://oceancolor.gsfc.nasa.gov/images/cyan/version/6/CyAN_NASA_MERISOLCI_CI_release_notes_V6_Aug_2025.pdf"
+  },
+  "sentinel_collection": "sentinel-2-l2a",
+  "sentinel_asset": "B05_20m",
+  "patch_size_pixels": 64,
+  "patch_resolution_m": 20,
+  "maximum_tile_cloud_cover_percent": 30.0,
+  "scene_selection_rule": "Within each frozen calendar window, select the item covering the waterbody representative point with the smallest eo:cloud_cover; break ties by datetime then item ID.",
+  "scene_windows": [
+    {
+      "window_id": "2025_07",
+      "start_utc": "2025-07-01T00:00:00Z",
+      "end_utc": "2025-07-31T23:59:59Z"
+    },
+    {
+      "window_id": "2025_09",
+      "start_utc": "2025-09-01T00:00:00Z",
+      "end_utc": "2025-09-30T23:59:59Z"
+    }
+  ],
+  "waterbodies": [
+    {
+      "pilot_id": "okeechobee",
+      "object_id": 1787881,
+      "permanent_identifier": "120024129",
+      "nhdplus_id": "15000800177920",
+      "gnis_id": "00307550",
+      "gnis_name": "Lake Okeechobee"
+    },
+    {
+      "pilot_id": "utah_lake",
+      "object_id": 5333680,
+      "permanent_identifier": "83636441",
+      "nhdplus_id": "70000400075631",
+      "gnis_id": "01446894",
+      "gnis_name": "Utah Lake"
+    },
+    {
+      "pilot_id": "upper_klamath",
+      "object_id": 5169146,
+      "permanent_identifier": "168095445",
+      "nhdplus_id": "50000400343697",
+      "gnis_id": "01151685",
+      "gnis_name": "Upper Klamath Lake"
+    }
+  ],
+  "label_mapping": {
+    "target": "processed CyAN CI_cyano digital-number proxy",
+    "low": [0, 99],
+    "moderate": [100, 199],
+    "high": [200, 253],
+    "ignore": [254, 255],
+    "change_from_legacy_thresholds": false
+  },
+  "qualification_gate": {
+    "required_dates_per_high_unit": 2,
+    "minimum_date_span_days": 30,
+    "minimum_high_patches_per_unit": 3,
+    "minimum_high_pixels_per_unit": 100,
+    "minimum_high_validation_units": 3,
+    "target_high_validation_units": 10,
+    "requires_confirmed_cyan_processing_version": true,
+    "requires_downloaded_and_hashed_source_label": true,
+    "requires_no_cross_partition_waterbody_scene_or_footprint_overlap": true
+  },
+  "partition_policy": "Pilot rows remain PILOT_CANDIDATE_UNASSIGNED until source-label support and contamination checks pass. No confirmation members are assigned in Phase 3A-2."
+}
