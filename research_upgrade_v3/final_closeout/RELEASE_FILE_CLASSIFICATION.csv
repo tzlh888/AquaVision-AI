@@ -1,0 +1,104 @@
+path,release_action,reason
+.gitattributes,COMMIT,Preserve frozen artifact bytes while scoping whitespace checks
+README.md,COMMIT,Minimal scientific-results and limitations update
+data/metadata/phase3_5/dataset_test_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_6_2_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_6_5_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_7_2_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_7_5_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+data/metadata/phase3_5/dataset_train_8_3_entries.csv,KEEP_IGNORED,Large regenerated historical ZIP index retained locally with verified preservation hash
+research_upgrade_v3/EVIDENCE_MANIFEST.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/LEGACY_BENCHMARK_REGISTRY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/PHASE2A_IMPLEMENTATION_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/PROTOCOL_FREEZE.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/RESEARCH_DECISION_LOG.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/DEVELOPMENT_TOOL_AUDIT.md,COMMIT,Required public trace audit with a neutral repository-relative name
+research_upgrade_v3/final_closeout/EXCLUDED_FILE_MANIFEST.csv,COMMIT,Release exclusion allowlist
+research_upgrade_v3/final_closeout/FINAL_RELEASE_READINESS_REPORT.md,COMMIT,Release governance deliverable
+research_upgrade_v3/final_closeout/FINAL_STAGING_REVIEW.md,COMMIT,Final staging security and integrity audit
+research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/HUMAN_REVIEW_CHECKLIST.md,COMMIT,Owner approval gates
+research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/PATH_SANITIZATION_CHANGES.csv,COMMIT,Recorded path cleanup actions
+research_upgrade_v3/final_closeout/PROPOSED_COMMIT_PLAN.md,COMMIT,Explicit three-group commit plan
+research_upgrade_v3/final_closeout/PUBLIC_PATH_AUDIT.md,COMMIT,Public path and link audit
+research_upgrade_v3/final_closeout/PUBLIC_RELEASE_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/RELEASE_FILE_CLASSIFICATION.csv,COMMIT,Release governance deliverable
+research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md,HUMAN_REVIEW,Owner must confirm personal contribution claims before publication
+research_upgrade_v3/final_closeout/STAGED_FILE_MANIFEST.csv,COMMIT,Exact staged path and commit group manifest
+research_upgrade_v3/final_closeout/TECHNICAL_INTERVIEW_QA.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/CYAN_DOWNLOAD_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/CYAN_PRODUCT_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/FINAL_LABEL_PILOT_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/GEOSPATIAL_ALIGNMENT_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/HIGH_SUPPORT_PILOT.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/LABEL_INTEGRATION_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/PILOT_REPRODUCIBILITY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/cyan_label_integration.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/run_final_label_pilot.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/final_label_pilot/test_final_label_pilot.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/ARTIFACT_PROVENANCE_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/ARTIFACT_RECOVERY_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/CYAN_ARRAY_RECOVERY_LOG.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/EXPLORATORY_V3_SELECTION_PROTOCOL.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/GEOGRAPHIC_IDENTITY_TABLE.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/HIGH_CLASS_INDEPENDENCE_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/HIGH_CLASS_PROVENANCE_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/HIGH_SUPPORT_BY_GROUP.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/INDEPENDENT_DATA_FEASIBILITY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/PHASE3A_FINAL_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/SPLIT_OVERLAP_AUDIT.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/generate_phase3a_evidence.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/phase3a_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/recover_v2_cyan_arrays.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a/test_phase3a_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/CYAN_PROCESSING_VERSION_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/GEOGRAPHIC_METADATA_RECOVERY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/INDEPENDENT_HIGH_CANDIDATES.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/PATCH_IDENTITY_CATALOG.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/PHASE3A1_FINAL_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/PHYSICAL_OVERLAP_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/PROSPECTIVE_V3_DATASET_PROTOCOL.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/SCENE_MATCHING_EVIDENCE.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/SENTINEL_ARRAY_RECOVERY_LOG.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/SENTINEL_ARTIFACT_RECOVERY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/WATERBODY_MATCHING_EVIDENCE.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/generate_phase3a1_catalogs.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/phase3a1_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/recover_v2_sentinel_arrays.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a1/test_phase3a1_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/LEGACY_METADATA_FINAL_RECOVERY.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/PHASE3A2_FINAL_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/PROSPECTIVE_V3_PILOT_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/V3_CONFIRMATION_SET_PROTOCOL.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/V3_DATASET_SPLIT_PROTOCOL.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/V3_DATA_PROVENANCE_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/V3_GEOGRAPHIC_IDENTITY.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/V3_HIGH_SUPPORT_AUDIT.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/V3_METADATA_CATALOG.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/V3_SPATIAL_OVERLAP_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/phase3a2_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/phase3a2_pilot_config.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/refresh_cyan_access_evidence.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/run_phase3a2_pilot.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a2/test_phase3a2_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/PHASE3A3_FINAL_HANDOFF.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_CONFIRMATION_SEAL_STATUS.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_DATASET_MANIFEST.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_EXPANSION_PROTOCOL.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_HIGH_UNIT_QUALIFICATION.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_NATIVE_PIXEL_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_REPRODUCIBILITY_REPORT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_SPLIT_INDEPENDENCE_AUDIT.md,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/V3_WATERBODY_CATALOG.csv,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/fetch_existing_pilot_geometries.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/generate_phase3a3_outputs.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/phase3a3_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/phase3a3_config.json,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/query_usgs_candidates.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/screen_candidate_pool.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/test_phase3a3_audit.py,COMMIT,Public research code report test or compact reproducibility artifact
+research_upgrade_v3/phase3a3/test_phase3a3_real_integration.py,COMMIT,Public research code report test or compact reproducibility artifact
+scripts/run_research_upgrade_tests.py,COMMIT,Public research code report test or compact reproducibility artifact
+tests/test_phase4_reliability.py,COMMIT,Fail-safe public test contract for intentionally omitted private or large benchmark artifacts

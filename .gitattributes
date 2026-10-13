@@ -1,0 +1,9 @@
+# Preserve byte-identical frozen research evidence while keeping ordinary checks strict.
+# CSV outputs use standard CRLF records; Markdown reports use two-space hard breaks.
+research_upgrade_v3/**/*.csv whitespace=-trailing-space
+research_upgrade_v3/**/*.md whitespace=-trailing-space
+
+# These frozen generator/audit scripts include one recorded blank line at EOF.
+research_upgrade_v3/phase3a/generate_phase3a_evidence.py whitespace=-blank-at-eof
+research_upgrade_v3/phase3a/phase3a_audit.py whitespace=-blank-at-eof
+research_upgrade_v3/phase3a3/phase3a3_audit.py whitespace=-blank-at-eof
