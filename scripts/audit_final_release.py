@@ -1,8 +1,9 @@
-"""Read-only scientific verification, writing new audit artifacts only in Phase5.
+"""Read-only scientific verification with optional isolated audit output.
 
 --metadata-only checks published metrics/documents without loading checkpoints.
 --full additionally requires original local arrays, predictions, and checkpoints.
-Neither mode trains, selects new models, downloads data, or rewrites Phase4.
+Neither mode trains, selects new models, downloads data, or rewrites repository artifacts.
+Use --output-dir to write fresh audit JSON outside the repository.
 """
 import argparse,csv,hashlib,json,re,subprocess,xml.etree.ElementTree as ET
 from pathlib import Path
@@ -14,7 +15,7 @@ ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'research_outputs/phase5'
 PATTERN=r'ground[ -]truth|pollution detection|accurately generalizes|reliable (?:three.class geographic )?generalization|cells\s*/\s*ml|best model|state.of.the.art'
 def read(p):return json.loads((ROOT/p).read_text())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
-def write(name,value):(OUT/name).write_text(json.dumps(value,indent=2,allow_nan=False)+'\n')
+def write(output_dir,name,value):(output_dir/name).write_text(json.dumps(value,indent=2,allow_nan=False)+'\n')
 def pointer(data,path):
     if path=='len(samples)':return len(data['samples'])
     if path.startswith('regional_high_range:'):
@@ -22,19 +23,46 @@ def pointer(data,path):
     for k in path.split('/'):data=data[int(k)] if isinstance(data,list) else data[k]
     return data
 
-def preservation(full):
-    expected=read('data/metadata/phase5/preservation_manifest.json')['files'];amendment=read('data/metadata/phase5/public_release_sanitization.json')['files'];missing=[];changed=[];sanitized=[];checked=0
+def verify_file_hash_set(root,expected,sanitization,registered_changes,full):
+    missing=[];changed=[];sanitized=[];registered=[];checked=0
     for p,h in expected.items():
-        path=ROOT/p
+        path=root/p
         if not path.exists():missing.append(p);continue
         checked+=1;observed=sha(path)
         if observed==h:continue
-        release_change=amendment.get(p,{})
+        release_change=sanitization.get(p,{})
         if release_change.get('before_sha256')==h and release_change.get('after_sha256')==observed:sanitized.append(p)
+        elif (registered_changes.get(p,{}).get('before_sha256')==h
+              and registered_changes[p].get('after_sha256')==observed
+              and registered_changes[p].get('classification') in {'regenerated_packaging_metadata','tracked_test_update'}):registered.append(p)
         else:changed.append(p)
     assert not changed,changed
     if full:assert not missing,missing
-    return {'expected_files':len(expected),'checked_files':checked,'original_hash_matches':checked-len(sanitized),'documented_public_release_path_sanitizations':sanitized,'changed_files':changed,'unavailable_files':missing,'complete_local_preservation':not missing and not changed,'frozen_v2_sha256':sha(ROOT/'data/metadata/phase3_5/geographic_split_v2.json')}
+    return {'expected_files':len(expected),'checked_files':checked,'original_hash_matches':checked-len(sanitized)-len(registered),'documented_public_release_path_sanitizations':sanitized,'registered_v4_release_candidate_changes':registered,'changed_files':changed,'unavailable_files':missing,'complete_local_preservation':not missing and not changed}
+
+def preservation(full):
+    frozen_path=ROOT/'data/metadata/phase5/preservation_manifest.json';expected=json.loads(frozen_path.read_text())['files'];sanitization=read('data/metadata/phase5/public_release_sanitization.json')['files']
+    amendment_path=ROOT/'data/metadata/phase5/preservation_manifest_v4_amendment.json'
+    amendment=json.loads(amendment_path.read_text()) if amendment_path.exists() else {'changes':{}}
+    if amendment_path.exists():
+        assert amendment['base_manifest_sha256']==sha(frozen_path)
+        assert set(amendment['changes']).issubset(expected)
+    result=verify_file_hash_set(ROOT,expected,sanitization,amendment['changes'],full)
+    current_path=ROOT/'data/metadata/phase5/preservation_manifest_v4_current.json'
+    if current_path.exists():
+        current=json.loads(current_path.read_text());derived=dict(expected)
+        for p,change in sanitization.items():
+            if p in derived and change.get('before_sha256')==derived[p]:derived[p]=change['after_sha256']
+        for p,change in amendment['changes'].items():derived[p]=change['after_sha256']
+        assert current['base_manifest_sha256']==sha(frozen_path)
+        assert current['files']==derived
+        result['versioned_current_manifest_sha256']=sha(current_path)
+        result['versioned_current_manifest_verified']=True
+    else:result['versioned_current_manifest_verified']=False
+    result['frozen_manifest_sha256']=sha(frozen_path)
+    result['v4_amendment_sha256']=sha(amendment_path) if amendment_path.exists() else None
+    result['frozen_v2_sha256']=sha(ROOT/'data/metadata/phase3_5/geographic_split_v2.json')
+    return result
 
 def metric_tables():
     results=read('research_outputs/phase4/results.json');specs=read('research_outputs/phase4/specifications.json');selection=read('research_outputs/phase4/selection.json');count=0
@@ -102,7 +130,7 @@ def documents():
         assert not re.search(r'(?i)the model generalizes successfully|achieves reliable three.class geographic generalization|state.of.the.art performance|accurately generalizes',p.read_text()),p
     return {'abstract_words':words,'portfolio_words':len(portfolio.split()),'application_words':len(application.split()),'cv_one_line_words':len(one.split()),'canonical_numbered_sections':19,'readme_provenance_records':len(claims),'core_figures':10,'public_local_links_verified':links,'public_documents':len(public)}
 
-def claim_scan():
+def claim_scan(output_dir=None):
     command=['rg','--json','-n','-i','--hidden','--no-ignore','-g','*.{md,py,mjs,json,txt,csv,tsv,yml,yaml,toml,html,xml,log,svg}','-g','!.git/**','-g','!.venv/**','-g','!tmp/**','-g','!**/node_modules/**','-g','!**/__pycache__/**','-g','!**/.pytest_cache/**','-g','!**/claim_occurrences.json','-g','!**/claim_scan_raw.jsonl',PATTERN,'.']
     proc=subprocess.run(command,cwd=ROOT,capture_output=True,text=True);assert proc.returncode in [0,1],proc.stderr
     matches=[]
@@ -123,7 +151,8 @@ def claim_scan():
             context=encoded[left:right].decode('utf-8',errors='replace').replace('\n',' ').strip()
             contexts.append({'term':item['match']['text'],'start_byte':start,'end_byte':end,'context':context})
         matches.append({'path':p,'line':d['line_number'],'terms':terms,'line_bytes':len(encoded),'line_sha256':hashlib.sha256(encoded).hexdigest(),'contexts':contexts,'scope':scope,'disposition':decision})
-    write('claim_occurrences.json',{'pattern':PATTERN,'scope':'All repository-owned text including ignored source snapshots. Binary arrays/PDFs, Git internals, dependency environments and temporary generated work are excluded; cached extracted source text is included. This inventory excludes itself to avoid recursive copies.','occurrences':matches})
+    if output_dir is not None:
+        write(output_dir,'claim_occurrences.json',{'pattern':PATTERN,'scope':'All repository-owned text including ignored source snapshots. Binary arrays/PDFs, Git internals, dependency environments and temporary generated work are excluded; cached extracted source text is included. This inventory excludes itself to avoid recursive copies.','occurrences':matches})
     counts={}
     for r in matches:counts[r['scope']]=counts.get(r['scope'],0)+1
     return {'matched_lines':len(matches),'matched_term_occurrences':sum(len(r['terms']) for r in matches),'scope_counts':counts,'manual_review_required':'See FINAL_RELEASE_AUDIT.md; phrase occurrence alone is not a misleading claim.'}
@@ -157,13 +186,21 @@ def full_reload():
 
 def main():
     import os
-    os.chdir(ROOT);parser=argparse.ArgumentParser();group=parser.add_mutually_exclusive_group(required=True);group.add_argument('--metadata-only',action='store_true');group.add_argument('--full',action='store_true');args=parser.parse_args();OUT.mkdir(exist_ok=True)
-    audit={'mode':'full' if args.full else 'metadata-only','preservation':preservation(args.full),'metrics':metric_tables(),'documents':documents(),'claim_scan':claim_scan()}
+    os.chdir(ROOT);parser=argparse.ArgumentParser();group=parser.add_mutually_exclusive_group(required=True);group.add_argument('--metadata-only',action='store_true');group.add_argument('--full',action='store_true');parser.add_argument('--output-dir',type=Path,help='explicit output directory outside the repository');args=parser.parse_args()
+    output_dir=args.output_dir.resolve() if args.output_dir else None
+    if output_dir is not None:
+        try:output_dir.relative_to(ROOT.resolve())
+        except ValueError:pass
+        else:parser.error('--output-dir must be outside the repository')
+        output_dir.mkdir(parents=True,exist_ok=True)
+    audit={'mode':'full' if args.full else 'metadata-only','preservation':preservation(args.full),'metrics':metric_tables(),'documents':documents(),'claim_scan':claim_scan(output_dir)}
     xml=OUT/'pytest_results.xml'
     if xml.exists():
         suites=ET.parse(xml).getroot().findall('testsuite');audit['tests']={k:sum(int(s.attrib.get(k,0)) for s in suites) for k in ['tests','failures','errors','skipped']};assert audit['tests']['tests']>=123 and audit['tests']['failures']==audit['tests']['errors']==0
         if args.full:assert audit['tests']['skipped']==0
     else:audit['tests']={'status':'No local Phase5 pytest run available; not verified by this invocation'}
     audit['checkpoint_reload']=full_reload() if args.full else {'status':'Not requested; public-metadata audit does not verify local checkpoints/caches'}
-    audit['passed']=True;write('final_audit.json' if args.full else 'metadata_audit.json',audit);print(json.dumps({k:v for k,v in audit.items() if k not in ['preservation','metrics']},indent=2),flush=True)
+    audit['passed']=True
+    if output_dir is not None:write(output_dir,'final_audit.json' if args.full else 'metadata_audit.json',audit)
+    print(json.dumps({k:v for k,v in audit.items() if k not in ['preservation','metrics']},indent=2),flush=True)
 if __name__=='__main__':main()

@@ -1,0 +1,30 @@
+{
+  "branch": "research-upgrade-v3",
+  "captured_at_utc": "2026-10-14T06:55:23.269822+00:00",
+  "data_access": {
+    "cyan_v6_geotiffs": 6,
+    "historical_models_directory": false,
+    "phase3_5_npy_arrays": 288
+  },
+  "dependencies": "standard_library_only",
+  "disk_available_bytes": 337452412928,
+  "head": "bf0203f61462db157728f5115723dcc30f508c37",
+  "key_files": {
+    "README.md": "b2c1b17998a0acc63d15843bdc501811d9513c4b23b2bed713ccbbc9e3585ec2",
+    "configs/phase4.json": "0461e548dd21a3284d0171382f51699325b8e71e5d691de925d71bfae5c90c34",
+    "data/metadata/phase3_5/geographic_split_v2.json": "e96abb63318fdd3a57c87ee4bc9078a476c288156e32d1baf3d126533d884df2",
+    "research_outputs/reports/FINAL_RELIABILITY_ASSESSMENT.md": "5bbedf5ba71c61d5a94657db8f61edfe014b074f8c6c607e054a313c89ec2daf",
+    "research_outputs/tables/final_results.csv": "d3719aea258a1aa34c00fa0d45f7f3dfea9a541f10d82edcd2a38d39fca49e6b",
+    "research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md": "fc4c6535146a623d7199bdcf480c9a98c4a7f82c4173043bbedc03d23d17495d",
+    "research_upgrade_v3/final_label_pilot/CYAN_PRODUCT_MANIFEST.json": "b0eddffc9ee302f49c81a28d72053a8b9ba4c1fc6a5a6793325ac2be03b40dd2",
+    "research_upgrade_v3/final_label_pilot/HIGH_SUPPORT_PILOT.csv": "ff80c964bdcf67a7306e8d92e3bda7167c4c86de28c27b034e1b1f22219620d3",
+    "research_upgrade_v3/phase3a3/V3_DATASET_MANIFEST.json": "546f4ae9d5719308a7c0cb4573b26faa81f0a2fb333c4cb8860ebd3b526a0174",
+    "research_upgrade_v3/phase3a3/V3_HIGH_UNIT_QUALIFICATION.csv": "b9ee8b0075f3de7018caf60f1518ad95c31c9c99d2872ea2fc83fc272e7dfecf",
+    "research_upgrade_v3/phase3a3/V3_WATERBODY_CATALOG.csv": "c43479827947cb3b41a2d37d5d3816bcd9a7a41cbe9a89f85a6c9cc1e41262bd"
+  },
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "preexisting_status": [
+    "?? research_upgrade_v3/final_closeout/RESEARCH_CONTRIBUTION_STATEMENT.md"
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]"
+}

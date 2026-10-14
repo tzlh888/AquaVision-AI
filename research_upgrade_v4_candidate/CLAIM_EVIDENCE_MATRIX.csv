@@ -1,0 +1,13 @@
+claim_id,claim,evidence_class,primary_evidence,verification,status,scope_limit
+AV-C01,"historical benchmark contains 288 real Sentinel/CyAN patch pairs, not 288 independent waterbodies",HISTORICAL,data/metadata/phase3_5/geographic_split_v2.json,"split count and identity audit",VERIFIED_WITH_SCOPE,"real arrays do not imply known waterbodies"
+AV-C02,"LR geographic-Test High F1 is 0.5803",HISTORICAL,research_outputs/tables/final_results.csv,"saved metrics and reports",VERIFIED,"post-hoc comparator not selection evidence"
+AV-C03,"NDCI was validation-selected despite validation High F1 zero",HISTORICAL,configs/phase4.json,"selection rule tests",VERIFIED,"selected model still fails High class"
+AV-C04,"0 of 288 historical patches have confirmed real geography",HISTORICAL_AUDIT,research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md,"identity catalog and recovery tests",VERIFIED,"legacy geographic generalization unresolved"
+AV-C05,"six CyAN V6 products were version and hash verified",HISTORICAL_V3,research_upgrade_v3/final_label_pilot/CYAN_PRODUCT_MANIFEST.json,"real integration tests",VERIFIED,"bounded products only"
+AV-C06,"six pilot scenes represent three waterbody units",REPRODUCED,research_upgrade_v4_candidate/GEOGRAPHIC_IDENTITY_AUDIT.csv,"waterbody-group collapse",VERIFIED,"scenes and patches are not independent units"
+AV-C07,"zero qualified independent High units",REPRODUCED,research_upgrade_v4_candidate/INDEPENDENT_HIGH_UNIT_AUDIT.csv,"automated gate",VERIFIED,"frozen support and provenance rules"
+AV-C08,"dataset readiness is NOT READY",NEW_AUDIT,research_upgrade_v4_candidate/DATASET_READINESS_DECISION.md,"requires at least 3/3/3 but has 0/0/0",VERIFIED,"no V4 model training"
+AV-C09,"AquaVision has independent model confirmation",CONFIRMED,research_upgrade_v4_candidate/DATASET_READINESS_DECISION.md,"confirmation gate",NOT_AVAILABLE,"no confirmation set sealed"
+AV-C10,"124 public tests pass and one is explicitly skipped",REPRODUCED,research_upgrade_v4_candidate/AQUAVISION_REPRODUCIBILITY.md,"fresh pytest run",VERIFIED,"12 full-environment artifacts unavailable; three generated packaging records differ"
+AV-C11,"metadata-only release audit validates the frozen manifest plus exact V4 amendment",REPRODUCED,scripts/audit_final_release.py,"fresh command and tamper tests",VERIFIED_FOR_METADATA_SCOPE,"full frozen-environment reload remains unavailable"
+AV-C12,"V4 changed no model",NEW_AUDIT,research_upgrade_v4_candidate/BASELINE_INTEGRITY_MANIFEST.json,"Git and artifact review",VERIFIED,"additive V4 files only"

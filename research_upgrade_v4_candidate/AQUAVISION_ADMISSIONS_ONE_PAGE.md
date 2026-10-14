@@ -1,0 +1,17 @@
+# AquaVision AI — Admissions Research Brief
+
+**Research Question.** Can twelve-band Sentinel-2 imagery classify Low, Moderate, and High NASA CyAN-derived bloom-proxy labels at geographically unseen waterbodies, and what evidence is required before such a generalization claim is credible?
+
+**Why It Matters.** Remote-sensing datasets contain strong spatial dependence. Random patches, neighboring crops, and thousands of resampled pixels can look like large samples while representing only a few places and events. A model may therefore obtain an attractive test score without demonstrating transfer to a genuinely new lake.
+
+**Methodology.** The historical benchmark used 288 Sentinel/CyAN **patch pairs**, not 288 independent waterbodies, split into 96 Train, 48 Validation, and 144 Test pairs. It compared spectral indices, Logistic Regression, Random Forest, and bounded CNN baselines. A frozen validation rule selected NDCI, even though its validation High F1 was zero; Logistic Regression’s later Test High F1 of 0.5803 was retained only as a post-hoc observation. The research upgrade then shifted from optimization to provenance. It recovered all historical arrays, audited scene and waterbody identity, and constructed a metadata-first pilot connecting six Sentinel scenes to named waterbodies, footprints, dates, and six hash-verified CyAN V6 products. Support was counted on the native approximately 300 m CyAN grid, not on replicated 20 m pixels. V4 normalized the current frozen V3 evidence and applied a dynamic fail-closed 3/3/3 readiness gate; missing or conflicting evidence cannot qualify, and duplicate waterbody identities cannot be counted twice.
+
+**Strongest Verified Evidence.** The six-scene integration chain is reproducible: product IDs, dates, CRS information, patch footprints, same-date overlap, raw hashes, and derived-label hashes are preserved. The current public suite reproduced 124 passing tests with one explicit environment-dependent skip, while all 60 research-upgrade tests passed.
+
+**Most Important Failure.** None of the candidate waterbodies qualified as an independent High unit. The six scenes collapse to three waterbody histories; their verified group-level native High supports were 0, 19, and 29, below the frozen requirement of 100 distinct dated native High pixels and at least three High patches. The bounded expansion did not complete new Sentinel scene-to-label units.
+
+**Scientific Limitation.** CyAN is a satellite-derived proxy, not laboratory toxin or concentration ground truth. The real geography of the 288 historical patches remains unconfirmed, and the test set was deliberately High-enriched.
+
+**AI Assistance Disclosure.** The applicant states that they were the sole human project lead and used substantial AI assistance. This is owner-supplied, not third-party certification; personal contribution details require the applicant’s confirmation.
+
+**Current Research Status.** **METHOD VALIDATION + DATA INTEGRATION / LIMITED / NOT READY.** No new external records were added, no V4 training occurred, no confirmation set was opened, and no independent model-confirmation claim is made.

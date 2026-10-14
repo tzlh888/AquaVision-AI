@@ -14,6 +14,12 @@ The bounded expansion ended with **0 qualified independent High units** and **0/
 
 [Final scientific report](research_upgrade_v3/final_closeout/FINAL_SCIENTIFIC_REPORT.md) · [One-page research summary](research_upgrade_v3/final_closeout/ONE_PAGE_RESEARCH_SUMMARY.md) · [Final label pilot](research_upgrade_v3/final_label_pilot/FINAL_LABEL_PILOT_HANDOFF.md) · [Bounded expansion handoff](research_upgrade_v3/phase3a3/PHASE3A3_FINAL_HANDOFF.md) · [Reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md)
 
+## V4 release candidate — method validation + data integration
+
+V4 applies a dynamic, fail-closed qualification gate to the current frozen V3 evidence pool. Missing or conflicting unit-level evidence cannot qualify, and duplicate waterbody identities are counted once. The result remains **0 qualified independent High units** and **NOT READY**. No new external data were added, no new model was trained, and this is not independent model confirmation. The historical 288 records are Sentinel/CyAN patch pairs—not 288 independent waterbodies—and LR Test High F1 0.5803 remains a post-hoc descriptive observation.
+
+[V4 readiness decision](research_upgrade_v4_candidate/DATASET_READINESS_DECISION.md) · [V4 scientific report](research_upgrade_v4_candidate/AQUAVISION_V4_SCIENTIFIC_REPORT.md) · [Version-scoped preservation amendment](data/metadata/phase5/preservation_manifest_v4_amendment.json)
+
 ![AquaVision research overview](research_outputs/figures/project_overview.png)
 
 ## Research Question
@@ -32,7 +38,7 @@ The source is [Zenodo version 14230064](https://doi.org/10.5281/zenodo.14230064)
 
 Stored DN values 0–99, 100–199, and 200–253 map to Low, Moderate, and High. Flags 254/255 and invalid values use ignore index **−100**. CyAN provides satellite-derived reference labels, **not laboratory ground truth**. Cells/mL conversion is disabled and is not the training target. Coarse source-reference resampling limits the meaning and independence of fine-grid labels.
 
-The final benchmark uses **288 real pairs**: **96 Train / 48 Validation / 144 Test**. Its **three geographic Test components** contain **37,768 High pixels**. Test is deliberately High-enriched, so precision and calibration do not estimate natural-population performance. [Support counts](research_outputs/phase3_5/split_support.csv).
+The final benchmark uses **288 real pairs**—Sentinel/CyAN patch pairs, not 288 independent waterbodies: **96 Train / 48 Validation / 144 Test**. Its **three geographic Test components** contain **37,768 High pixels**. Test is deliberately High-enriched, so precision and calibration do not estimate natural-population performance. [Support counts](research_outputs/phase3_5/split_support.csv).
 
 ## Methodology
 
@@ -105,7 +111,7 @@ python3.12 -m venv .venv
 <details>
 <summary>Technical verification records</summary>
 
-The historical complete-artifact audit recorded **123 passing tests** and reproduced **100 confusion matrices** and **40 class-prediction caches** exactly. Those full-reload checks require ignored local arrays, checkpoints and caches that are not bundled in the lightweight public checkout. During final release preparation, the clean Python 3.12 public suite produced **122 passed and 1 expected skip**: 12 ignored local model/checkpoint artifacts were unavailable and editable installation regenerated three packaging-metadata records. All present non-generated registered artifacts were hash-checked. The separate research-upgrade suites pass **60/60 tests**. RF probability summation in the historical full audit differed only at floating-point roundoff under its unchanged parallel setting; class predictions remained identical. See the [release audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md), [preservation manifest](data/metadata/phase5/preservation_manifest.json), [claim provenance](research_outputs/phase5/readme_claim_sources.json), and [current reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md).
+The historical complete-artifact audit recorded **123 tests**, all passing, and reproduced **100 confusion matrices** and **40 class-prediction caches** exactly. Those full-reload checks require ignored local arrays, checkpoints and caches that are not bundled in the lightweight public checkout. During final release preparation, the clean Python 3.12 public suite produced **122 passed and 1 expected skip**: 12 ignored local model/checkpoint artifacts were unavailable and editable installation regenerated three packaging-metadata records. V4 remediation added two strict manifest migration/tamper tests; the current suite is **124 passed and 1 expected skip** with the same 12 unavailable artifacts and three generated packaging records. All present non-generated registered artifacts were hash-checked. The separate research-upgrade suites pass **60/60 tests**. RF probability summation in the historical full audit differed only at floating-point roundoff under its unchanged parallel setting; class predictions remained identical. See the [release audit](research_outputs/reports/FINAL_RELEASE_AUDIT.md), frozen [preservation manifest](data/metadata/phase5/preservation_manifest.json), [V4 version-scoped amendment](data/metadata/phase5/preservation_manifest_v4_amendment.json), [claim provenance](research_outputs/phase5/readme_claim_sources.json), and [current reproducibility status](research_upgrade_v3/final_closeout/REPRODUCIBILITY_STATUS.md).
 
 The earlier support-screening stage decoded **38,002 reference masks**; this screening volume is distinct from the 288-pair model benchmark.
 
