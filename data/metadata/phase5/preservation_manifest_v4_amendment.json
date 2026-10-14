@@ -13,10 +13,10 @@
     },
     "src/aquavision_ai.egg-info/SOURCES.txt": {
       "before_sha256": "12784e788cd7d9d8fd631b6b5058a47eb0354c16ae15bda4aa00e5750ee6519f",
-      "after_sha256": "f89dd95c26feae106ab87adbb1b001e7d20bda9e2a03d6f46c425dbceda2c334",
+      "after_sha256": "3c4696cadee56655db3b1203672cf5fe0be3e77670dfbf63fc4d0063838df4cd",
       "classification": "regenerated_packaging_metadata",
       "tracked": false,
-      "reason": "Editable-install source inventory was regenerated; exact current bytes are registered rather than silently ignored."
+      "reason": "Editable-install source inventory was regenerated from the Git-tracked source list, including tests/test_manifest_v4_migration.py; exact current bytes are registered but remain excluded from release-candidate required files."
     },
     "src/aquavision_ai.egg-info/requires.txt": {
       "before_sha256": "bde2740637fe587738f630ee94fab1aaa7b7d20e8bddf44c568d39c388325873",

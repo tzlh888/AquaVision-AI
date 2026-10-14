@@ -3,7 +3,7 @@
 ## Evidence status
 
 - **HISTORICAL:** 288 Sentinel/CyAN patch pairs, not 288 independent waterbodies; validation-selected NDCI; Logistic Regression geographic-Test High F1 0.5803 is post-hoc and not selection evidence.
-- **REPRODUCED:** 124 current public tests passed with one documented complete-frozen-environment skip; all 60 research-upgrade tests passed.
+- **REPRODUCED:** On 2026-10-14, `python -m pytest -q` in a clean Python 3.12 checkout produced 126 passed and one documented complete-frozen-environment skip. In the prepared full-artifact audit environment, all 60 research-upgrade tests passed; their ignored-array integration checks are not available in a clean public checkout.
 - **NEW METHOD VALIDATION + DATA INTEGRATION:** V4 normalized the frozen V3 scene/product/footprint and waterbody-unit evidence into two reviewable audit tables and applied a dynamic fail-closed readiness gate. No new external records were added.
 - **CONFIRMED:** no model-performance claim.
 - **NOT READY:** 0 qualified independent High units; 0/0/0 Training/Validation/Confirmation members.
