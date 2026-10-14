@@ -98,6 +98,7 @@ class V4AuditTests(unittest.TestCase):
 
     def test_release_candidate_manifest(self):
         manifest = json.loads((HERE / "V4_RELEASE_CANDIDATE_MANIFEST.json").read_text())
+        self.assertFalse(any(".egg-info/" in relative for relative in manifest["files"]))
         for relative, expected in manifest["files"].items():
             self.assertEqual(v4.sha256(v4.ROOT / relative), expected, relative)
 
