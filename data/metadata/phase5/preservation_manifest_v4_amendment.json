@@ -1,0 +1,36 @@
+{
+  "schema": "aquavision-preservation-manifest-amendment-v1",
+  "audit_date": "2026-10-14",
+  "scope": "V4 local release candidate only; the frozen preservation_manifest.json remains unchanged",
+  "base_manifest_sha256": "eecbf26007c651931228426bc8f390d8f946b0a9974065beacce32a78b6aef49",
+  "changes": {
+    "src/aquavision_ai.egg-info/PKG-INFO": {
+      "before_sha256": "2ed07a3ac0717d4e1019ad9ef6274bb0deff74eaad2b912e9d4d535a0e6c356c",
+      "after_sha256": "b46176975bed7567051f665acf550c7fd25234283d8cb34b0e2d29d34ce34191",
+      "classification": "regenerated_packaging_metadata",
+      "tracked": false,
+      "reason": "Editable-install packaging metadata was regenerated from the current project metadata; it is non-scientific but exact current bytes remain hash-registered."
+    },
+    "src/aquavision_ai.egg-info/SOURCES.txt": {
+      "before_sha256": "12784e788cd7d9d8fd631b6b5058a47eb0354c16ae15bda4aa00e5750ee6519f",
+      "after_sha256": "f89dd95c26feae106ab87adbb1b001e7d20bda9e2a03d6f46c425dbceda2c334",
+      "classification": "regenerated_packaging_metadata",
+      "tracked": false,
+      "reason": "Editable-install source inventory was regenerated; exact current bytes are registered rather than silently ignored."
+    },
+    "src/aquavision_ai.egg-info/requires.txt": {
+      "before_sha256": "bde2740637fe587738f630ee94fab1aaa7b7d20e8bddf44c568d39c388325873",
+      "after_sha256": "e8b6bb3c0d7babe34600ef06cb90251842866ea6268f304b01b977e244494fb1",
+      "classification": "regenerated_packaging_metadata",
+      "tracked": false,
+      "reason": "Editable-install dependency metadata was regenerated from the current project configuration; exact current bytes are registered."
+    },
+    "tests/test_phase4_reliability.py": {
+      "before_sha256": "08b3830ee6b9e59776090f6962f2f2c01f96d8f59170fae8469be1dee13eaf59",
+      "after_sha256": "e0e4f119214ea0040650b88f759bdd3caac3c2df558a0f4b56e2d33dc08117ce",
+      "classification": "tracked_test_update",
+      "tracked": true,
+      "reason": "Commit 3420f58 changed the frozen-environment test to retain strict failure for non-generated hash mismatches while explicitly skipping when public-checkout artifacts or generated egg-info are unavailable/different."
+    }
+  }
+}
